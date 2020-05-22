@@ -9,4 +9,6 @@ label chapter1_start:
 
     c1 "Welcome to chapter 1."
 
+    call half_free_day
+
     jump chapter2_start

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 33: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Lets start from the top!"
-                              ^
+File "game/chapter4.rpy", line 16: reached end of line when expecting ':'.
+    if(with_friend1)
+                    ^
+
+File "game/chapter4.rpy", line 19: expected statement.
+    elif(with_friend2)
+                      ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu May 21 20:40:50 2020
+Thu May 21 21:29:36 2020
