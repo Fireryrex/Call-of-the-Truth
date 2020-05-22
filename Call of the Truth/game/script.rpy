@@ -61,7 +61,9 @@ label start:
         "Chapter 7":
             jump chapter7_start
 
-
+# This is essentially the function for a half free day. When you have a half free day in your chapter, just type:
+# call half_free_day
+# and everything should work out
 label half_free_day:
 
     narrator "Today is a half free day, please choose an activity to do:"
@@ -84,6 +86,19 @@ label half_free_day:
             e "Now it is [character_stat3]."
     return
 
+# This is essentially the function for a free day. When you have a free day in your chapter, just type:
+# call free_day
+# and everything should work out
+# optionally, add in up to 2 strings after call free_day if you have some people the mc can socialize with. I.E.
+# call free_day("Bob", "Joe")
+# Afterwards, you'll want something like this:
+#    if spend_free_day_socializing:
+#        if(with_friend1):
+#            e "I decided to spend the day with Bob."
+#            Add the jump to socializing section
+#        elif(with_friend2):
+#            e "I decided to spend the day with Another Another Random Character."
+#            Add jump here as well
 label free_day(friend1="", friend2=""):
 
     narrator "Today is a free day, please choose an activity to do:"
