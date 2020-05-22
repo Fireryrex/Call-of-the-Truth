@@ -24,9 +24,33 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "This is the chapter selection screen."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e "Please choose a chapter to jump to, or play the game as intended."
+
+    menu:
+
+        "Lets start from the top!":
+            jump chapter1_start
+
+        "Chapter 2":
+            jump chapter2_start
+
+        "Chapter 3":
+            jump chapter3_start
+
+        "Chapter 4":
+            jump chapter4_start
+
+        "Chapter 5":
+            jump chapter5_start
+
+        "Chapter 6":
+            jump chapter6_start
+
+        "Chapter 7":
+            jump chapter7_start
+
 
     # This ends the game.
 
