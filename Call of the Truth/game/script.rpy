@@ -6,9 +6,7 @@
 define e = Character("Main character")
 
 
-
-define narrator = Character(what_italic=True)
-
+define NAR = Character(what_italic=True)
 
 # The game starts here.
 
@@ -30,17 +28,21 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show Jesse
 
     # These display lines of dialogue.
 
-    e "This is the chapter selection screen."
+    NAR "This is the chapter selection screen."
 
-    e "Please choose a chapter to jump to, or play the game as intended."
+    NAR "Please choose a chapter to jump to, or play the game as intended."
+
 
     menu:
 
         "Lets start from the top!":
+            jump prologue_start
+
+        "Chapter 1":
             jump chapter1_start
 
         "Chapter 2":
@@ -66,7 +68,7 @@ label start:
 # and everything should work out
 label half_free_day:
 
-    narrator "Today is a half free day, please choose an activity to do:"
+    NAR "Today is a half free day, please choose an activity to do:"
 
     menu:
 
@@ -101,7 +103,7 @@ label half_free_day:
 #            Add jump here as well
 label free_day(friend1="", friend2=""):
 
-    narrator "Today is a free day, please choose an activity to do:"
+    NAR "Today is a free day, please choose an activity to do:"
 
     menu:
         "activity for stat 1":
@@ -109,18 +111,6 @@ label free_day(friend1="", friend2=""):
             e "My stat 1 is [character_stat1]."
             $ character_stat1 += 1
             e "Now it is [character_stat1]."
-
-        "activity for stat 2":
-            $ spend_free_day_socializing = False
-            e "My stat 2 is [character_stat2]."
-            $ character_stat2 += 1
-            e "Now it is [character_stat2]."
-
-        "activity for stat 3":
-            $ spend_free_day_socializing = False
-            e "My stat 3 is [character_stat3]."
-            $ character_stat2 += 1
-            e "Now it is [character_stat3]."
 
         "Spend some time with [friend1]" if friend1 != "":
             $ spend_free_day_socializing = True
@@ -132,5 +122,12 @@ label free_day(friend1="", friend2=""):
             $ with_friend2 = True
             $ with_friend1 = False
 
+
+    return
+
+label new_day(date=""):
+
+    scene date_transition
+    centered "[date]"
 
     return

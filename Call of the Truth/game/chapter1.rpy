@@ -9,6 +9,8 @@ label chapter1_start:
 
     c1 "Welcome to chapter 1."
 
+    call new_day("whater nan:")
+
     call half_free_day
 
     jump chapter2_start
