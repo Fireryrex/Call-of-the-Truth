@@ -25,11 +25,11 @@ label prologue_start:
 
     NAR "I check the mirror…"
 
-    show Jesse
+    show jesse
 
     NAR "Same old me… gonna lose track of myself one of these days, anyway."
 
-    hide Jesse
+    hide jesse
 
     NAR "Checking the refrigerator, it was filled with a couple of items that friends had brought over since they didn’t have one themselves, but to the point, there wasn’t any milk. Digressing to turn the stove on to cook some eggs for a decent meal."
 
@@ -52,11 +52,11 @@ label prologue_start:
 
     NAR "Walking over and picking up the phone he heard an incredibly familiar voice."
 
-    show Finn
+    show finn
 
     FINN "Hey man, been a while huh. This is the right number right? Haven’t used one of these here yet haha"
 
-    hide Finn
+    hide finn
 
     NAR "Oh. Oh god how could I forget this? This was FINN Marsh, an old friend I’ve known for most of my life. He's about 4 years older than me and even fought in the great war not long ago."
 
@@ -64,20 +64,23 @@ label prologue_start:
 
     NAR "He was finally able to leave his latest assignment not a few days ago, and was coming home, and he thought it’d be fun to catch up."
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
     menu:
         "How’ve you been?":
-            show Finn
+            hide jesse
+            show finn
             FINN "Doing quite well myself, happy to be back."
 
         "I’m sorry, I forgot about today.":
-            show Finn
+            hide jesse
+            show finn
             FINN "Oh, it’s all good, don’t worry about it."
 
         "Sorry, wrong number":
-            show Finn
+            hide jesse
+            show finn
             FINN "Good to see you haven’t lost your humor!"
 
     FINN "I figured you might have overslept so I wanted to give you some time to wake up, but I’ve gotten back and settled in."
@@ -88,7 +91,7 @@ label prologue_start:
 
     NAR "Leaving the apartment, locking the door, and heading down the steps passing the floor filled with flowers, and the complex’s cat. It’s an average spring day in London."
 
-    show Cathee
+    show cathee
 
     NAR "At the bottom of the stairs rests a woman I had never seen before. Leaning against the wall in a long dark blue coat and hat, smoking a cigarette. It’s certainly unusual to see someone loitering around that I don’t recognize, and the outfit is…"
 
@@ -100,20 +103,25 @@ label prologue_start:
 
     Mysterious"There are many different parties interested in what’s going to happen. Just know I’m rooting for you in particular"
 
-    show Jesse
+    hide cathee
+
+    show jesse
 
     #[CHARACTER CHOICE]
     menu:
         "Do I know you?":
-            show Cathee
+            hide jesse
+            show cathee
             Mysterious "Of course, we’ve just met haven’t we?"
 
         "Are you talking to me?":
-            show Cathee
+            hide jesse
+            show cathee
             Mysterious "Either that or the cat which followed you a bit"
 
         "{i}Ignore her{/i}":
-            show Cathee
+            hide jesse
+            show cathee
             Mysterious "Isn’t that right kitty… you like him too don’t you"
 
     Mysterious "Start enjoying your life again… and one last thing, what’s this one’s name *pointing at the cat*"
@@ -137,20 +145,23 @@ label prologue_start:
     NAR "After a little wandering around the park, I heard a whistle that the two of us had made to get each other's attention years ago. Even after not seeing him for 2 or so years, it’s easy to recognize him."
     NAR "He waves at me and I walk over to the bench he’s been sitting at. He’s friendly as ever…  but it’s impossible to hide the side effects of war… or just any battle for that matter, but I doubt any sees it besides me."
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
     menu:
         "You back for good?":
-            show Finn
+            hide jesse
+            show finn
             FINN "Hopefully."
 
         "When is the next time you leave?":
-            show Finn
+            hide jesse
+            show finn
             FINN "Hey man, don’t worry on the end of this just yet."
 
         "Happy to rest for a bit?":
-            show Finn
+            hide jesse
+            show finn
             FINN "Should be longer than that."
 
 
@@ -160,20 +171,25 @@ label prologue_start:
 
     FINN "Much happier to be back here though… it’s been far too long since we could just hang out together like normal… not that I think it could ever go back to how it was."
 
-    show Jesse
+    hide finn
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Ireland?":
+            hide jesse
+            show finn
+            FINN "Yeah, been some drama between this one group and us… but it’s not a big deal"
 
-    ##>Ireland?
-    #[Yeah, been some drama between this one group and us… but it’s not a big deal]
+        "Normal huh…":
+            hide jesse
+            show finn
+            FINN "Well, you know. The two of us at least, besides we can drink again."
 
-    ##>Normal huh…
-    #[Well, you know. The two of us at least, besides we can drink again.]
-
-    ##>I can’t even call you though.
-    #[I’ll work on getting a phone too then, but it works out for me]
-
-    show Finn
+        "I can’t even call you though.":
+            hide jesse
+            show finn
+            FINN "I’ll work on getting a phone too then, but it works out for me"
 
     FINN "Anyway, you can guess what I’ve been through, but what about you? How’s uni been? Learn anything interesting?"
 
@@ -184,20 +200,26 @@ label prologue_start:
 
     NAR "Another strange thing that struck me today… partly during this conversation it seems like he’s been distracted? As if looking for someone. Or… watching out to make sure someone isn’t here."
 
-    show Jesse
+    hide finn
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Are you okay?":
+            hide jesse
+            show finn
+            FINN "Huh? Yeah, of course. It’s a different kind of pain, but I’ve dealt with worse."
 
-    ##>Are you okay?
-    #[Huh? Yeah, of course. It’s a different kind of pain, but I’ve dealt with worse.]
+        "No one really understands…":
+            hide jesse
+            show finn
+            FINN "yeah, i get that… It is different between us too."
 
-    ##>No one really understands…
-    #[yeah, i get that… It is different between us too.]
+        "(Try to spot something yourself)":
+            NAR "It seems like normal crowds… but th-"
 
-    ###>(Try to spot something yourself)
-    #THIS ONE IS NARRATION NOT A REPLY #[It seems like normal crowds… but th-]
-
-    show Finn
+    hide jesse
+    show finn
 
     FINN "There was something else I wanted to talk to you about, but I’ve just remembered something I need to do to actually have a place to stay tonight haha."
 
@@ -205,20 +227,28 @@ label prologue_start:
 
     FINN "Especially it feels like how both our lives have been uprooted recently. Besides we both need something to distract us from the world. I’ll call you sometime later, we have stuff that just the two of us can talk about right, catch you later"
 
-    show Jesse
+    hide finn
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "See ya":
+            hide jesse
+            show finn
+            FINN "Yeah, I’ll try and talk to you soon."
 
-    ##>See ya
-    #[Yeah, I’ll try and talk to you soon.]
+        "Just don’t call on saturdays!":
+            hide jesse
+            show finn
+            FINN "What? Do you actually do stuff on them now?"
+            NAR "And with that, Finn leaves."
 
-    ##>Just don’t call on saturdays!
-    #[What? Do you actually do stuff on them now? leaves]
+        "What are you…?":
+            hide jesse
+            show finn
+            FINN "Oh I completely forgot about the time before calling you, sorry about that, they’re gonna kill me if I don’t get there on time haha."
 
-    ##>What are you…?
-    #[Oh I completely forgot about the time before calling you, sorry about that, they’re gonna kill me if I don’t get there on time haha]
-
-    hide Finn
+    hide finn
 
     NAR "What was up with him…"
 
@@ -226,72 +256,98 @@ label prologue_start:
 
     NAR "Did I mess this up by being late? What's going on, either way it’s clear he was trying to say…"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    label hid_in_park:
+    menu:
+        "He hid something at the park":
+            hide jesse
+            #[continue]
 
-    ##>He hid something at the park
-    #[continue]
-    ##>He hid something in ireland
-    #[No, that can’t be it…]  #[loop]
-    ##>He’s taken something that was hidden here
-    #[No, that’s not right.] #[loop]
+        "He hid something in ireland":
+            NAR "No, that can’t be it…"
+            #[loop]
+            jump hid_in_park
 
-    hide Jesse
+        "He’s taken something that was hidden here":
+            NAR "No, that’s not right."
+            #[loop]
+            jump hid_in_park
+
+    hide jesse
 
     NAR "So he hid something, and he wants me to take it? But couldn’t just show it to me because there was someone…"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    label someone_watching:
+    menu:
+        "Watching him":
+            NAR "Hm, I don't think so..."
+            #[No, loop]
+            jump someone_watching
 
-    ##>Watching him
-    #[No, loop]
+        "Watching me":
+            hide jesse
+            #[Yes]
 
-    ##>Watching Me
-    #[Yes]
+        "I’m the distraction":
+            NAR "Nah, doesn't seem right"
+            #[No, loop]
+            jump someone_watching
 
-    ##>I’m the distraction
-    #[No, loop]
-
-    hide Jesse
+    hide jesse
 
     NAR "And if I’m being watched, he’s taking the bait to give me some freedom from whatever it was by being a distraction? But why am I even being followed?"
     NAR "It doesn’t make much sense… but… there was that weird woman earlier… is she watching me? No that would have been too noticeable."
     NAR "It’s safe to say I don’t have enough information as to who, or why I’m being followed, should just accept that I am, and that Finn knows that. But what do I do when I get whatever is hidden there?"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    label secret_between_us:
+    menu:
+        "Keep it secret between us":
+            hide jesse
+            #[Yes]
 
-    ##>Keep it secret between us
-    #[Yes]
+        "Get the police involved":
+            NAR "That doesnt make sense"
+            #[No, loop]
+            jump secret_between_us
 
-    ##>Get the police involved
-    #[No, loop]
+        "Keep it secret between those I trust":
+            NAR "He didn't mention anyone else..."
+            #[No, loop]
+            jump secret_between_us
 
-    ##>Keep it secret between those I trust
-    #[No, loop]
-
-    hide Jesse
+    hide jesse
 
     NAR "He seemed pretty clear to just keep it between the two of us… but the possibility that it’s something I can do on my own means I could trust others with whatever it is unless…"
     NAR "I don’t know what's happening because I shouldn’t trust those around me… Well first of all let's dig up whatever this was. Now where would it be?"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    label digging_near_tree:
+    menu:
+        "Check the tree’s limbs":
+            NAR "Nothing here..."
+            #[No, loop]
+            jump digging_near_tree
 
-    ##>Check the tree’s limbs
-    #[No, loop]
+        "Check inside the tree":
+            NAR "Nothing, must be somewhere else"
+            #[No, loop]
+            jump digging_near_tree
 
-    ##>Check inside the tree
-    #[No, loop]
+        "Dig near tree":
+            JESSE "Aha!"
+            #[Yes]
 
-    #>Dig near tree
-    #[Yes]
-
-    hide Jesse
+    hide jesse
 
     NAR "Digging up near the roots it’s easy to find the patch he would have hidden something in. Pushing off and dusting off an object wrapped in parchment, and sealed with a wax stamp…"
 
@@ -322,9 +378,9 @@ label prologue_start:
 
     NAR "I was a tag along at best and a hamper to the investigations at worst when I was doing anything important with dad. Was never interested in trying to pick up his work, why would anyone be looking in to me in something he was involved with."
 
-    NAR "It’s not like they could use me against him, he’s dead. Either way, the worry from this should all be figured out if I can just talk to Finn again and get him to clarify some things.. Right.
+    NAR "It’s not like they could use me against him, he’s dead. Either way, the worry from this should all be figured out if I can just talk to Finn again and get him to clarify some things.. Right."
 
-    scene apartment"
+    scene apartment
 
     NAR "Returning to the apartments, the strange woman wasn’t waiting by the stairway this time… she’s got to be involved with what's been happening in some way?"
 
@@ -332,7 +388,7 @@ label prologue_start:
 
     NAR "I wasn’t expecting her to show up today, just another strange occurrence to add to the pile apparently. And she’s holding… grocery bags? I knew I needed to go out and get food eventually but did she just grab me some stuff without asking?"
 
-    show Sara
+    show sara
     SARA "Oh I was wondering where you’ve been, don’t worry I haven’t been waiting long, figured maybe you were just still sleeping into the wee hours of 4pm again."
 
     NAR "...I don’t even know what to think, this certainly isn’t too out of the usual for her. I’ve known her since senior year of high school, she ended up joining the theatre club I was in at the time and we got along from there."
@@ -359,20 +415,25 @@ label prologue_start:
 
     SARA "I’m glad you’re okay with it! Honestly I’m not sure what I would have done if you had declined, but it’s nothing too important, wouldn’t want to worry you with it"
 
-    show Jesse
+    hide sara
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "You can tell me.":
+            hide jesse
+            show sara
+            SARA "Yeah…"
 
-    #>You can tell me.
-    #[Yeah…]
+        "Household rule, no secrets":
+            hide jesse
+            show sara
+            SARA "Oh is it now?"
 
-    #>Household rule, no secrets
-    #[Oh is it now?]
-
-    #>I’m more worried if I don’t know
-    #[Ah.. um..]
-
-    show Sara
+        "I’m more worried if I don’t know":
+            hide jesse
+            show sara
+            SARA "Ah.. um.."
 
     SARA "Well… it would probably be a lot easier for us both if I just told you now huh. My parents are not exactly happy with each other in the slightest and it’s been getting significantly worse everyday…"
 
@@ -380,25 +441,30 @@ label prologue_start:
 
     SARA "If I become too much I can try and find another place to stay at for a while… But I figured you need the company anyway."
 
-    show Jesse
+    hide sara
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "I’m sorry about that":
+            hide jesse
+            show sara
+            SARA "thanks, but it really isn’t a big deal"
 
-    #>I’m sorry about that
-    #[thanks, but it really isn’t a big deal]
+        "Feel free to stay until it dies down":
+            hide jesse
+            show sara
+            SARA "Thanks, that’s a lot less to worry about for me"
 
-    #>Feel free to stay until it dies down
-    #[Thanks, that’s a lot less to worry about for me]
-
-    #>Have you tried stopping it?
-    #[It’s not that simple…]
-
-    show Sara
+        "Have you tried stopping it?":
+            hide jesse
+            show sara
+            SARA "It’s not that simple…"
 
     SARA "I know it’s not really for me to say that I dislike my family to you… considering… no I’ll just stop there."
 
     SARA "Enough about that, I’m assuming you haven’t eaten have you? Genuinely I’m happy I can rely on you for times like this, and don’t forget I can help you out too."
-    hide Sara
+    hide sara
 
     NAR "SARA RANK 1/7"
 
@@ -417,33 +483,38 @@ label prologue_start:
 
     NAR "Again assuming a sane world where the birds are not against me."
 
-    show Sara
+    show sara
 
     SARA "By the way, what were you up to earlier today? Not usual to see you out and about on your own… unless you meet someone cool?"
 
     NAR "Wait. No that’s just a normal question, of course she’d be curious, it’s not like I showed I was bringing anything back with me…"
 
-    show Jesse
+    hide sara
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "I was at the park.":
+            hide jesse
 
-    #>I was at the park.
+        "I was with an old friend.":
+            hide jesse
 
-    #>I was with an old friend.
+        "I was just walking around.":
+            hide jesse
 
-    #>I was just walking around.
-
-    show Sara
+    show sara
 
     SARA "Oh yeah! I remember you mentioned something about a friend coming back from deployment or something today? That’s cool, it’s always nice to catch up with someone after a while."
+
     SARA "Did he bring anything back for you from wherever he was? Oh wait no he was military… I doubt it’s ever really a vacation for them… Well I won’t pry too much between you two, haven’t met him myself even."
 
     NAR "It was just a normal enough day past that. But if she’s gonna be staying here… Unless I completely trust her I can’t really try and look into that key my dad’s given me"
 
     NAR "The rest of the day was normal enough, with Sara around."
 
-    hide room
     #DATE - Friday, 23rd June, 1922
+    call new_day("Thursday, 22nd June 1922")
 
     scene room
 
@@ -455,14 +526,14 @@ label prologue_start:
 
     NAR "The phone begins to ring in the afternoon. Not used to it being a daily occurance. Sara picks up the phone."
 
-    show Sara
+    show sara
 
     SARA "Hello, Stout residence, who is this.     Hmm…  mhmm, okay one second"
 
 
     SARA "Yeah it’s someone asking to speak with you, might be an old professor or something? Sound professional."
 
-    hide Sara
+    hide sara
 
     NAR "Walking over and picking up the phone, it’s an unfamiliar voice…"
     NAR "Wait, no. Just one that i’ve heard, but not someone I ever really talked to before. It’s the person who has replaced my dad after he died."
@@ -488,11 +559,12 @@ label prologue_start:
 
     NAR "My dad was a well renowned private investigator, he would travel occasionally and I would go with him sometimes. The only case he didn’t solve was the one he was on when he died…"
 
-    hide room
+    scene date_transition
 
     NAR "The rest of the day proceeded as usual…"
 
     #DATE - Saturday, 24th June 1922
+    call new_day("Saturday, 24th June 1922")
 
     scene room
 
@@ -515,11 +587,12 @@ label prologue_start:
     NAR "My tasks are mostly working with customers and other stock and various busywork, while she’s in a different division entirely. The building itself is pretty large, with a dozen or so floors."
 
 
-    hide room
+    scene date_transition
 
     NAR "I was pretty tired after all that though, and the rest of the day proceeded in this new normal."
 
     #DATE - Sunday, 25th June 1922
+    call new_day("Sunday, 25th June 1922")
 
     scene room
 
@@ -531,32 +604,35 @@ label prologue_start:
 
     NAR "It only started up around March this year… but I’ve never been too sure if I wanted to keep talking with him…"
 
-    hide room
-
     scene cafe
 
     NAR "I met up with him and we went to a local Cafe near the building today, we would tend to go wherever he felt, but he has offered to meet anywhere I’d suggest if I had ideas about it, which… I have not."
 
     NAR "He was calm and friendly, how I remembered, but I don’t remember too much from when we used to talk before, it was only a handful of times."
 
-    show Luke
+    show luke
 
     LUKE "Good afternoon Jesse, it’s been a while hasn’t it. How have you been?"
 
-    show Jesse
+    hide luke
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Fine.":
+            hide jesse
+            show luke
+            LUKE "Similar to the fine weather outside."
 
-    #>Fine.
-    #[Similar to the fine weather outside.]
+        "Good.":
+            hide jesse
+            show luke
+            LUKE "I’m happy to hear that."
 
-    #>Good.
-    #[I’m happy to hear that.]
-
-    #>Not the best.
-    #[Of course, trying times for us all.]
-
-    show Luke
+        "Not the best.":
+            hide jesse
+            show luke
+            LUKE "Of course, trying times for us all."
 
     LUKE "I’m glad that you’re willing to come back to this after our break and talk to me."
 
@@ -569,20 +645,25 @@ label prologue_start:
     LUKE "‘It did make me think about you though, the mirror of my friends' situation I mean. However I won’t bring that up dauntless you do."
     LUKE "In other news, I had heard that recently some soldiers were finally recalled from Ireland, and if I remember correctly, wasn’t a good friend of yours in that group, have you been able to meet up with him?"
 
-    show Jesse
+    hide luke
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Yeah.":
+            hide jesse
+            show luke
+            LUKE "That’s good."
 
-    #>Yeah.
-    #[That’s good.]
+        "No.":
+            hide jesse
+            show luke
+            LUKE "You should get around to that."
 
-    #>No.
-    #[You should get around to that.]
-
-    #>Not for too long.
-    #[It’s good you could see him though.]
-
-    show Luke
+        "Not for too long.":
+            hide jesse
+            show luke
+            LUKE "It’s good you could see him though."
 
     LUKE "It’s not often you make friends like that if what you’ve said about him is true. I wouldn’t let yourself keep growing distant now that he’s finally back."
 
@@ -601,11 +682,13 @@ label prologue_start:
 
     NAR "LUKE RANK 1/10"
 
-    hide cafe
+    scene date_transition
 
     NAR "We said our goodbyes, what was left of the day proceeded how it normally would."
 
     #    [CEVELYN-WIP] DATE - Monday, 26th June 1922
+    call new_day("Monday, 26th June 1922")
+
     #        Today could be a day to try and look into that key… *brng Brrrng*
     #        As the phone begins to ring for another complication, could it be Mr. Goodwin again? Doubtful, it’s a Monday, probably just got slammed with all the weekend’s worth of news.  Picking up the phone…
     #        #>Wrong number.
@@ -619,6 +702,7 @@ label prologue_start:
     #    Fades Out
     #Day Changes to
     #DATE - Tuesday, 27th June 1922
+    call new_day("Tuesday, 27th June 1922")
 
     scene room
 
@@ -634,17 +718,18 @@ label prologue_start:
 
     FINN "I found a cool cafe somewhat nearby to your place, I’ll be waiting for you in an hour or so"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Not right now":
+            hide jesse
 
-    #>Not right now
+        "Wait is that safe?":
+            hide jesse
 
-    #>Wait is that safe?
-
-    #>Wait there multiple cafes aren’t there?!
-
-    hide Jesse
+        "Wait there multiple cafes aren’t there?!":
+            hide jesse
 
     NAR "Oh… he had already hung up… and it wouldn’t be very good of me to just let him sit there by himself. I wonder if he knows more about all of this than I do, I guess I can assume it would be safe."
 
@@ -659,24 +744,25 @@ label prologue_start:
 
     NAR "I meet up with him there, and he’s sitting at a table already, we order some food, and begin to chat."
 
-    hide room
-
     scene cafe
 
     FINN "Sorry for calling you out of nowhere, but It’s probably gonna be awhile before you can contact me instead of the other way around haha."
     FINN "But in all seriousness I figured there was stuff we should have talked about after what happened that night, you got the thing right?"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "The package?":
+            hide jesse
 
-    #>The package?
+        "I don’t know what you’re talking about.":
+            hide jesse
 
-    #>I don’t know what you’re talking about.
+        "Are we not being secretive?":
+            hide jesse
 
-    #>Are we not being secretive?
-
-    FINN "Oh yeah, don’t worry, part of the reason it took me so long to get back to you was I was trying to find a place that was safe from their influence, And I’m like 90% sure this place is pretty safe."
+    FINN "Oh yeah, don’t worry, part of the reason it took me so long to get back to you was I was trying to find a place that was safe from their influence, And I’m like 90\% sure this place is pretty safe."
 
     FINN "Even if someone were to be watching from outside, there’s no way they could hear what we’re sayin. So yeah, I don’t know, er.. what was in that anyway?"
 
@@ -699,7 +785,8 @@ label prologue_start:
     FINN "I guess as a last thing to say… I don’t know what we’re really getting into with all of this, but I feel like I need to do something you know?"
     FINN "It hasn’t sat well with me knowing I didn’t have the freedom to do anything for a year."
 
-    NAR "FINN RANK 1/7"
+    $ finn_rank = 1
+    NAR "FINN RANK [finn_rank]/6"
 
     hide cafe
 
@@ -723,7 +810,7 @@ label prologue_start:
 
     NAR "Later that night, Sara gets home, and looks exceedingly tired."
 
-    show Sara
+    show sara
 
     SARA "Work has been… far too much recently. They better be thinking about giving me some sort of promotion with all this extra nonsense they’re throwing at me."
 
@@ -735,20 +822,27 @@ label prologue_start:
 
     SARA "Anyway, that being said, I was wondering if you’d be up to go to the theatre or something tomorrow afternoon? Was thinking like 1pm or something, the actual one I got tickets for doesn’t start until 1:25 though."
 
-    show Jesse
+    hide sara
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "You already got a ticket?":
+            hide jesse
+            show sara
+            SARA "It was on the way back."
 
-    #>You already got a ticket?
-    #[It was on the way back.]
+        "That sounds fun.":
+            hide jesse
+            show sara
+            SARA "Yeah, I hope it will be."
 
-    #>That sounds fun.
-    #[Yeah, I hope it will be.]
+        "Wait, you want me to come?":
+            hide jesse
+            show sara
+            SARA "Figured you’d be up for it, not forcing you though."
 
-    #>Wait, you want me to come?
-    #[Figured you’d be up for it, not forcing you though.]
-
-    hide Sara
+    hide sara
 
     NAR "...Thinking about it, this is totally something I’d do if I wasn’t trying to look into the cult… which is exactly what they’d be looking for if they wanted to see if I wasn’t still oblivious right?!"
 
@@ -756,10 +850,11 @@ label prologue_start:
 
     NAR "Also, this’ll be fun, saw this in the paper, was a little interested anyway… "
 
-    hide room
+    scene date_transition
 
     NAR "And with that, the evening continued as usual, and I got to sleep."
     #DATE - Wednesday, 28th June 1922
+    call new_day("Wednesday, 28th June 1922")
 
     scene room
 
@@ -769,7 +864,7 @@ label prologue_start:
 
     NAR "And, it’ll be fun… yeah, I can wait on all of this, or it can wait for me, that’s what it has been doing all this time anyway right?"
 
-    hide room
+    scene date_transition
 
     NAR "I ended up going to see the play that she had talked about the day before. We traveled to the St. Martins theatre and got inside to watch the play called ‘Loyalties’."
     NAR "I felt distracted in my thoughts watching the play, but the basic plot was about a man who was robbed, but instead of being helped, was defamed by those who could have helped him…"
@@ -779,24 +874,29 @@ label prologue_start:
 
     scene room
 
-    show Sara
+    show sara
 
     SARA "That was a well needed break for me… How long has it been since you went out and did something fun anyway? Hey… are you doing alright?"
 
-    show Jesse
+    hide sara
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Huh?":
+            hide jesse
+            show sara
+            SARA "I don’t know… you just seem less focused recently…"
 
-    #>Huh?
-    #[I don’t know… you just seem less focused recently…]
+        "Yeah, I’m fine.":
+            hide jesse
+            show sara
+            SARA "If you say so…"
 
-    #>Yeah, I’m fine.
-    #[If you say so…]
-
-    #>Been thinking about things more…
-    #[Oh, well don’t get too caught up on it.]
-
-    show Sara
+        "Been thinking about things more…":
+            hide jesse
+            show sara
+            SARA "Oh, well don’t get too caught up on it."
 
     SARA "Oh! It must be because of your mentor thing right? I can imagine he’s been getting you to start trying to think more about how everything has been for you right? Well, I won’t pry into that too much."
 
@@ -808,15 +908,18 @@ label prologue_start:
 
     NAR "SARA RANK 2/7"
 
-    hide Sara
+    hide sara
 
-    hide room
+    scene date_transition
 
     NAR "The rest of the day proceeded as usual. I wouldn’t be able to do very much because of work the next few days, but I do have Saturdays off at least."
 
     #WORK - Thursday, 29th June 1922
+    call work_day("Thursday, 29th June, 1922")
     #WORK - Friday, 30th June 1922
+    call work_day("Friday, 30th June, 1922")
     #DATE - Saturday, July 1st, 1922
+    call new_day("Saturday, 1st July, 1922")
 
     scene apartment
 
@@ -828,7 +931,7 @@ label prologue_start:
 
     NAR "On the way back up, on the floor with the flower, the strange woman was there and inspecting them. And… she’s also in the middle of the stairway… completely and intentionally blocking the stairway."
 
-    show Cathee
+    show cathee
 
     CATHEE "Oh come now, don’t give me that look, take the excuse to stay and look at the flowers. Do you even know who takes care of them?"
 
@@ -836,20 +939,25 @@ label prologue_start:
 
     CATHEE "You know, I’m sure you recognize it too but being stuck up in your room all the time has got to be bad, a dull tool is never going to be able to crack the coconut, and when was the last time you had to think about something hard."
 
-    show Jesse
+    hide cathee
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Is this a lecture?":
+            hide jesse
+            show cathee
+            CATHEE "So you can still use your brain! I thought you didn’t go to those anymore."
 
-    #>Is this a lecture?
-    #[So you can still use your brain! I thought you didn’t go to those anymore.]
+        "What do you want?":
+            hide jesse
+            show cathee
+            CATHEE "Well right now, to look at flowers and find that cat again."
 
-    #>What do you want?
-    #[Well right now, to look at flowers and find that cat again.]
-
-    #>Who exactly are you?
-    #[Cathee, nothing more, and nothing less.]
-
-    show  Cathee
+        "Who exactly are you?":
+            hide jesse
+            show cathee
+            CATHEE "Cathee, nothing more, and nothing less."
 
     CATHEE "All I’m saying is that you may want to improve yourself too, can’t just expect your friends to drag you up from the ashes all by themselves?"
 
@@ -860,10 +968,11 @@ label prologue_start:
     NAR "Before I could say anything… She went up a flight of stairs and seemingly disappeared. What did she mean by… any of that… who even is she?"
     NAR "Who’s side is she on here? She ended up leaving tools to take off the plants… did she really just want to tell me to do that…"
 
-    hide apartment
+    scene date_transition
 
     NAR "The rest of the day continued as normal with what now seemed like a permanent flatmate."
     #DATE - Monday, 3rd July 1922
+    call new_day("Monday, 3rd July 1922")
 
     scene room
 
@@ -880,20 +989,22 @@ label prologue_start:
     NAR "I… did not expect that to be so easy… I can just go basically right now. Is he not focusing on his job? Am I somehow more important than his job."
     NAR "Either way it doesn’t make sense but… I guess this is where I commit to this…"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    menu:
+        "Yeah, I’ll be there":
+            hide jesse
+            ISAAC "Thank you for this"
 
-    #>Yeah, I’ll be there
-    #[Thank you for this]
+        "Don’t expect much":
+            hide jesse
+            ISAAC "I’m sure you’ll find it interesting"
 
-    #>Don’t expect much
-    #[I’m sure you’ll find it interesting]
+        "Better be interesting":
+            hide jesse
+            ISAAC "I’m sure it will be for you"
 
-    #>Better be interesting
-    #[I’m sure it will be for you]
-
-    hide Jesse
 
     NAR "I guess I should get a second key for Sara if I start leaving the room too much. Then again I guess it’s bad if she catches me not in the building alone again, for whatever that could mean… It really feels like an unnecessary worry."
 
@@ -901,7 +1012,7 @@ label prologue_start:
 
     NAR "Best case scenario it’s just a new lead into the case dad was working on before he died, which already drained him of so much."
 
-    hide room
+    scene date_transition
 
     NAR "I met up with Isaac, and he brought me to his room. Which was originally my dad’s office in the actual station, for when he had the opportunity to use it, but he quit working directly with the police some time before his death."
 
@@ -937,6 +1048,7 @@ label prologue_start:
     NAR "Tomorrow… I’ll open it."
 
     #DATE - Tuesday, 4th July 1922
+    call new_day("Tuesday, 4th July 1922")
 
     scene room
 
@@ -988,20 +1100,25 @@ label prologue_start:
 
     NAR "Now… what can I do with this?"
 
-    show Jesse
+    show jesse
 
     #[CHARACTER CHOICE]
+    label scribble_in_book:
+    menu:
+        "Stab the ruby on the key with the pen":
+            NAR "It bounces off the key, but does chip it"
+            NAR "Not enough to really do something though..."
+            #loop
+            call scribble_in_book
 
-    ##>Stab the ruby on the key with the pen
-    #[Bounces off the key, but does chip it] #[loop]
+        "Place the scraps into the book itself":
+            NAR "Nothing happens"
+            call scribble_in_book
+            #[loop]
 
-    ##>Place the scraps into the book itself
-    #[Nothing happens] #[loop]
-
-    ##>Scribble in the book with the pen
-    #[Continue]
-
-    hide Jesse
+        "Scribble in the book with the pen":
+            hide jesse
+            #[Continue]
 
     NAR "I began trying to write in the book I got from Finn, theoretically it shouldn’t do anything since it wasn’t dripping on any of those other scraps of paper either."
 
@@ -1017,7 +1134,7 @@ label prologue_start:
 
     NAR "All I have are these scraps, a disgusting pen, and a book that can write it. I should be free to do some things on my own again tomorrow, but it’s safe to say that whoever has been watching me… would not be happy with what I’ve just unlocked."
 
-    hide room
+    scene date_transition
 
     NAR "After cleaning up the mess, and hiding things appropriately inside that box, Sare came home, and the evening proceeded as normal."
 

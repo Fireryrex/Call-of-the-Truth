@@ -6,6 +6,7 @@
 define c2 = Character("Another Random Character")
 
 label chapter2_start:
+    $ current_chapter = 2
 
     c2 "Welcome to chapter 2."
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/prologue.rpy", line 147: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "When is the next time you leave?"
-                                      ^
+File "game/hangouts.rpy", line 50: expected statement.
+    courage += 1
+            ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu May 28 22:53:41 2020
+Tue Jun 02 01:15:55 2020

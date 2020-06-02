@@ -6,6 +6,7 @@
 define c6 = Character("Character 6")
 
 label chapter6_start:
+    $ current_chapter = 6
 
     c1 "Welcome to chapter 6."
 

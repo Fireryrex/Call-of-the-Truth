@@ -11,12 +11,18 @@ define NAR = Character(what_italic=True)
 # The game starts here.
 
 label start:
-    $ character_stat1 = 0
-    $ character_stat2 = 0
-    $ character_stat3 = 0
+    $ stat_courage = 0
+    $ stat_knowledge = 0
+    $ stat_charm = 0
     $ spend_free_day_socializing = False
     $ with_friend1 = False
     $ with_friend2 = False
+    $ hangout_failed = False
+
+    $ current_chapter = 0
+
+    $ finn_rank = 0
+    $ evelyn_rank = 0
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -28,7 +34,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show Jesse
+    show jesse
 
     # These display lines of dialogue.
 
@@ -67,25 +73,34 @@ label start:
 # call half_free_day
 # and everything should work out
 label half_free_day:
+    scene map
+    show jesse
 
-    NAR "Today is a half free day, please choose an activity to do:"
+    NAR "Today was a busy day, but suddenly I found myself having some free time. Maybe I should work on improving myself. What to do...
+    \n {b}Courage{/b}: [stat_courage]
+    \n {b}Knowledge{/b}: [stat_knowledge]
+    \n {b}Charm{/b}: [stat_charm]"
 
     menu:
 
-        "activity for stat 1":
-            e "My stat 1 is [character_stat1]."
-            $ character_stat1 += 1
-            e "Now it is [character_stat1]."
+        "Take a walk around to build up courage":
+            $ stat_courage += 1
+            NAR "I strolled around the neighborhood. Nothing notable happened, but I feel braver now."
 
-        "activity for stat 2":
-            e "My stat 2 is [character_stat2]."
-            $ character_stat2 += 1
-            e "Now it is [character_stat2]."
+        "I've been neglecting my studies, I should catch up and increase my knowledge":
+            $ stat_knowledge += 1
+            NAR "I spent my free time reviewing my notes and felt myself grow smarter"
 
-        "activity for stat 3":
-            e "My stat 3 is [character_stat3]."
-            $ character_stat2 += 1
-            e "Now it is [character_stat3]."
+        "Maybe I should do some gardening, work on my charm a bit.":
+            $ stat_charm += 1
+            NAR "I spent my time working on my garden, speaking to passersby. From these social interactions, I felt my charm increasing."
+
+    NAR "{b}Courage{/b}: [stat_courage]
+    \n {b}Knowledge{/b}: [stat_knowledge]
+    \n {b}Charm{/b}: [stat_charm]"
+
+    hide jesse
+
     return
 
 # This is essentially the function for a free day. When you have a free day in your chapter, just type:
@@ -101,16 +116,31 @@ label half_free_day:
 #        elif(with_friend2):
 #            e "I decided to spend the day with Another Another Random Character."
 #            Add jump here as well
-label free_day(friend1="", friend2=""):
+label free_day(stat_to_train="", friend1="", friend2=""):
 
-    NAR "Today is a free day, please choose an activity to do:"
+    scene map
+    show jesse
+
+    NAR "I don't really have anything to do today. Maybe I could work on my [stat_to_train]. I could also hang out with [friend1] or [friend2].
+    \n {b}Courage{/b}: [stat_courage]
+    \n {b}Knowledge{/b}: [stat_knowledge]
+    \n {b}Charm{/b}: [stat_charm]"
 
     menu:
-        "activity for stat 1":
+        "Take a walk to work on courage." if stat_to_train == "courage":
             $ spend_free_day_socializing = False
-            e "My stat 1 is [character_stat1]."
-            $ character_stat1 += 1
-            e "Now it is [character_stat1]."
+            $ stat_courage += 1
+            NAR "I strolled around the neighborhood. Nothing notable happened, but I feel braver now."
+
+        "Spend some time study to improve my knowledge." if stat_to_train == "knowledge":
+            $ spend_free_day_socializing = False
+            $ stat_knowledge += 1
+            NAR "I spent my free time reviewing my notes and felt myself grow smarter"
+
+        "Work on my garden to train my charm." if stat_to_train == "charm":
+            $ spend_free_day_socializing = False
+            $ stat_charm += 1
+            NAR "I spent my time working on my garden, speaking to passersby. From these social interactions, I felt my charm increasing."
 
         "Spend some time with [friend1]" if friend1 != "":
             $ spend_free_day_socializing = True
@@ -122,6 +152,11 @@ label free_day(friend1="", friend2=""):
             $ with_friend2 = True
             $ with_friend1 = False
 
+    NAR "{b}Courage{/b}: [stat_courage]
+    \n {b}Knowledge{/b}: [stat_knowledge]
+    \n {b}Charm{/b}: [stat_charm]"
+
+    hide jesse
 
     return
 
@@ -129,5 +164,14 @@ label new_day(date=""):
 
     scene date_transition
     centered "[date]"
+
+    return
+
+label work_day(date=""):
+
+    scene date_transition
+    centered "[date]"
+
+    NAR "Today's a work day, so after finishing my morning routine, I set off for work"
 
     return
