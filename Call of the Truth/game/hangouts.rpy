@@ -496,7 +496,7 @@ label carter_hangout:
 
         NAR "Just skimming through the pages as I’m walking back, I catch bits of some fairly interesting parts. Hopefully this will all be worth the effort."
 
-    elif(stat_charm == 6 and carter_rank == 1):
+    elif(stat_charm >= 6 and carter_rank == 1):
         $ carter_rank = 2
 
         #Charm rank 2 required
@@ -676,7 +676,7 @@ label carter_hangout:
         \n {b}Knowledge{/b}: [stat_knowledge]
         \n {b}Charm{/b}: [stat_charm]"
 
-    elif(stat_charm == 16 and carter_rank == 3):
+    elif(stat_charm >= 16 and carter_rank == 3):
         $ carter_rank = 4
 
         #Charm rank 3 required
@@ -781,7 +781,7 @@ label carter_hangout:
 
         NAR "With that I get on my way. Today was somewhat productive I guess…at least more than the other days."
 
-    elif(carter_rank == 4):
+    elif(current_chapter >= 7 and carter_rank == 4):
         $ carter_rank = 5
 
         #Chapter 7 required
@@ -890,5 +890,15 @@ label carter_hangout:
         \n {b}Courage{/b}: [stat_courage]
         \n {b}Knowledge{/b}: [stat_knowledge]
         \n {b}Charm{/b}: [stat_charm]"
+
+    elif(charm < 16):
+        NAR "I'm not smooth enough of a talker to face Carter right now. Lets do something else"
+        $ hangout_failed = True
+        return
+
+    else:
+        NAR "Carter doesn't seem to be available... Maybe I should try again later."
+        $ hangout_failed = True
+        return
 
     return
