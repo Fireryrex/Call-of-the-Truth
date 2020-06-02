@@ -891,7 +891,7 @@ label carter_hangout:
         \n {b}Knowledge{/b}: [stat_knowledge]
         \n {b}Charm{/b}: [stat_charm]"
 
-    elif(charm < 16):
+    elif(stat_charm < 16):
         NAR "I'm not smooth enough of a talker to face Carter right now. Lets do something else"
         $ hangout_failed = True
         return
@@ -901,4 +901,8 @@ label carter_hangout:
         $ hangout_failed = True
         return
 
+    return
+
+label felix_hangout:
+    NAR "WIP"
     return

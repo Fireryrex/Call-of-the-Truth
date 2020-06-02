@@ -22,10 +22,9 @@ label start:
     $ current_chapter = 0
 
     $ finn_rank = 1
-    $ luke_rank = 0
-    $ evelyn_rank = 0
-    $ sara_rank = 1
+    $ evelyn_rank = 1
     $ carter_rank = 0
+    $ felix_rank = 0
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
