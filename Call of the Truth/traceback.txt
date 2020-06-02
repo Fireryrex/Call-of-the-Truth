@@ -1,30 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/prologue.rpy", line 1114, in script call
-    call scribble_in_book
-  File "game/prologue.rpy", line 1114, in script call
-    call scribble_in_book
-  File "game/chapter5.rpy", line 11, in script
-    c1 "Welcome to chapter 5."
-Exception: Sayer 'c1' is not defined.
+  File "game/chapter6.rpy", line 1070, in script
+    BUTLER "These are my master’s words, but he does not wish to speak to you directly. While we are enticed to hear that you wish to join us, no doubt because you had finally learned of Harper’s true intentions…"
+Exception: Sayer 'BUTLER' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/prologue.rpy", line 1114, in script call
-    call scribble_in_book
-  File "game/prologue.rpy", line 1114, in script call
-    call scribble_in_book
-  File "game/chapter5.rpy", line 11, in script
-    c1 "Welcome to chapter 5."
+  File "game/chapter6.rpy", line 1070, in script
+    BUTLER "These are my master’s words, but he does not wish to speak to you directly. While we are enticed to hear that you wish to join us, no doubt because you had finally learned of Harper’s true intentions…"
   File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'c1' is not defined.
+Exception: Sayer 'BUTLER' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Call of the Truth 1.0
-Tue Jun 02 13:09:47 2020
+Tue Jun 02 15:29:14 2020

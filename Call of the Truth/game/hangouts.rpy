@@ -906,3 +906,7 @@ label carter_hangout:
 label felix_hangout:
     NAR "WIP"
     return
+
+label linden_hangout:
+    NAR "WIP"
+    return

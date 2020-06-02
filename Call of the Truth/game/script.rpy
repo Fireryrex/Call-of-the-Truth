@@ -25,6 +25,7 @@ label start:
     $ evelyn_rank = 1
     $ carter_rank = 0
     $ felix_rank = 0
+    $ linden_rank = 0
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -145,6 +146,12 @@ label free_day(stat_to_train="", friend1="", friend2=""):
         "Work on my garden to train my charm." if stat_to_train == "charm":
             $ stat_charm += 2
             NAR "I spent my time working on my garden, speaking to passersby. From these social interactions, I felt my charm increasing."
+
+        "Spend time working on improving myself" if stat_to_train == "all":
+            $ stat_courage += 2
+            $ stat_knowledge += 2
+            $ stat_charm += 2
+            NAR "As I started on my excersises, I felt a sense of futility. The rate at which I was working wouldn't be enough. With a sudden burst of determination, I started working faster than ever before. At the end of the day, I sat down exhausted, feeling satisfaction from my improvement."
 
         "Spend some time with [friend1]" if friend1 != "":
             $ spend_free_day_socializing = True

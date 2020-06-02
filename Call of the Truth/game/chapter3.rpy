@@ -3,6 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+define LINDEN = Character("Linden")
 
 label chapter3_start:
     $ current_chapter = 3
@@ -160,7 +161,7 @@ label chapter3_start:
     show luke
 
     LUKE "Hey Jesse, how have you been?"
-    hide jesse
+    hide luke
     show jesse
 
     menu:
@@ -215,7 +216,7 @@ label chapter3_start:
 
     hide luke
 
-    hide cafe
+    scene date_transition
 
     NAR "With that, we talked a bit longer, but eventually I parted ways with him and went back home."
 
@@ -610,7 +611,7 @@ label chapter3_start:
     #Walk
 
     call new_day("Tuesday, 24th October 1922")
-    label free_day_10_24
+    label free_day_10_24:
     call free_day("knowledge", "Felix", "Carter")
     if(spend_free_day_socializing):
         if(with_friend1):
@@ -635,7 +636,7 @@ label chapter3_start:
 
     LUKE "Hello Jesse… It’s been a bit hasn’t it. I’ll start by saying it turned out it wasn’t as great as I thought it’d be."
 
-    LUKE Not to say it was bad, I still had a good time. It started to remind me of some things I’d forgotten about, but it was nice to be reminded of that, after all I wouldn’t be here without that happening in the first place. Now then, that’s it from me."
+    LUKE "Not to say it was bad, I still had a good time. It started to remind me of some things I’d forgotten about, but it was nice to be reminded of that, after all I wouldn’t be here without that happening in the first place. Now then, that’s it from me."
     LUKE "How are you?"
     hide luke
     show jesse
@@ -964,7 +965,7 @@ label chapter3_start:
     call work_day("Sunday, 5th November 1922")
 
     call new_day("Monday, 6th November 1922")
-    label free_day_11_6
+    label free_day_11_6:
     call free_day("courage", "Carter", "Evelyn")
     if(spend_free_day_socializing):
         if(with_friend1):
@@ -1230,7 +1231,7 @@ label chapter3_start:
 
     CATHEE "You are welcome! Oh and also, this isn’t the only thing you can do right? Anyway, gotta go find that guy now, see you eventually."
 
-    hide Cathee
+    hide cathee
 
     NAR "Just and randomly as she appeared, she left again. What she said… There’s something else I can do? Theoretically I just tell Linden to attack Finn, and then he’ll survive with his own talent plus Wilkinson’s resources…"
 
