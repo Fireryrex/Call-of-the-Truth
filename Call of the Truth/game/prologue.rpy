@@ -15,6 +15,8 @@ define Mysterious = Character("???")
 label prologue_start:
 
     #PROLOGUE: Birth of a Nightmare
+    scene room
+    centered "{size=+30}PROLOGUE: Birth of a Nightmare{/size}"
     #DATE - Thursday, 22nd June 1922
     call new_day("Thursday, 22nd June 1922")
     scene room

@@ -1,15 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter6.rpy", line 10, in script
-    c1 "Welcome to chapter 6."
+  File "game/prologue.rpy", line 1114, in script call
+    call scribble_in_book
+  File "game/prologue.rpy", line 1114, in script call
+    call scribble_in_book
+  File "game/chapter5.rpy", line 11, in script
+    c1 "Welcome to chapter 5."
 Exception: Sayer 'c1' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter6.rpy", line 10, in script
-    c1 "Welcome to chapter 6."
+  File "game/prologue.rpy", line 1114, in script call
+    call scribble_in_book
+  File "game/prologue.rpy", line 1114, in script call
+    call scribble_in_book
+  File "game/chapter5.rpy", line 11, in script
+    c1 "Welcome to chapter 5."
   File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
@@ -19,4 +27,4 @@ Exception: Sayer 'c1' is not defined.
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Call of the Truth 1.0
-Tue Jun 02 00:32:07 2020
+Tue Jun 02 13:09:47 2020

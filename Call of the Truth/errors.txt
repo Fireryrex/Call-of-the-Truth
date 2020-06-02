@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/hangouts.rpy", line 50: expected statement.
-    courage += 1
-            ^
+File "game/hangouts.rpy", line 490: expected statement.
+    stat_charm += 1
+               ^
+
+File "game/hangouts.rpy", line 584: expected statement.
+    stat_charm += 1
+               ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Jun 02 01:15:55 2020
+Tue Jun 02 13:09:13 2020

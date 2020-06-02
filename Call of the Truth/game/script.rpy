@@ -21,14 +21,17 @@ label start:
 
     $ current_chapter = 0
 
-    $ finn_rank = 0
+    $ finn_rank = 1
+    $ luke_rank = 0
     $ evelyn_rank = 0
+    $ sara_rank = 1
+    $ carter_rank = 0
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -84,15 +87,15 @@ label half_free_day:
     menu:
 
         "Take a walk around to build up courage":
-            $ stat_courage += 1
+            $ stat_courage += 2
             NAR "I strolled around the neighborhood. Nothing notable happened, but I feel braver now."
 
         "I've been neglecting my studies, I should catch up and increase my knowledge":
-            $ stat_knowledge += 1
+            $ stat_knowledge += 2
             NAR "I spent my free time reviewing my notes and felt myself grow smarter"
 
         "Maybe I should do some gardening, work on my charm a bit.":
-            $ stat_charm += 1
+            $ stat_charm += 2
             NAR "I spent my time working on my garden, speaking to passersby. From these social interactions, I felt my charm increasing."
 
     NAR "{b}Courage{/b}: [stat_courage]
@@ -118,6 +121,11 @@ label half_free_day:
 #            Add jump here as well
 label free_day(stat_to_train="", friend1="", friend2=""):
 
+    $ hangout_failed = False
+    $ spend_free_day_socializing = False
+    $ with_friend1 = False
+    $ with_friend2 = False
+
     scene map
     show jesse
 
@@ -128,18 +136,15 @@ label free_day(stat_to_train="", friend1="", friend2=""):
 
     menu:
         "Take a walk to work on courage." if stat_to_train == "courage":
-            $ spend_free_day_socializing = False
-            $ stat_courage += 1
+            $ stat_courage += 2
             NAR "I strolled around the neighborhood. Nothing notable happened, but I feel braver now."
 
         "Spend some time study to improve my knowledge." if stat_to_train == "knowledge":
-            $ spend_free_day_socializing = False
-            $ stat_knowledge += 1
+            $ stat_knowledge += 2
             NAR "I spent my free time reviewing my notes and felt myself grow smarter"
 
         "Work on my garden to train my charm." if stat_to_train == "charm":
-            $ spend_free_day_socializing = False
-            $ stat_charm += 1
+            $ stat_charm += 2
             NAR "I spent my time working on my garden, speaking to passersby. From these social interactions, I felt my charm increasing."
 
         "Spend some time with [friend1]" if friend1 != "":
@@ -163,14 +168,14 @@ label free_day(stat_to_train="", friend1="", friend2=""):
 label new_day(date=""):
 
     scene date_transition
-    centered "[date]"
+    centered "{size=+10}{color=#ffffff}[date]{/color}{/size}"
 
     return
 
 label work_day(date=""):
 
     scene date_transition
-    centered "[date]"
+    centered "{size=+10}{color=#ffffff}[date]{/color}{/size}"
 
     NAR "Today's a work day, so after finishing my morning routine, I set off for work"
 

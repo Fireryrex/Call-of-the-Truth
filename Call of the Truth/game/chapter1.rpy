@@ -8,6 +8,9 @@ define NICK = Character("Nick")
 label chapter1_start:
     $ current_chapter = 1
 
+    scene room
+    centered "{size=+30}CHAPTER 1: When Does the Night Sleep?{/size}"
+
     call new_day("Wednesday, 5th July 1922")
 
     scene room
@@ -131,8 +134,6 @@ label chapter1_start:
 
     hide evelyn
 
-    hide room
-
     scene cafe
 
     NAR "Joining Finn at the cafe, the three of us sit down at the same spot as last time."
@@ -214,7 +215,7 @@ label chapter1_start:
 
     FINN "Don’t worry though, it’s nothing serious just some report stuff since we were only recalled kind of recently, I’ll tell you about it later if anything comes up."
 
-    hide cafe
+    scene date_transition
 
     NAR "And with that, we finished up and headed home, and tomorrow’s work was more of the same."
 
@@ -267,9 +268,10 @@ label chapter1_start:
 
     NAR "I don’t want to go in detail about any of this… especially with all the occult things happening… But I’m thankful I can talk to him about this sort of stuff."
 
-    NAR "LUKE RANK 2/10"
+    $ luke_rank = 2
+    NAR "LUKE RANK [luke_rank]/10"
 
-    hide museum
+    scene date_transition
 
     NAR "We talked for a bit longer, but eventually we said our goodbyes, the rest of the evening proceeded as usual."
     call new_day("Tuesday, 11th July 1922")
@@ -422,7 +424,6 @@ label chapter1_start:
 
     call new_day("Wednesday, 12th July 1922")
     label free_day_7_12:
-    $ hangout_failed = False
     call free_day("charm", "Finn", "Evelyn")
 
     if(spend_free_day_socializing):
