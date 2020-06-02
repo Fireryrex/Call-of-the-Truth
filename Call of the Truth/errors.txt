@@ -2,1600 +2,1625 @@
 errors listed below, and try again.
 
 
-File "game/chapter6.rpy", line 11: expected statement.
-    CHAPTER 6: Descent
-             ^
+File "game/chapter7.rpy", line 15: expected statement.
+    new_date("Saturday, 1st April 1923")
+                                        ^
 
-File "game/chapter6.rpy", line 19: expected statement.
-    NAR “As the days progressed… I have been feeling ever so slightly better, but I still don’t fully comprehend how long it’s been, I don’t know if it’s something the doctors are doing, or if it’s something else that’s wrong…”
+File "game/chapter7.rpy", line 17: expected statement.
+    NAR “The ultimate joke. The next thing I could understand about my situation was that I was locked up in a cell, presumably by the guiding comet after the entire incident last night.”
+                          ^
+
+File "game/chapter7.rpy", line 19: expected statement.
+    NAR “Tired and locked away in the dark… awaiting something… somewhere… I know there wasn’t real betrayal… but even if this is going to work out for us it’s still not the most comfortable thing to go through…“
+                               ^
+
+File "game/chapter7.rpy", line 21: expected statement.
+    NAR “We’re so close to stopping their plans once and for all… we just need this one final push, and we’ll all be free from this… but they got the tome back too didn’t they? We didn’t let this happen did we…”
+                                                                                                  ^
+
+File "game/chapter7.rpy", line 23: expected statement.
+    NAR “My dread grew as each day passed…
+                       ^
+
+File "game/chapter7.rpy", line 25: expected statement.
+    new_date("Monday, 9th April 1923")
+                                      ^
+
+File "game/chapter7.rpy", line 27: expected statement.
+    NAR “The darkness of the cell only shifted by people outside running by with light…”
                                                                             ^
 
-File "game/chapter6.rpy", line 21: expected statement.
-    NAR “Today Luke came to see me, I honestly don’t remember what we talked about, or why he came at all. I remember it was nice though, and I didn’t say too much at all I believe. The nurses told me he had visited me two times before too… which would mean…”
-                                  ^
+File "game/chapter7.rpy", line 29: expected statement.
+    NAR “Until the jangling of keys and the distinct opening of the door to where Jesse was being held. Opening the door, and rushing inside was Finn. He grabs Jesse and starts to move him out of the room.”
+                                                                                                      ^
 
-File "game/chapter6.rpy", line 26: expected statement.
-    NAR “Today I finally felt like myself again, to an extent of course. I still felt incredibly tired, but in the end I can actually comprehend everything that’s going on again, unlike the days before…”
-                                               ^
-
-File "game/chapter6.rpy", line 28: expected statement.
-    NAR “It’s today I learned that it was already february. The last thing I remember in detail was my birthday in december… Well, I did survive in the end… but…”
-                                                          ^
-
-File "game/chapter6.rpy", line 30: expected statement.
-    NAR “I’ll think about that later, when I can talk to everybody. Apparently I hadn’t gotten too many visitors over the months.”
-                                    ^
-
-File "game/chapter6.rpy", line 32: expected statement.
-    NAR “Sara had brought me in again, and besides her and Luke, Felix had visited once early on, but I did speak to him apparently?”
-                             ^
-
-File "game/chapter6.rpy", line 34: expected statement.
-    NAR “Either way, I just need to go through their evaluations until they’re comfortable with me getting out of here, assuming it’s like last time I should be physically pretty fine once I recover from the lethargy. Except…”
-                   ^
-
-File "game/chapter6.rpy", line 36: expected statement.
-    NAR “Majority of my right arm, from my wrist to my shoulder is all a pitch black bruise, that I can barely feel. That patch that spawned from my casting has spread exponentially.”
-                                 ^
-
-File "game/chapter6.rpy", line 38: expected statement.
-    NAR “About a week after, the doctors were incredibly worried, but they were content with my physical state. Sara had come in to pick me up, and signed very similar paperwork compared to when this happened back in August.”
-                           ^
-
-File "game/chapter6.rpy", line 40: expected statement.
-    NAR “She seemed… really worried about me, and we started on our way back home. We were pretty quiet the whole journey back…”
-                                            ^
-
-File "game/chapter6.rpy", line 44: expected statement.
-    NAR “We got back home, and she started to heat up some food, which is when it occurred to me how hungry I was… We ate in silence, and then…”
-                         ^
-
-File "game/chapter6.rpy", line 48: expected statement.
-    SARA “I… was hoping you’d want to talk about it”
-                                                    ^
-
-File "game/chapter6.rpy", line 52: menu statement expects a non-empty block.
-    menu:
-        ^
-
-File "game/chapter6.rpy", line 54: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    "Oh…”:
-        hide jesse
-        show sara
-        SARA "Jesse?"
-    
-        "What do you mean?”:
-     ^
-
-File "game/chapter6.rpy", line 64: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    "It’s fine.”:
-        hide jesse
-        show sara
-        SARA "Is it?"
-    
-        SARA “What do you mean… the first time I was incredibly worried, it’s not normal, the way the doctors explained it to me didn’t make any sense at all.”
-     ^
-    
-        SARA “And this time it was so much worse, I wasn’t sure if you’d even wake up this time. Even when you did, you weren’t okay for weeks.”
-    
-        JESSE “I… don’t know what to say.”
-    
-        SARA “Can you at least tell me what's happening? At least give me an excuse to explain you just passing out. You seem completely healthy outside of these two events… You can’t hide how tired you’ve been sometimes either.”
-    
-        NAR “I can’t possibly make an excuse for this that doesn’t include magic.”
-    
-        SARA “I thought you’ve been getting better… You’re friends are good people too, and it’s clear they care about you, but all of this? It’s related to them isn’t it… You can’t continue like this.”
-    
-        JESSE “It’s not like that.”
-    
-        SARA “Is it something here? What if you just leave, escape whatever is happening here? We could just leave.”
-    
-        JESSE “what?”
-    
-        SARA “I know you don’t want to talk about it… but if it’s something that you can’t talk about, but something that is actively hurting you, and it’s happening because of people here… What if we just left. Cut ties from here?”
-    
-        JESSE “I don’t know what to think about that… but I don’t think we can do that.”
-    
-        SARA “What’s stopping us?”
-    
-        JESSE “I’m sorry, I don’t feel comfortable talking about everything with you… But this isn’t something we could run away from, and even then, I do care about those people, I can’t abandon them.”
-    
-        SARA “Okay… it’s okay, It’s fine Jesse. I wish you could trust me… can you just… promise me you’ll be okay?”
-        hide sara
-        show jesse
-    
-        menu:
-    
-        "I will.”:
-
-File "game/chapter6.rpy", line 104: expecting name after dot.
-(Perhaps you left out a " at the end of the first line.)
-    "I can’t do that.”:
-        hide jesse
-    
-        "...”:
+File "game/chapter7.rpy", line 33: expected statement.
+    FINN “Hey, sorry it took us all a bit, but we can catch up once we’re out of here yeah”
              ^
 
-File "game/chapter6.rpy", line 112: expected statement.
-    SARA ”...”
-          ^
+File "game/chapter7.rpy", line 37: expected statement.
+    NAR “Following their lead in a tired state, it had seemed they were able to blend in and then distract the group guarding this area; they got him outside, then they all carefully and quickly got to Carter’s Bookstore.”
+                              ^
 
-File "game/chapter6.rpy", line 114: expected statement.
-    SARA Oh, also you don’t have to work tomorrow, but they did call, and want you to go back on Sunday, so just relax some more.”
-           ^
+File "game/chapter7.rpy", line 41: expected statement.
+    NAR “It was the dead of night. Me and Finn were the only ones inside, and eventually Carter arrived, followed shortly by Evelyn.”
+                                 ^
 
-File "game/chapter6.rpy", line 118: expected statement.
-    NAR “SARA RANK 5/7”
+File "game/chapter7.rpy", line 43: expected statement.
+    NAR “I leaned back in my chair, exhausted and confused…”
+                       ^
+
+File "game/chapter7.rpy", line 45: expected statement.
+    JESSE “Thank you… everyone… How did you guys even find me and pull that off? I know we had an idea if this had happened but still, you guys pulled it all off in a week…”
+                                                                               ^
+
+File "game/chapter7.rpy", line 49: expected statement.
+    FINN “Yeah! Of course we didn’t have too much to go on, and it was even hidden from Linden and Sara, but we actually got help from a friend of yours, and then Felix started trying to put together the entire plan.”
+              ^
+
+File "game/chapter7.rpy", line 51: expected statement.
+    FINN “Oh yeah, those two are still out and about finishing up with the cover.”
+                 ^
+
+File "game/chapter7.rpy", line 53: expected statement.
+    JESSE “But… we lost the tome… I’m sorry we trusted her… but there’s still parts of this we aren’t fully clear on right, and if they have the tome, they’re going to be able to continue to the end and we won’t be able to do anything…”
+                                                                                                                          ^
+
+File "game/chapter7.rpy", line 55: expected statement.
+    JESSE “We won’t get another chance to take it back…”
+                                                        ^
+
+File "game/chapter7.rpy", line 56: expected statement.
+    NAR “At that moment Sara walks into the store, and is greeted by everyone.”
+                                                 ^
+
+File "game/chapter7.rpy", line 60: expected statement.
+    EVELYN “Oh yeah about that Jesse… well, we may have made some plans for this all without you. You’re right that they now have the tome, the fake tome that we prepared for you!”
+                                          ^
+
+File "game/chapter7.rpy", line 62: expected statement.
+    NAR “Carter opens up a drawer behind the counter, and holds up the real tome before placing it down.”
+                                  ^
+
+File "game/chapter7.rpy", line 66: expected statement.
+    CARTER “It has been an honor to hold onto the artifact that will cause them so much trouble… the greatest shame is that I cannot keep it…”
+                                                                                                                                              ^
+
+File "game/chapter7.rpy", line 70: expected statement.
+    SARA “And… yeah with that, sorry for having to try and trick you again, but we had to make sure they would be confident they caught the group off guard. Which means that as long as they don’t try to keep track of you anymore, we have the upper hand.”
                     ^
 
-File "game/chapter6.rpy", line 120: expected statement.
-    NAR “The rest of the day proceeded in silence…”
-                                       ^
+File "game/chapter7.rpy", line 74: expected statement.
+    FINN “Which is one of the things that Felix is taking care of, he seemed really keen on being a part of the killing the ‘fake’ you part of the plan”
+                                                                 ^
 
-File "game/chapter6.rpy", line 121: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    Friday, 10th February 1923")
-          ^
+File "game/chapter7.rpy", line 76: expected statement.
+    JESSE “So… everything worked out… But you mentioned one of my friends was the one who gave you something that actually started this entire plan? Who was that?”
+                                                                                                                                                   ^
+
+File "game/chapter7.rpy", line 80: expected statement.
+    SARA “Oh, he’s gonna get in contact with you tomorrow, but he never actually said his name to us, he seemed trustworthy before… I swear I’ve seen him around before too…”
+            ^
+
+File "game/chapter7.rpy", line 82: expected statement.
+    SARA “Of course it was really our best lead at the time, and it worked out so, it seems like he’s been a part of this for a while now.”
+                                                ^
+
+File "game/chapter7.rpy", line 84: expected statement.
+    NAR “Hmmm… that’s concerning in it’s own right, but I guess I’ll talk to you tomorrow.”
+                                 ^
+
+File "game/chapter7.rpy", line 88: expected statement.
+    CARTER “So, we’re starting the plan to get rid of these guys for good right?”
+              ^
+
+File "game/chapter7.rpy", line 92: expected statement.
+    FINN “Yeah! We just need to figure out exactly when and where they’re doing the resurrection and then we can use the tome to disrupt things for good right?”
+              ^
+
+File "game/chapter7.rpy", line 94: expected statement.
+    JESSE “Theoretically yeah… if their idea is to resurrect this ancient being and use it’s power to subjugate the masses… it’d be on a day that many people would be excited or interested in, so that their minds would already be open to a ‘change’ of sorts…”
+                               ^
+
+File "game/chapter7.rpy", line 96: expected statement.
+    JESSE “What’s notable that’s happening in the next few weeks? We can assume it’s going to be this month…”
+                                           ^
+
+File "game/chapter7.rpy", line 100: expected statement.
+    EVELYN “Well, let’s see, Carter you have the most recent news don’t you?”
+                ^
+
+File "game/chapter7.rpy", line 104: expected statement.
+    NAR “We began to talk about the possibilities of big events that would match up with the scale of ritual they’re planning on doing…”
+                                                                                    ^
+
+File "game/chapter7.rpy", line 106: expected statement.
+    NAR “But I couldn’t get my mind off something, it was as if things were actually working out for us… Like they’ve always been working out for… me… Why wouldn’t they just-”
+                                                 ^
+
+File "game/chapter7.rpy", line 110: expected statement.
+(Perhaps you left out a ' at the end of the first line.)
+    SARA “Oh what about the Shakespeare play, it’s going to be their first show, it’s bound to be a big event! And it’s on a tragedy of one of Britain's kings, it’s thematic enough for their theatrics.”
+                                            ^
+        hide sara
+        show evelyn
     
-        NAR “With my free time from not having to go to work, I was able to meet up with Luke again. Sara was still being somewhat distant from me…”
+        EVELYN “That’s not a bad event, and it would have people tuned in from all over assuming it’s broadcasted too… But I think there’s something a lot bigger that we haven’t thought about this month.”
     
-        scene Cafe
+        EVELYN “The Royal Wedding. It’s set to happen on the 26th in Westminster Abbey.”
+        hide evelyn
+        show carter
     
-        NAR “We met at that Cafe again, which I guess is a small positive considering we know it’s safe from the Cult, just in case of course. Even then I only say that because I trust Finn, at the very least it’s not directly connected to them I believe.”
+        CARTER “Even if it’s not to try and win over and subjugate the entire city, if they could just control the rulers that’d be an easy way for them to expand everything…”
     
-        NAR “Our talk started as it usually does, but it was clear something was… bugging him this time?”
+        JESSE “So it’s clear. They’re going to enact their plans in about two weeks. And we are going to go and stop their plans once and for all, with that spell, and turn them all against themselves.”
+        hide carter
+        show finn
+    
+        FINN “From there, once we break their influence the actual government enforcement can hold power against them again. But it’s getting late, we have an idea, and we can work on the specifics another day, we have plenty of time.”
+    
+        FINN “Jesse you need to get some real rest. Besides, your friend is waiting to meet with you tomorrow, can’t be too tired for that right?”
+    
+        NAR “We all begin to start leaving.”
+        hide finn
+        show sara
+    
+        SARA “Thanks for letting us use this bookstore all the time Carter, But maybe we can hope to not need it in a few weeks.”
+        hide sara
+        show carter
+    
+        CARTER “Yeah that’d be great, besides I need to clean it from all this atrocious cultish energy every time you come over, it’d save me so much hassle…”
+    
+        CARTER “Goodnight everyone.”
+    
+        hide carter
+    
+        hide bookstore
+    
+        NAR “We all went our separate ways, and me and Sara headed home, and I got some much needed rest on a worthwhile bed.”
+        new_date("Tuesday, 10th April 1923")
+        NAR “Waking up, and feeling much more refreshed than the past few days… We finally have a goal, and an ending.”
+    
+        NAR “The confusions and terror of this past year were finally about to end… in just 16 more days. Oh right they said my friend who helped them was going to meet with me today…”
+    
+        NAR “Wait today is the 10th that would mean I would…”
+    
+        NAR “Oh… that would mean that ‘friend’ is actually Luke”
+    
+        scene museum
+    
+        NAR “I got a call from him, and would be meeting him at the museum today, I got dressed and headed over. With thoughts running through my head.”
+    
+        NAR “Of Course I’ve been suspicious of him, I’ve been suspicious of everybody at some point… but to think he got directly involved with everybody to help me… I need to know why.”
+    
+        NAR “I met up with him, and we began to walk, touring the museum. In silence. Until he broke it.”
     
         show luke
     
-        LUKE “Jesse… are you doing all right? I was concerned the first time you were in the hospital, and then it was significantly worse this time.”
+        LUKE “I’m sorry. For delving too much into your affairs I mean.”
         hide luke
         show jesse
     
         menu:
     
-        "I’m fine.”:
-
-File "game/chapter6.rpy", line 144: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    "Don’t worry about it.”:
+        "Don’t be…”:
         hide jesse
         show luke
-        LUKE "I understand how you feel but…"
+            LUKE "It’s still too personal for me to have done all this behind your back"
     
-        "I’m better now though.”:
-              ^
-
-File "game/chapter6.rpy", line 154: expected statement.
-    LUKE “I just want to make sure… well no actually… I care for your wellbeing of course, but if you are happy with how things are turning out, then perhaps this is best for you anyway…”
-                                                                                         ^
-
-File "game/chapter6.rpy", line 156: expected statement.
-(Perhaps you left out a ' at the end of the first line.)
-    LUKE “I don’t want you to answer me on this, but I want you to start thinking about it. I can’t begin to imagine what you’re doing of course, but if you’re okay with what's been going on, even if it’s putting yourself in danger…”
-                                               ^
-    
-        LUKE “Do you still dislike why your father risked his life?”
-    
-        hide Luke
-    
-        NAR “I… I never hated him, but I wouldn’t just forgive him for risking his life when he still had me to protect…”
-    
-        NAR “But isn’t that what I’ve been doing? To an extent kind of, but no it’s like I’m actually putting myself in huge risk right… Well no I knew the risk back in december…”
-    
-        NAR “LUKE RANK 7/10”
-    
+        "You helped save me…”:
+        hide jesse
         show luke
+            LUKE "I wasn’t going to let you suffer more"
     
-        LUKE “Also, I’m sorry, but I won’t be able to meet with you on the 25th this month, and if I recall correctly you have work on the coming 10th. However I do think this is something important to take your time and think on… good luck with everything Jesse”
+        "Expecting something from me?”:
+        hide jesse
+        show luke
+            LUKE "Yes, that is my purpose in all this, but what I expect is your own growth."
     
-        hide cafe
+        LUKE “I take it you want answers… and that’s a big part of what I want to talk about today, is your actions involving this group for the past couple of months.”
     
-        NAR “We didn’t talk too much after that, but we said our goodbyes and I went back home.”
+        JESSE “I’ll listen.”
     
-        NAR “Later, I also called Wilkinson and told him I wanted to get everybody together. After being slightly annoyed that I was asking him to do so much work, he agreed, and we’d meet up on monday once I’m free, and when Sara is working.”
+        LUKE “Well, I first started worrying about your involvement with the Guiding Comet since around November last year, the things happening around them, and you were too linked.”
     
-        HREE - Saturday, 11th February 1922")
-        Walk
-        Study
-        Gardening
+        LUKE “As well as what happened to you in December, it became impossible for me to ignore that.”
     
-        WORK - Sunday, 12th February 1922")
-        call new_day("Monday, 13th February 1923")
+        LUKE “But… to tell you the truth I’ve been linked to this cult for much longer than that on my own.”
+    
+        LUKE “You see, my little sister was in a similar situation to your own, it’s obvious when someone has casted spells from that tome. It was about 7 years ago when she died.”
+    
+        LUKE “She was actually a member of the cult, for how long I’m not sure, but I only learned that when I started to notice how she was feeling afterwards.”
+    
+        LUKE “Part of my point is that I’m equally invested in all of this ending as much as you are, but I didn’t see any way to approach you about it until now.”
+    
+        LUKE “I can only assume how dire things are… All I can say, casting those spells is what killed her, she wasn’t strong enough to complete what they wanted to its fullest, but the spell still activated.”
+    
+        LUKE “I can assume you’ve already thought of every way to get through this. If there is one way to stop them, it’s that tome. I hate to say any of this to you, and I admit I must have failed long ago… when I couldn’t save her… But…”
+    
+        LUKE “I have something to give you that might help honestly, it’s something my sister gave to me the last time I ever saw her. But before I give it to you I want to confirm that you’re going to go through with this.”
+    
+        LUKE “And I believe you would be able to cast without needing the tome, if you had it’s magic… at least that's what she could do.”
+
+File "game/chapter7.rpy", line 211: expected statement.
+    LUKE “You understand now, why your dad would risk so much for this don’t you?”
+                            ^
+
+File "game/chapter7.rpy", line 213: expected statement.
+    NAR “LUKE RANK 9/10”
+                    ^
+
+File "game/chapter7.rpy", line 215: expected statement.
+    NAR “…”
+           ^
+
+File "game/chapter7.rpy", line 219: expected statement.
+(Perhaps you left out a ' at the end of the first line.)
+    NAR “We ended our conversation there. I understood what he meant. It’s a thought that I've been worried about since that day in July. I haven’t told anybody, but I’ve never felt the same since December, if I haven’t recovered from that, there’s no telling what this means for me.”
+                                        ^
+    
+        NAR “But to think his sister was also in my situation… I have a lot I want to talk to him about, but I am not today, I need to collect myself.”
+    
+        hide museum
+    
+        NAR “I… know what needs to be done… I’ve accepted that for a while now, and if I could do something that important for everyone… The next time I meet with him is the 25th, the day before this all ends.”
+    
+        NAR “I don’t think it’s a good idea to tell everyone about this, they’ll panic and try to find a different way, when we can assuredly win if I just take this sacrifice, besides it’s not like death is guaranteed, just likely.”
+    
+        NAR “I told Sara about parts of the meetings, and that we should get the group together tomorrow to figure out things more indepthly.”
+        new_date("Wednesday, 11th April 1923")
     
         scene bookstore
     
-        NAR “It’s been a couple of days since I’ve gotten out of the hospital, but I still feel incredibly tired compared to usually…”
+        NAR “We got everyone together at the bookstore for another meeting, now that we were all rested, and Felix wasn’t busy with finishing the plan.”
     
-        NAR “I’ve gotten used to using my arm though, even if it’s almost entirely numb, luckily my hand still works. The journey to the bookstore felt longer than usual…”
-    
-        NAR “As usual I was the last one to arrive.”
+        NAR “I explained to them in detail about what Luke had told me, and told them about my relationship with him over the past few months. I left out the part where he said the spellcasting is what killed her… and what will kill me.”
     
         show finn
     
-        FINN “Jesse! So good to see you up again.”
-    
-        NAR “He was already up and eager, I can tell everyone was worried about me, except maybe Felix… or he was but in his own way.”
-    
-        NAR “Before I could start talking more than greeting everybody, there was a knock on the door. Opening it up, was Linden.”
+        FINN “I don’t know… it seems like he’s been involved with this a lot longer than any of us thought, but he did help us out… I dunno it just seems a little untrustworthy”
         hide finn
-        show linden
+        show sara
     
-        LINDEN “Good evening everyone. I figured since it was the first conversation after your health improved, there’d be some important information I’d want to know.”
-    
-        NAR “Before I could explain anything too much…”
-        hide linden
+        SARA “I’m fairly sure I would know if he was involved with the cult in any way, anything with the tome seems to be above me… but when I recommended him to Jesse is wasn’t involved with the cult at all.”
+        hide sara
         show carter
     
-        CARTER “Oh gods no, get out of my shop right this instant.”
+        CARTER “I for one, can not confirm nor deny any of his dealings in the mystical… because I haven’t seen him in any form either.”
         hide carter
-        show linden
-    
-        LINDEN “Of course, if you’d like a reason to let me stay you can take these.”
-    
-        NAR “He places an envelope on the counter and slides it to Wilkinson… who carefully opens it, and looks at some of the papers inside…”
-        hide linden
-        show carter
-    
-        CARTER “hmm… okay nevermind you get to stay. For now…”
-    
-        CARTER “If you all must know… you’re not allowed, but it’s some things me and my boys have been interested in for months hehe, Okay carry on.”
-    
-        hide Carter
-    
-        NAR “Felix and I explained who Linden was in detail to the others, and they came around to trusting him. Eventually, the floor was opened up once again, to the question all of them were worried about. What happened to me that day.”
-    
-        JESSE “I… I had to give up the tome, it was the only way to save all of us. I used that rewind spell we had after we were attacked and stopped them… but now we don’t have the tome anymore”
-    
-        NAR “It was a mix of surprise and worry.”
-    
         show finn
     
-        FINN “Jesse, that’s fine. If you couldn’t find any other way, that was the best move… It worked out in the end right?”
-    
-        JESSE “It did, but what can we even do without it? We know they would have wanted that back desperately, and now they have it…”
+        FINN “Well, if you guys are confident that he’s not directly involved like that… and he did help us out, and he’s been helping out Jesse this entire time even knowing right? He’s probably okay.”
         hide finn
+        show felix
+    
+        FELIX “It’s not like he matters much in the scheme of this at the moment, besides your meeting with him on the 25th. Did he really not say anything about what he was going to give you then?”
+    
+        JESSE “No, not at all… He did say it was just from his sister, who apparently also used this tome, so it could be something related to that magical nature…”
+    
+        FELIX “It’s suspicious he would choose to keep secrets now of all times, he does know that our operation is going to be the 26th doesn’t he? Or are you fine with completing the plan with his information in 24 hours.”
+    
+        JESSE “Not exactly, but it’s a stretch to even say that he knows anything will happen on the 26th.”
+    
+        FELIX “hmm…”
+        hide felix
         show evelyn
     
-        EVELYN “Even then, we still are in this right? Sure they might have that advantage, but think about all we’ve learned about things so far?”
+        EVELYN “Maybe it’s things that won’t make you feel so bad after using it?”
     
-        EVELYN “Apparently they’ve been angered enough to actively attack us right? What Carter and Linden can get us access to is enough power to get through things even without the book.”
-        hide evelyn
-        show carter
+        JESSE “Probably not, and besides I’ve been feeling fine, the worst it could be is another hospital visit right?”
     
-        CARTER “You have been putting a lot of faith into what was essentially single use powerhouse spells, when you could just like, split that up in smaller spells… Also guns exist.”
-        hide carter
+        hide Evelyn
+    
+        NAR “It’s clear they’re worried about me, but they trust me… It feels wrong but it’ll only make things more complicated if I were to say anything.”
+    
         show felix
     
-        FELIX “Yes, but our enemy is fairly far above that. Our one out that we truly had against them was this tome.”
+        FELIX “Anyway, should we focus on what’s actually happening rather than the hypothetical?”
     
-        hide felix
-        show linden
+        FELIX “I’m going to spend the next few weeks planting the seeds for actual officials to retake control from the occult once we break them at the Abbey, but we need someone to actually scout out that area and find where they’ll be setting this up.”
     
-        LINDEN “This is true, and it took a lot of effort to get it out of our hands in the first place. Where we proceed from here will be very important.”
-        hide linden
-        show felix
-    
-        FELIX “You’re directly from inside the organization aren’t you? Would you like to give us some insight on how to progress this from here?”
-        hide felix
-        show linden
-    
-        LINDEN “Sadly I cannot. I had not learned that we even had the book in our possession until now. However since late December we have been having a shift in our planning structure. I had hoped it was from something you all had succeeded in, rather than failed.”
-        hide linden
-        show finn
-    
-        FINN “It wasn’t a failure, failure would have been all of us dying then. It’s a setback, but we can still get it back.”
-        hide finn
-        show linden
-    
-        LINDEN “I’ll see what I can get happening in the cult to progress towards one, getting the information of our theft and plans to me naturally, and two an opportunity to acquire it for us. I can’t promise any of that will happen quickly.”
-        hide linden
-        show evelyn
-    
-        EVELYN “In that case… we all need to work on actively trying to get information directly from the cult… it’s a bit scary though, that kind of investigation is what got your dad killed in the first place, and they’ve already made an attempt on our lives…”
-        hide evelyn
-        show carter
-    
-        CARTER “Then just take it slow. You’ve got the time right?”
-        hide carter
-        show felix
-    
-        FELIX “If only it was that simple… they’ve had the tome for what, nearly two months at this point? We may be up against their endgame.”
+        FELIX “Additionally we’ll need a way to actually get to that location, because I’m sorry to say but we’re not just going to be let near the royal wedding that easily.”
         hide felix
         show finn
     
-        FINN “There’s not much else to do though, it’s the best we have, and it’s not like they’re going to target us so directly now that they know we don’t have it right? It got stolen by Jesse’s dad before, I’m sure all of us can think of something.”
+        FINN “I can start checking out the area and figure out where they’ll be coming and going”
         hide finn
+        show sara
+    
+        SARA “With my position with them still not being completely compromised, I can help out with that as well, we can’t trust Linden to be able to leak everything for us.”
+        hide sara
         show evelyn
     
-        EVELYN “Then it’s settled, we’ll all try to make progress into getting information on them, and what they’re plans are from here on out, once any of us gets some sort of lead, we can meet up and actually formulate a plan.”
+        EVELYN “And I can figure out a way to get us through easily, and quietly.”
         hide evelyn
-        show linden
+        show carter
     
-        LINDEN “Worst case scenario, we wait until they actually require my expertise to make the final plans work, then we’ll get definitive answers on what to do.”
+        CARTER “A topic, I can assist with, manipulation is our forte, not that you would know right?”
     
-        hide linden
+        JESSE “Anything specific I can focus on, I actually have the time to be out and about now.”
+        hide carter
+        show felix
     
-        NAR “It seems like we actually have some idea of how to progress, even after losing it… I guess we didn’t really need it until the end anyway right?”
+        FELIX “Of course I have something planned for you, but you’re going to need to wait a little bit, I’ll contact you personally, expect something on Monday.”
     
-        NAR “And if the operation is just to try and steal it back, it was done before without the tome, it can be done again. Hopefully we’ll get some information soon though.”
-    
-        NAR “We all said our goodbyes, and I headed home… I don’t think I want to tell them about my arm, it’ll only cause unnecessary worry, it’s not like I’ll be able to use that tome at all until we get it right? We can worry about that then.”
+        hide felix
     
         hide bookstore
     
-        NAR “The rest of the day proceeded in silence…”
+        NAR “After hanging out for a little bit, and discussing more specifics of when and where a few of them should meet to get things on their way, at least until… Carter decided to close shop early and kick us all out.”
     
-        FREE - Tuesday, 14th February 1922")
-        Finn
+        NAR “I’ll have some more free time now though, since I’m not going back to work ever again.”
+    
+        NAR “We said our goodbyes, and each headed home.”
+    
+        FREE - Thursday, 12th April 1923")
+        Carter
         Evelyn
-        Study
-        call new_day("Wednesday, 15th February 1923")
+        Self Improvement
     
-        scene bookstore
+        FREE - Friday, 13th April 1923")
+        Finn
+        Linden
+        Self Improvement
     
-        NAR “In what started as a normal day, quickly changed by the alert of news from Wilkinson, he mentioned he contacted everybody for some important news. I rushed down to his store when I got the chance.”
+        FREE - Saturday, 14th April 1923")
+        Carter
+        Evelyn
+        Self Improvement
     
-        NAR “After greeting everyone and getting settled, everyone was here except Linden. Which Wilkinson mentioned he hadn’t called because he would already know about it, and additionally he doesn’t have a way to contact him, nor does he want one.”
+        FREE - Sunday, 15th April 1923")
+        Finn
+        Linden
+        Self Improvement
+        new_date("Monday, 16th April 1923")
     
-        show carter
+        scene room
     
-        CARTER “So. Do you all remember Egypt?”
-        hide carter
+        NAR “Another fair day outside, and Sara gets ready to head to work. I waited somewhat impatiently for Felix to contact me.”
+    
+        NAR “I understand that everyone else is more suited to each of the tasks, and splitting this up is still a good idea, but even still I could be helping more directly than just being the final play against the cult.”
+    
+        NAR “The phone does not go off for a while, but the doorbell is rung, and opening it up, is Felix in person.”
+    
+        show felix
+    
+        FELIX “Afternoon, hope you don’t mind me just coming here to talk, no point in going about this anywhere else”
+        hide felix
         show jesse
     
         menu:
     
-        "Yes.”:
+        "Yeah it’s fine”:
         hide jesse
-        show carter
-        CARTER "Fantastic."
+        show felix
+            FELIX "Good, now on to why I’m here."
     
-        "Why?”:
+        "Want something to eat?”:
         hide jesse
-        show carter
-        CARTER "Because it’s Egypt related!"
+        show felix
+            FELIX "Not from you, no."
     
-        "Again?”:
+        "Don’t get comfortable.”:
         hide jesse
-        show carter
-        CARTER "So you’ve forgotten again?"
-    
-        CARTER “Like I said back when I first found out about it, I knew this would be relevant later, and none of you believed me.”
-        hide carter
         show felix
+            FELIX "Not that I could here."
     
-        FELIX “It didn’t matter if we believed you or not, you made a deal out of something that didn’t become relevant for what, four months?
+        FELIX “I’ll get straight to the point. I know you’re smart enough to come to some of the same conclusions I have, and at this point I don’t think your dumb enough to try and blind yourself. What the hell are you doing?”
         hide felix
-        show carter
+        show jesse
     
-        CARTER “Shut. Your superior is explaining things.”
+        menu:
     
-        NAR “Felix lets out a long sigh as Wilkinson continues his thoughts.”
-    
-        CARTER “So, there’s finally been some bigger prospects down there, Uncovering ancient tombs, as you do of course.”
-    
-        CARTER “Which honestly is what I was planning on doing in my free time once this all finished, but meh, there’s plenty of tombs in the sea as the saying goes.”
-        hide carter
-        show evelyn
-    
-        EVELYN “I’m pretty sure it’s fish?”
-        hide evelyn
-        show carter
-    
-        CARTER “Yes but there are no fish in the desert, anyway.”
-    
-        CARTER “It seems like they’ve entered and excavated an ancient tomb heavily related to a certain sphinx they tend to idolize, and it’s partly from the papers Linden gave me.”
-    
-        CARTER “But that was all really just confirming what we thought was there. There’s powerful arcane tools that are important to something akin to summoning a creature.”
-    
-        CARTER “I guess more specifically resurrecting in this case? I’m inclined to believe it’s resurrection.”
-        hide carter
-        show finn
-    
-        FINN “how do you figure that?”
-        hide finn
-        show carter
-    
-        CARTER “Well, I mentioned we just want the simple things, immortality etcetera, so we were looking into the more resurrect-y type of alternatives, which included the ancient gods of egyptian mythos, among other locations.”
-        hide carter
+        "Excuse me?”:
+        hide jesse
         show felix
+            FELIX "For what? Playing this off?"
     
-        FELIX “So you’re saying their end goal is going to be using the power of the tome to enact a great resurrection type of scenario?”
-        hide felix
-        show carter
-    
-        CARTER “That’s currently my guess, although that doesn’t particularly get us any closer to actually getting the tome back.”
-        hide carter
-        show evelyn
-    
-        EVELYN “Even if we know their end goal, we still don’t know anything useful… I haven’t made much progress myself.”
-        hide evelyn
+        "I don’t understand.”:
+        hide jesse
         show felix
+            FELIX "*Sigh* yes, you do."
     
-        FELIX “That’s not true. Now any information we get can be pieced together under the assumption of this resurrection, which is important when what we’re trying to figure out tends to be so vague. Realistically we need more information on the inside.”
-        hide felix
-        show evelyn
-    
-        EVELYN “Can’t we get more of that from Linden?”
-        hide evelyn
-        show carter
-    
-        CARTER “Nope.”
-        hide carter
+        "Ah, being rude in my own home. Expected.”:
+        hide jesse
         show felix
+            FELIX "Stop messing around."
     
-        FELIX “*sigh* No, but that’s just because we can’t just trust everything he says to us, not necessarily because he’s untrustworthy, but because if the cult is expecting anything about him.”
+        FELIX “We both know there’s more to this than what’s happening right now. What we’re doing and how we’re doing it isn’t right. And I don’t mean that there’s another way or it’s exactly bad.”
     
-        FELIX “They could be giving him information to fish for us in a sense. Especially since he apparently didn’t know about the book in the first place.”
+        FELIX “You realize it though, why is this working out so well for us? And more importantly, why is this working out so well for you.”
+    
+        JESSE “...”
+    
+        NAR “But it isn’t, for all of this to work, there’s no way I can survive casting that spell…”
+    
+        FELIX “And don’t even try to play like you dying from this is the issue we’re trying to realize.”
+    
+        FELIX “The question that I think we’ve both asked since we first learned about all of this, that still hasn’t been answered in any real form.”
+    
+        FELIX “Why are you still alive?”
+    
+        FELIX “It seems like killing you would have been much more effective for this cult the moment you found the book wouldn’t it?”
+    
+        FELIX “And now we both know you flatmate was in on it for even a few years before any of this even started!”
+    
+        NAR “He’s right. I’ve always tried to ignore that question, because things were just easier to make sense of if it wasn’t at the forefront of things.”
+    
+        NAR “My dad died trying to reach the truth of all of this, and here I am, now in his shoes, but still alive until I’m able to essentially kill myself.”
+    
+        NAR “They wouldn’t just wait for me to die when it would also disrupt their plans, it’s clear they have the potential for it. They’ve always had the potential for it.”
+    
+        FELIX “It looks like you have thought about it before. You realize what this means right, if we’re going into the final hour of all of this, and we don’t know if we’re actually one step ahead of them or not…”
+    
+        JESSE “We have to go about this… as if me surviving to this point is a part of their plans.”
+    
+        FELIX “And now we know that it turns out you are ever so slightly special because of your use of the tome.”
+    
+        JESSE “What do you mean by that, unless you mean… Luke’s Sister?”
+    
+        FELIX “There being two of you who have used the book makes this much more interesting, because even during that time where they stole the book from us, was it that they couldn’t progress their plans until now because they weren’t ready?”
+    
+        FELIX “Or because they know they can’t use it. If this sister also used it, and also was harmed by it to the similar extent to you…”
+    
+        FELIX “something that would result in her death, maybe there’s something about you that makes them need you specifically to cast it.”
+    
+        JESSE “If anyone could do it, they would have easily been able to complete all of this much earlier, especially if they were already testing it 7 years ago. But that still doesn’t explain why I can.”
+    
+        FELIX “Probably nothing we can figure out with the time, but that’s probably something your father knew, which would explain why he got so invested in all of this, even compared to his other work.”
+    
+        FELIX “In the end, let’s assume we’d be able to succeed in this if we tried, but the only things we have going for us is that they may not realize their tome is a fake.”
+    
+        FELIX “We can go about this under the assumption that this is actually a part of their plan. I hate that I’m entrusting this to you, but it’s something only you can figure out, magic is just that step beyond me.”
+    
+        FELIX “And on top of all of that, you’re not allowed to die to this, not gonna let you go out in a blaze of glory thinking you’re better than me since you finished this.”
+    
+        NAR “He gets up and starts getting ready to leave.”
+    
+        FELIX “I don’t trust anything that’s happening in the slightest. But if surprise is our best option, you better find a card to pull without us. Good Luck.”
     
         hide felix
     
-        NAR “The rest of the conversation wasn’t too important. I was almost wondering why I was even a part of this anymore, sure I did stuff without the tome that was important...”
+        NAR “I sat there, thinking about what he said. I hated how much I agreed with him. We have definitely created more problems for them than they would like in most cases, Linden and Sara are proof of that…”
+        NAR “But the reason they wouldn’t attack us or at least kill me is because they somehow need me, they want us to ‘succeed’ it’s part of their plan.”
     
-        NAR “now I just feel like I can’t do anything too exceptional compared to the four of them, there’s got to be something I can bring to the table that no one else could…”
+        NAR “That could also explain why they haven’t figured out that it’s a fake… because they can’t even use it right now. But he’s right, there’s not much else they can do, but I don’t know where to begin on my end…”
     
-        hide bookstore
+        NAR “It sounds stupid, but our answer out of this may come from whatever Luke will give me on that day… our final meeting…”
     
-        NAR “The rest of the day proceeded in silence…”
-    
-        WORK - Thursday, 16th February 1922")
-    
-        WORK - Friday, 17th February 1922")
-    
-        HREE - Saturday 18th February 1922")
-        Walk
-        Study
-        Gardening
-        call new_day("Sunday, February 19th, 1923")
-        NAR “It was a normal day at work, exhausting as ever, but a thought occurred to me. Sara has been acting so strange lately… Thinking back on it, she knew about what was going to happen that day in December… it’s always been in the back of my mind.”
-    
-        NAR “That she’s been a part of the cult all along… Not everything makes sense with that though, I’ve always felt she’s been a great friend to me…”
-    
-        NAR “That could all be an act though. We need someone on our side, we need more people involved. I see it working out in three ways.”
-    
-        NAR “One, she’s not a part of the cult, but she’s still in some sort of management position in the company we work for, which is clearly a front by the cult because of Linden’s involvement.”
-    
-        NAR “Two, she’s part of the cult, and an enemy, and at this point, she has to already know, that was pretty evident from when she picked me up from the hospital…”
-    
-        NAR “Or three, she’s an ally and a part of the cult, which is exactly what we need right now.”
-    
-        call new_day("Monday, 20th February 1923")
-    
-        scene room
-    
-        NAR “Today is my opportunity to talk to her, directly about all of this. If this doesn't work out, I can call Felix and he’ll be able to get me out of things probably…”
+        NAR “Until then, let's make sure I’m content with everything, even still I don’t see myself getting out of this without casting a spell… and if it’s anything important that would stop that…”
 
-File "game/chapter6.rpy", line 449: expected statement.
-    NAR “which is why I can’t let things come to that, the last thing I want is for him to ‘save’ me.”
-                                                     ^
-
-File "game/chapter6.rpy", line 451: expected statement.
-    NAR “I waited for her to come home. When she got back, I told her I wanted to talk to her about something, but gave her time to get settled back home.”
-                                      ^
-
-File "game/chapter6.rpy", line 455: expected statement.
-    SARA “So what did you want to talk about?”
-                                            ^
-
-File "game/chapter6.rpy", line 457: expected statement.
-    NAR “How… do I even start this… I guess I should just be direct? I still don’t believe that she’s not my friend, but it could all be a facade that she’s been playing since the start… the start… even when we met years back in high school?”
-                                                                   ^
-
-File "game/chapter6.rpy", line 459: expected statement.
-    SARA “...Are you okay? Did I do something wrong?”
-          ^
-
-File "game/chapter6.rpy", line 461: expected statement.
-    JESSE “How long?”
-                   ^
-
-File "game/chapter6.rpy", line 463: expected statement.
-    SARA “How long… for what?”
-                            ^
-
-File "game/chapter6.rpy", line 465: expected statement.
-    JESSE “Don’t try to play it off anymore. I’ve known Linden for some time now, I know what your position is in that company now. What does that mean to you.”
-                                           ^
-
-File "game/chapter6.rpy", line 467: expected statement.
-    SARA “...”
-          ^
-
-File "game/chapter6.rpy", line 469: expected statement.
-    JESSE “This entire time, you’ve just been watching me haven’t you? Spying on me to see if I’ve ever come close to uncovering the truth about what’s really been going on. That’s why you’ve been busier lately, because of my actions surrounding them.”
-                           ^
-
-File "game/chapter6.rpy", line 471: expected statement.
-    SARA “...”
-          ^
-
-File "game/chapter6.rpy", line 472: expected statement.
-    JESSE “Did you not realize? That’s been your purpose with me right? While you’ve been off planning how best to trap us. You were in on the attack they weren’t you?! How long have you been lying to me.”
-                              ^
-
-File "game/chapter6.rpy", line 474: expected statement.
-    SARA “It’s not… I knew it was you, I couldn’t ignore how you were when you suddenly became so tired… when your arm started to bruise…”
-                                     ^
-
-File "game/chapter6.rpy", line 476: expected statement.
-    SARA “Of course I knew you had the tome and were working against us… They were the ones that assigned me to have a reason to try and move in with you, they’ve been worried ever since your friend came back last year.”
-                                                                                                                                              ^
-
-File "game/chapter6.rpy", line 478: expected statement.
-    SARA “And… of course I knew about the attack, they told me about it a few days before it was planned… but…”
-                                                ^
-
-File "game/chapter6.rpy", line 480: expected statement.
-    JESSE “So this entire time, you’ve just been working for them against me.
-                              ^
-
-File "game/chapter6.rpy", line 482: expected statement.
-    SARA “No! No… I couldn’t… It wasn’t all lies Jesse, Everything about my parents, about how I got involved with this, that’s all true, I just omitted that part…”
-            ^
-
-File "game/chapter6.rpy", line 484: expected statement.
-    SARA “Yes, we met originally because they wanted to try and start having more ways to keep track of you and your dad… and they figured I would be a good choice to try and get close to you… But I’m not just their puppet.”
-             ^
-
-File "game/chapter6.rpy", line 486: expected statement.
-    SARA “I do… see you as a close friend.”
-                        ^
-
-File "game/chapter6.rpy", line 488: expected statement.
-    JESSE “Then why were you willing to let them kill all of us.”
-                                                               ^
-
-File "game/chapter6.rpy", line 490: expected statement.
-    SARA “I wasn’t! I told you they only informed me about that a few days before it happened, and I was so confused when nothing happened…”
-                  ^
-
-File "game/chapter6.rpy", line 492: expected statement.
-    SARA “But when you stepped out, I was so worried. I hate to say it like this, but why do you think you’ve been able to get by so freely all this time?”
-                                  ^
-
-File "game/chapter6.rpy", line 494: expected statement.
-    SARA “You staying quiet about everything really made it easier for me… but I tried to tell them enough to keep them satisfied, but I’d still try to spin it…”
-                                                                                                                                 ^
-
-File "game/chapter6.rpy", line 495: expected statement.
-    JESSE “What do you mean?”
-                           ^
-
-File "game/chapter6.rpy", line 497: expected statement.
-    SARA “This started out all because of what they wanted, but I’m not just their puppet. I wanted… to protect you, It’s not simple to just be free of them…”
-                                                          ^
-
-File "game/chapter6.rpy", line 499: expected statement.
-    SARA “That’s why my home life became so dangerous, because I was endangering my parents, and they hated me for staying with them, but if I didn’t…”
-                                                     ^
-
-File "game/chapter6.rpy", line 501: expected statement.
-    SARA “I ran out of ways to hide from the fact that you were the spellcaster that was targeting us, but I was able to convince them to not do anything too rash against you…”
-                               ^
-
-File "game/chapter6.rpy", line 503: expected statement.
-    SARA “Even the attack you’re talking about is a blessing compared to some of the ways they were thinking about dealing with everyone…”
-                                                                                                                           ^
-
-File "game/chapter6.rpy", line 505: expected statement.
-    JESSE “Why didn’t you tell me?”
-                                 ^
-
-File "game/chapter6.rpy", line 507: expected statement.
-    SARA “I… was scared… scared that you wouldn’t trust me, or would try and make me leave… I can’t try and say that I haven’t betrayed you, I’m part of the reason that your dad died…”
-                                                          ^
-
-File "game/chapter6.rpy", line 509: expected statement.
-    SARA “I could never atone for that, especially not with trying to be your friend in spite of all of that. And I’m scared, scared of what they would do if they realize I’ve betrayed them…”
-                                      ^
-
-File "game/chapter6.rpy", line 511: expected statement.
-    JESSE “...Are you serious about trying to help us.”
-           ^
-
-File "game/chapter6.rpy", line 513: expected statement.
-    SARA “Yes… but I know you can barely trust me…”
-                                                   ^
-
-File "game/chapter6.rpy", line 515: expected statement.
-    JESSE “So you know they have the book and the pen. We’ve essentially lost. They let us live since I gave up those items. Which means they don’t particularly care about us right? Are they going to have to stay spying on me?”
-                                                     ^
-
-File "game/chapter6.rpy", line 517: expected statement.
-    SARA “Yes… they’re moderately concerned about you staying against them, but… another part of my job was to see if there was ever a chance you would join them, but that idea was scrapped the moment they fully realized it was you who was working against them.”
-                                                                          ^
-
-File "game/chapter6.rpy", line 519: expected statement.
-    JESSE “that’s interesting… but the point is, we’ve lost, and this is the perfect opportunity for us to let it go, and give up. And you can make sure that’s the message they get.”
-                                               ^
-
-File "game/chapter6.rpy", line 521: expected statement.
-    JESSE “We’ve known Linden has been shunned and removed from some discussion by certain groups within your cult. You can confirm and possibly double-check that information.”
-                                                                                                                  ^
-
-File "game/chapter6.rpy", line 523: expected statement.
-    SARA “What are you asking of me?”
-                                   ^
-
-File "game/chapter6.rpy", line 525: expected statement.
-    JESSE “We have next to no leads, and you’re close to winning this. We’re desperate, and you changing teams would be an incredible boon to us.”
-                                   ^
-
-File "game/chapter6.rpy", line 527: expected statement.
-    JESSE “I do believe that you’re actually my friend, but I’m not going to be able to trust you again… until you prove it to me.”
-                                                      ^
-
-File "game/chapter6.rpy", line 529: expected statement.
-    JESSE “If our only chance of victory without a double-agent like you is slim, I’m willing to risk this.”
-                                                                                ^
-
-File "game/chapter6.rpy", line 531: expected statement.
-    SARA “Honestly… part of me was hoping you would talk to me about this… Thank you for putting your trust in me…”
-                                                                                                            ^
-
-File "game/chapter6.rpy", line 533: expected statement.
-    SARA “I know I don’t deserve it, but from here on, I’ll put you first. I’ve witnessed firsthand what these people do… and I’m not free of that either, but if we can stop them, I want that. I feel I can put my faith in you for this.”
-                                   ^
-
-File "game/chapter6.rpy", line 535: expected statement.
-    JESSE “Tomorrow when you get back. You’re going to tell this to everybody.”
-                                     ^
-
-File "game/chapter6.rpy", line 537: expected statement.
-    SARA “I… understand. I won’t betray you anymore!”
-                       ^
-
-File "game/chapter6.rpy", line 541: expected statement.
-    NAR “I’m not sure how much faith I can put into any of those words, or anything she’s said for the past few years I’ve known her, but desperate times call for desperate measures…”
-                                                                      ^
-
-File "game/chapter6.rpy", line 543: expected statement.
-    NAR “And I refuse to believe that everything we’ve shared together has been a lie. One way or another, I’ll learn soon enough.”
-                                                                                     ^
-
-File "game/chapter6.rpy", line 545: expected statement.
-    NAR “SARA RANK 6/7”
-                    ^
-
-File "game/chapter6.rpy", line 549: expected statement.
-    NAR “The rest of the day proceeded as usual.”
+File "game/chapter7.rpy", line 454: expected statement.
+    NAR “The rest of the day proceeded as usual…”
                                        ^
 
-File "game/chapter6.rpy", line 555: expected statement.
-    NAR “I got in contact with everybody telling them I’ve got us a lead, and we need to meet up. They were a bit confused why I was calling it for so late in the day, but they went with it and we all got to Wilkinson’s. Me and Sara, arriving last.”
-               ^
-
-File "game/chapter6.rpy", line 557: expected statement.
-    NAR “Immediately embraced with confusion all around, except from Linden and Felix.”
-                              ^
-
-File "game/chapter6.rpy", line 561: expected statement.
-    SARA “Hi everyone… I know we met back then, but to properly introduce myself again. I’m Sara Harper, and… I’d like to apologize to everyone.”
-                                              ^
-
-File "game/chapter6.rpy", line 563: expected statement.
-    SARA “I’ve been working for the guiding comet for a long time now, and part of my job was to spy on Jesse and his friends for a while now… and…”
-                                                                     ^
-
-File "game/chapter6.rpy", line 565: expected statement.
-    NAR “The mood in the room quickly soured, but it looked like they were going to give her a chance to explain herself.
+File "game/chapter7.rpy", line 456: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    FREE - Tuesday, 17th April 1923")
                   ^
-
-File "game/chapter6.rpy", line 569: expected statement.
-    CARTER “Oh come on now?! TWO of them! How-”
-                          ^
-
-File "game/chapter6.rpy", line 571: expected statement.
-    JESSE “Carter.”
-                 ^
-
-File "game/chapter6.rpy", line 573: expected statement.
-    CARTER “...hmm.”
-            ^
-
-File "game/chapter6.rpy", line 577: expected statement.
-    SARA “And… I tried my best to keep Jesse safe, but until now I had always been worried about trying to do whatever I could to keep myself going first. I can’t try and make that an excuse.”
-                                                 ^
-
-File "game/chapter6.rpy", line 579: expected statement.
-    SARA “I’ve always had my worries and doubts about what I was doing, but I never made up my mind until now, and I’m sorry.”
-                                                                      ^
-
-File "game/chapter6.rpy", line 583: expected statement.
-    EVELYN “It’s okay… Thank you for telling us, what matters the most to us is stopping them, and if you can help us with that, that’d be a great help. What matters is what happens from now on, not who you were before.”
-                                               ^
-
-File "game/chapter6.rpy", line 587: expected statement.
-    LINDEN “The simplest thing this gives us the opportunity for is double checking what the two of us know, because since you’ve been co-operative they probably do trust you, at least enough to have you still important to watching Jesse.”
-                                                                                                           ^
-
-File "game/chapter6.rpy", line 591: expected statement.
-    SARA “I don’t know how much I can really do, but I’ll try and get whatever I can, Jesse was telling me that you’re all in a bit of a rough spot now after what happened in december though…”
-                                               ^
-
-File "game/chapter6.rpy", line 595: expected statement.
-    FELIX “That’s a bit of an overstatement, he’s been feeling that way certainly. But either way, now that you’re actually able to get us some information on the inside, even the minor issues will soon work themselves out.”
-                                           ^
-
-File "game/chapter6.rpy", line 600: expected statement.
-    SARA “I’ll start trying to see what all the moving parts and assignments they’ll be changing now that they are moving towards a plan with the tome. I can’t promise much…”
-                                                                                                                                         ^
-
-File "game/chapter6.rpy", line 602: expected statement.
-    SARA “But I can confirm with you guys given the current pace of things it seems like they still have quite a bit of work to do. And it’d also be easier to get the fire off of everyone if you all keep quiet for a little bit anyway.”
-                            ^
-
-File "game/chapter6.rpy", line 607: expected statement.
-    LINDEN “I can confirm most of what she’s saying.”
-                                                   ^
-
-File "game/chapter6.rpy", line 612: expected statement.
-    FINN “Thanks for all that. It’s a start to making up for what you’ve done…”
-                             ^
-
-File "game/chapter6.rpy", line 614: expected statement.
-    FINN “Hey actually, now that you’re in on it, we can finally meet up at reasonable hours! And we can do stuff on saturdays.”
-                      ^
-
-File "game/chapter6.rpy", line 619: expected statement.
-    SARA “I’m not too sure of that, it’s been really easy to make excuses of where he’s been when he just stays around the house during the weekends…”
-                                  ^
-
-File "game/chapter6.rpy", line 624: expected statement.
-    FELIX “Just say the two of you started going out or something.”
-                                                                 ^
-
-File "game/chapter6.rpy", line 629: expected statement.
-    SARA “Haha, that could work actually.”
-              ^
-
-File "game/chapter6.rpy", line 631: expected statement.
-    JESSE “huh?”
-              ^
-
-File "game/chapter6.rpy", line 635: expected statement.
-    NAR “Linden left soon after we were done talking about important news. We talked a bit more, and Sara began to open up to a few of them.”
-                                                                         ^
-
-File "game/chapter6.rpy", line 639: expected statement.
-    NAR “It started to get late, so we  all said our goodbyes and left. Felix started to walk with us.”
-                               ^
-
-File "game/chapter6.rpy", line 645: expected statement.
-    FELIX “So, out of curiosity, who finally broke the ice?”
-             ^
-
-File "game/chapter6.rpy", line 647: expected statement.
-    JESSE “Interesting way to phrase it…”
-                                         ^
-
-File "game/chapter6.rpy", line 649: expected statement.
-    FELIX “My assumption would be Sara, after all it was pretty clear she was with them, but also not fully on board with them, I had my suspicions but your birthday bash decided that fully.”
-                                      ^
-
-File "game/chapter6.rpy", line 653: expected statement.
-    SARA “I’m not that obvious am I?”
-                                   ^
-
-File "game/chapter6.rpy", line 657: expected statement.
-    FELIX “Not particularly, but I figured there had to be someone that was watching and keeping track of Jesse, and there really were only two options out of our group, and it seemed like you were more… secretive.”
-                           ^
-
-File "game/chapter6.rpy", line 659: expected statement.
-    JESSE “Wait who’s the other one?”
-                                   ^
-
-File "game/chapter6.rpy", line 661: expected statement.
-    FELIX “Oh, your mentor, I doubt he’s in on this at all though.”
-             ^
-
-File "game/chapter6.rpy", line 663: expected statement.
-    FELIX “Anyway, goodbye you two.”
-                 ^
-
-File "game/chapter6.rpy", line 667: expected statement.
-    NAR “We walked home together, finally knowing our true selves…”
-                                ^
-
-File "game/chapter6.rpy", line 671: expected statement.
-    NAR “The rest of the night proceeded as usual.”
-                                         ^
-
-File "game/chapter6.rpy", line 673: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    FREE - Wednesday, 22nd February 1923")
-                    ^
-        Carter
         Linden
-        Gardening
-    
-        WORK - Wednesday, 23rd February 1923")
-
-File "game/chapter6.rpy", line 680: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Thursday, 24th February 1923")
-                   ^
-    
-        FREE - Saturday, 25th February 1923")
-
-File "game/chapter6.rpy", line 683: expected statement.
-    Finn
-        ^
-
-File "game/chapter6.rpy", line 684: expected statement.
-    Linden
-          ^
-
-File "game/chapter6.rpy", line 685: expected statement.
-    Self Improvement
-                    ^
-
-File "game/chapter6.rpy", line 687: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Sunday, 26th February 1923")
-                 ^
-    
-        call new_day("Monday, 27th February 1923")
-    
-        scene cafe
-    
-        NAR “I got a call in the afternoon, requesting to meet with Linden at the cafe, he also asked that I bring Sara. I waited, and eventually told her and we set off.”
-    
-        NAR “It was strange to meet with these two at this place, when the only other time was with Finn and Evelyn… two members of the cult…”
-    
-        JESSE “Hello, was curious why you picked this place?”
-    
-        show linden
-    
-        LINDEN “It’s nearby, and not in direct connection to our work so it’s ideally a safe place.”
-    
-        JESSE “heh, we used to use this place to talk too before we met with Wilkinson.”
-    
-        LINDEN “Well, it was a good pick then, but I digress, the reason I wanted to talk to you two is about some items that we will be receiving soon.”
-        hide linden
-        show sara
-    
-        SARA “Are you talking about the things from the dig coming to them?”
-        hide sara
-        show linden
-    
-        LINDEN “precisely, and partly why I wanted you here was to see if you could confirm or cross-reference what I know with what you’ve learned.”
-    
-    
-        JESSE “I’ve actually already heard about this too… from Carter.”
-    
-        LINDEN “Hm, well the reason why I bring it up now is because there’s been some advancement with that.”
-    
-        LINDEN The basics of things is that once we get the artifact from Egypt in our hands then we’ll be able to proceed with a much grander spell than normal.”
-    
-        LINDEN “The goal as well is to use the tome to complete that to empower it beyond comprehension, but it’s not exactly required.”
-        hide linden
-        show sara
-    
-        SARA “This would explain a lot for me actually… They’ve been working towards moving and removing a lot of people to more specific jobs.”
-        SARA “They’ve transferred a lot of the more magical focused acolytes to locations here in london, while moving assassins and the like back to Ireland and Scotland.”
-        hide sara
-        show linden
-    
-        LINDEN “Either way these preparations will still take some time. The attitude of the public is an important part of our plans since our conception.”
-    
-        LINDEN “The idea that minds need to be in a malleable state to progress things is deathly important to the overall goals. Which will come to a head with our endgame with the Egyptian Artifact and the Black Tome.”
-        hide linden
-        show sara
-    
-        SARA “so they haven’t told you any specifics about it either?”
-    
-        hide sara
-        show linden
-    
-        LINDEN “It’s certainly on a need to know basis, which is relegated to only the upper echelon of our members.”
-    
-        JESSE “Do you at least have any idea of the timeframe we’re running on here?”
-    
-        LINDEN “I’m afraid not, we cannot start without the artifact in our hands, that much I know. From then, it would take approximately a month to complete preparations, so at minimum we have until near the beginning of April.”
-    
-        hide linden
-        show sara
-    
-        SARA “I’ll definitely be able to figure out when big moves are about to happen, but we’ll still need to wait on that.”
-    
-        JESSE “Hmm, well thanks for letting us know. If it’s more relevant I’ll inform everybody else when I get the chance. Part of me feels like we’re not doing enough.”
-        hide sara
-        show linden
-    
-        LINDEN “Things of this scale take time Jesse, enjoy your freedom while it lasts.”
-    
-        hide Linden
-    
-        NAR “Linden left us soon after, and we ordered some food before heading home.”
-    
-        hide cafe
-    
-        NAR “The rest of the day proceeded as usual.”
-    
-        call new_day("Tuesday, 28th February 1923")
-    
-        scene room
-    
-        NAR “Whatever plans I had today were thwarted by the knock on the door. Finn and Evelyn had come over. It was still early so Sara was at work.”
-    
-        show evelyn
-    
-        EVELYN “Hi, we figured we could give you a quick update on what we’ve found, plus I have something to give you. We were working with Wilkinson to try and find out more about this artifact that they’ve been wanting to get their hands on.”
-        hide evelyn
-        show finn
-    
-        FINN “tracked it to some black market dealing actually, which we started to assume were related to the cult in some way. They’re going to be in the city in early March.”
-        hide finn
-        show evelyn
-    
-        EVELYN “From there we were thinking about some way we could use that to potentially infiltrate what they’re doing right?”
-    
-        JESSE “It’s not a bad idea… It’s actually relevant to some other information we’ve found out.”
-        hide evelyn
-        show finn
-    
-        FINN “Why don’t we meet up tomorrow and see if we can actually get any serious plan out of this?”
-    
-        hide Finn
-    
-        NAR “We ended up making arrangements to get together with the other four, but Linden wouldn’t be able to make it.”
-    
-        hide room
-    
-        NAR “The rest of the day proceeded as usual.”
-        call new_day("Wednesday, 1st March 1923")
-    
-        scene bookstore
-    
-        NAR “We all met up at the bookstore once again, and in the afternoon at that. After getting settled, I told them about what Linden had told us the other day.”
-    
-        show evelyn
-    
-        EVELYN “So. our minimum deadline on this is April… I don’t think we can keep our current pace if that’s when their plans will finish…”
-        hide evelyn
-        show sara
-    
-        SARA “Yeah… on that line of thinking actually, after spending this time looking into trying to find what and where the tome is, I can safely say I won’t be able to make any progress on that sadly.”
-    
-        JESSE “So we don’t have any ways to move forward without trying to get this artifact from  them?”
-        hide sara
-        show finn
-    
-        FINN “Even then, I don’t think that’s necessarily safe, the moment we take something else from them, there’s no reason they don’t attack us again.”
-        hide finn
-        show sara
-    
-        SARA “I do actually have an idea… The original idea they had was actually to try and recruit you into it… but they gave up on that since they realized you were the one causing them problems.”
-    
-        SARA “It’s possible they might still be interested in that?”
-        hide sara
-        show evelyn
-    
-        EVELYN “Then from there, they might be able to talk to you about the tome, since you have used it!”
-    
-        JESSE “That seems… like a strange plan.”
-        hide evelyn
-        show sara
-    
-        SARA “But I bet it could work, we could try and see if Linden knows anyway to get you in. After all, what we really need is information on the inside, right?”
-        hide sara
-        show finn
-    
-        FINN “It’s not like you investigating outside of it is going to be safe either… It will probably take some time to actually get you into it too?”
-    
-        JESSE “Are we serious about this?”
-    
-        FINN “Only if you’re up for it… but it would probably make sense to wait on it until after they’ve gotten the artifact, so it doesn’t look too obvious.”
-        hide finn
-        show sara
-    
-        SARA “Let’s wait on things, then we’ll get in contact with Linden and see what we can do.”
-        hide sara
-        show carter
-    
-        CARTER “You guys. Are just messing with me at this point. When did it become okay to have not just one, not just TWO, BUT THREE full fledged members of the guiding comet in MY establishment… I do too much for you all”
-        hide carter
-        show finn
-    
-        FINN “Oh come on, they’re all traitors isn’t that a good thing?”
-        hide finn
-        show carter
-    
-        CARTER “It’s just so hard to explain to the regulars you know? But don’t get me wrong, I’m still on board with helping however I can. Good luck joining a cult, want any tips?”
-    
-        JESSE “I think I’m good, but thanks.”
-    
-        hide Carter
-    
-        NAR “If you can’t beat em, join em, to beat them.”
-    
-        hide bookstore
-    
-        NAR “The rest of the day proceeded as usual.”
-    
-        WORK - Thursday, 2nd March 1923")
-
-File "game/chapter6.rpy", line 870: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Friday, 3rd March 1923")
-                 ^
-    
-        FREE - Saturday, 4th March 1923")
-
-File "game/chapter6.rpy", line 873: expected statement.
-    Felix
-         ^
-
-File "game/chapter6.rpy", line 874: expected statement.
-    Finn
-        ^
-
-File "game/chapter6.rpy", line 875: expected statement.
-    Self Improvement
-                    ^
-
-File "game/chapter6.rpy", line 877: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Sunday, 5th March 1923")
-                 ^
-    
-        call new_day("Monday, 6th March 1923")
-    
-        NAR “The next week, we got confirmation from Evelyn that the black market trade for the artifact did occur over the weekend, which could be backed up by some of Sara’s work that day too.”
-    
-        scene Cafe
-    
-        NAR “In the afternoon we got in contact with Linden, and the two of us met with him at the Cafe like last time.”
-    
-        show sara
-    
-        SARA “So… well first of all we figure that we have until at best April 5th to actually retrieve the tome back from them. We both know the two of us can’t just progress too well in efforts directly towards it without overstepping our boundaries.”
-        hide sara
-        show linden
-    
-        LINDEN “This is true, that time limit may be outside of our reach, I can start trying to take more risks if that is what it will take us.”
-    
-        JESSE “Well, that’s why we were thinking they might be interested in someone who had already used it, and just had to go through a fairly impactful decision and minor coma.”
-    
-        LINDEN “...You expect to be able to join, and be able to get to it?”
-        hide linden
-        show sara
-    
-        SARA “It’s a bit of a longshot… but it could at least get us some insight into more things going on, and they’ve always been interested in recruiting Jesse in the first place.”
-        hide sara
-        show linden
-    
-        LINDEN “Hmm… it is possible they would work with you actually, the fact that you’ve survived casting with that tome for so long, it’d be of great interest to them.”
-    
-        LINDEN “I’m not sure where that would get us, but you do realize what you’re trying to sign up for right?”
-    
-        JESSE “If the plan is to resurrect their god and destroy so much, then I’d prefer if there was something I could actually do about that.”
-    
-        LINDEN “It still won’t exactly be easy, I can try and find a way for them to get in contact with you… but they would need something from you to prove that you’ve actually had a change of heart.”
-        hide linden
-        show carter
-    
-        CARTER “And that is a sacrifice I am willing to make.”
-        hide carter
-        show sara
-    
-        SARA “Wilkinson?!”
-        hide sara
-        show carter
-    
-        CARTER “Yes hello, I called earlier but no one picked up, so I decided to come over. They’re going to want you to prove you’ve betrayed whoever you’ve been working with.”
-    
-        CARTER “Hopefully they don’t actually know who exactly everyone is, but they’d certainly have my organization, and probably the detective as key persons that have worked against them with you.”
-    
-        CARTER “They wouldn’t directly attack me, but… they’d love to be able to do some irreparable damage or my people.”
-    
-        JESSE “I thought you hated this idea?”
-    
-        CARTER “Oh I do, but this is currently my best way to deal with it in the long run. It’s worth the trade. I’m basically just sacrificing some contacts, and some of my better underground routes around the city.”
-        hide carter
-        show linden
-    
-        LINDEN “Hmm, that makes things easier, but It still may take me about a week to get anything to you all. With the artifact coming into our possession and everything else going on… I’ll do what I can.”
-    
-        hide Linden
-    
-        NAR “This entire plan seems too far fetched… but it’s something I can work on while the other three actually make some decent headway elsewhere.”
-    
-        hide cafe
-    
-        NAR “The rest of the day proceeded as usual.”
-    
-        FREE - Tuesday, 7th March 1923")
-
-File "game/chapter6.rpy", line 946: expected statement.
-    Linden
-          ^
-
-File "game/chapter6.rpy", line 947: expected statement.
-    Evelyn
-          ^
-
-File "game/chapter6.rpy", line 948: expected statement.
-    Study
-         ^
-
-File "game/chapter6.rpy", line 950: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    FREE - Wednesday, 8th March 1923")
-                    ^
-        Evelyn
-        Carter
-        Gardening
-    
-        WORK - Thursday, 9th March 1923")
-
-File "game/chapter6.rpy", line 957: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Friday, 10th March 1923")
-                 ^
-    
-        FREE - Saturday, 11th March 1923")
-
-File "game/chapter6.rpy", line 960: expected statement.
-    Finn
-        ^
-
-File "game/chapter6.rpy", line 961: expected statement.
-    Evelyn
-          ^
-
-File "game/chapter6.rpy", line 962: expected statement.
-    Self Improvement
-                    ^
-
-File "game/chapter6.rpy", line 964: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    WORK - Sunday, 12th March 1923")
-                 ^
-    
-        call new_day("Monday, 13th March 1923")
-        NAR “At work the previous day, Linden had told me how to get in contact with someone that would question me and try to recruit me, apparently it wasn’t going to be anyone too big, but he had informed someone he could trick into helping us better than most.”
-    
-        NAR “I told Wilkinson about us trying to enact this plan today, and asked him to get the message separately to everybody.”
-    
-        NAR “Assuming this works out, I’d try to not visit them for any anti-cult related activities, but meeting with them one on one wouldn’t pose too big of an issue.”
-    
-        scene city
-    
-        NAR “I was told to go to a phone booth and call a directory related to my work in the evening. I got there, and the phone rang, but didn’t get anywhere.”
-    
-        NAR “I waited for a few minutes, but nothing seemed to be happening… I got a bit anxious and left the phone booth, when I saw a car driving up.”
-    
-        NAR “A fancy black and silver car drives up, and parks next to me in the phone booth.”
-    
-        NAR “I could see the silhouette of an imposing man behind the window of the car, but then a man got out of the driver's seat. He seemed almost like a butler.”
-    
-        NAR “Whoever this was, they weren’t just powerful within the organization it seemed. The butler began to speak.”
-    
-        BUTLER “These are my master’s words, but he does not wish to speak to you directly. While we are enticed to hear that you wish to join us, no doubt because you had finally learned of Harper’s true intentions…”
-    
-        BUTLER “To let you truly join us we would request that you give us something that would prove your betrayal from your previous associates.”
-    
-        NAR “I pulled out the resources that Wilkinson gave me, of course I had re-transcribed and made it look like he hadn’t just given them to me freely, he had warned me about that later.”
-    
-        BUTLER “hm, it would seem you are smart enough to have thought of that. Your mind is truly made it would seem.”
-    
-        BUTLER “We’ve been very interested in you for quite some time now, but we will disclose more of that information once you’ve proven you’re up for some of the tasks we have for you.”
-    
-        BUTLER “You will be able to show this to your division’s lead and he’ll start you on some more important tasks we’ll plan for you.”
-    
-        BUTLER “Your schedule will remain the same, but expect to be doing much more than what could have been boiled down to simple busywork, we’ll find a replacement for your original position quickly.”
-    
-        NAR “I nodded in agreement, but did not say much. The window of the car was rolled down a little, and the man motioned to the butler, but I couldn’t get a good look at him.”
-    
-        NAR “He leaned over and was being informed of something… the windows rolled up, as he turned back to me.”
-    
-        BUTLER “He also wishes to inform you of something important. We saw no real way to tell you this while you would be antagonistic towards us, but now that your mind is more open.”
-    
-        BUTLER “We did not kill your father. He had committed suicide and attempted to frame us to try and dissuade you from ever considering us an ally.”
-    
-        BUTLER “We’ll be expecting great things from you Stout.”
-    
-        NAR “What… No, that’s a lie right? They want to just try and manipulate me into thinking this is actually a good decision…”
-    
-    
-        NAR “Whatever, it doesn’t matter, it’s just to mess with me, my dad spent far too long, and risked too much to try and stop them…”
-    
-        NAR “The butler left, and they began to drive off. That wasn’t just some random random recruiter that Linden had tried to get…”
-    
-        NAR “that man seemed far too important, the car, the butler, the information on my dad? One way or another… It seems like I’m in this now, just going to have to see where work takes me now… “
-    
-        NAR “I called and informed Linden and Carter that it was successful, and asked Linden more about who was supposed to meet with me, but he wasn’t exactly sure who it would have been either.”
-        NAR “The scene I described to him didn’t give me any information, but he did say he’s never heard of something like that happening with someone. They’re treating me as an exception, I need to be careful.”
-    
-        hide city
-    
-        NAR “I’d have to wait until Thursday to get any progress.”
-    
-        NAR “The rest of the day proceeded as usual.”
-    
-        FREE - Tuesday, March 14th 1923")
-
-File "game/chapter6.rpy", line 1028: expected statement.
-    Felix
-         ^
-
-File "game/chapter6.rpy", line 1029: expected statement.
-    Finn
-        ^
-
-File "game/chapter6.rpy", line 1030: expected statement.
-    Study
-         ^
-
-File "game/chapter6.rpy", line 1031: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    FREE - Wednesday, March 15th 1923")
-                    ^
         Felix
-        Linden
-        Gardening
-        call new_day("Thursday, 16th March 1923")
-        NAR “Today not much happened… I showed my lead and they started to do more work, but told me to just continue as usual for the day… Apparently something was going to happen tomorrow though.”
-        call new_day("Friday, 17th March 1923")
+        study
     
-        scene cultish
-    
-        NAR “The next day was completely different from usual. They had taken me down under the workplace and had informed me they were going to test my magical capabilities.”
-    
-        NAR “They handed me a basic spellbook, similar to the ones Wilkinson had shown me, and had me cast some spells. It felt incredibly strange to do so many, but they didn’t tire me out in the slightest.”
-    
-        NAR “Well they did but it wasn’t anything I wasn’t already used to. While my arm did feel strange with every cast, it wasn’t growing at all compared to when I used my tome.”
-    
-        NAR “They were doing this to see my aptitude in this department, no doubt because they already knew what I was capable with, but to see if I was actually talented at the basics.”
-    
-        NAR “They seemed… pleased with my results? I was told that they would have me already start on more important work with them on sunday.”
-    
-        hide cultish
-    
-        NAR ”I told Sara of everything that happened, and she would tell the others.”
-    
-        FREE - Saturday, 18th March 1923")
+        FREE - Wednesday, 18th April 1923")
 
-File "game/chapter6.rpy", line 1056: expected statement.
-    Evelyn
-          ^
+File "game/chapter7.rpy", line 462: expected statement.
+    Felix
+         ^
 
-File "game/chapter6.rpy", line 1057: expected statement.
-    Linden
-          ^
-
-File "game/chapter6.rpy", line 1058: expected statement.
-    Self Improvement
-                    ^
-
-File "game/chapter6.rpy", line 1060: expected statement.
-    NAR “Today was fairly fast for me… but it wasn’t the most comfortable thing I had to agree to. They began to study my right arm, and even took a small sample to look into…”
-                                                                                                 ^
-
-File "game/chapter6.rpy", line 1062: expected statement.
-    NAR “They did actually inform me that they rarely have seen anyone survive to this extent of using the tome.”
-                                                                                                               ^
-
-File "game/chapter6.rpy", line 1064: expected statement.
-    NAR “They had it for a few decades before it was stolen, and they’d end up sacrificing some to cast a single spell or two from it, but they had stopped using it as frequently around ten years ago…”
-                                                           ^
-
-File "game/chapter6.rpy", line 1066: expected statement.
-(Perhaps you left out a " at the end of the first line.)
-    FREE - Monday, 20th March 1923")
-                 ^
-        Finn
-        Carter
-        Walk
-    
-        FREE - Tuesday, 21st March 1923")
-
-File "game/chapter6.rpy", line 1072: expected statement.
+File "game/chapter7.rpy", line 463: expected statement.
     Carter
           ^
 
-File "game/chapter6.rpy", line 1073: expected statement.
-    Felix
-         ^
+File "game/chapter7.rpy", line 464: expected statement.
+    gardening
+             ^
 
-File "game/chapter6.rpy", line 1074: expected statement.
-    Study
-         ^
-
-File "game/chapter6.rpy", line 1076: expected statement.
+File "game/chapter7.rpy", line 466: expected statement.
 (Perhaps you left out a " at the end of the first line.)
-    FREE - Wednesday, 22nd March 1923")
-                    ^
+    FREE - Thursday, 19th April 1923")
+                   ^
         Linden
-        Evelyn
-        Gardening
-        call new_day("Thursday, 23rd March 1923")
+        Carter
+        Self Improvement
     
-        scene cultish
+        new_date("Friday, 20th April 1923")
     
-        NAR “Today was another day of somewhat meaningless tasks… but it seemed like they were continuing to just judge my aptitude and commitment to them, which I tried to seem genuine for.”
+        scene room
     
-        NAR “Near the end of the day they told me about a new plan they had for me to help them. They had informed me that the pen used to write in the tome couldn’t actually be used by everyone.”
+        NAR “The day went along as any other, until there was a knock at the door, where Finn and Evelyn were standing.”
     
-        NAR “They mentioned my assistance with writing with it would be incredibly helpful. My first thought was I didn’t want to directly help them advance their plans too fast.”
+        show evelyn
     
-        NAR “My second thought was that they’re actually going to let me see the tome itself?! Before I could wonder too much about how they would have even progressed if I hadn’t joined them…”
+        EVELYN “Are you guys ready?”
+        hide evelyn
+        show sara
     
-        NAR “They told me there were other ways around using that pen to inscribe spells into the tome. Human blood and sacrifices… that blood could be fused and manipulated to be able to ink the pages.”
+        SARA “Oh yeah, give me a second and we’ll be ready to head out.”
     
-        hide cultish
-        call new_day("Friday, 24th March 1923")
+        hide Sara
     
-        scene Cultish
+        NAR “…we?”
     
-        NAR “Today they had me transcribing dozens of spells into the book. I had tried to get them some way for me to practice, and had to show them the state of the pen, and how it being broken would affect the process.”
+        show finn
     
-        NAR “They agreed when they realized the importance of the number of spells they had me doing and the number of pages left in the book.”
+        FINN “Hey Jesse why do you look so confused?”
+        hide finn
+        show jesse
     
-        NAR “I had kept track of every spell I transcribed to tell everyone else in the group, if these are ones they potentially plan to use…”
+        menu:
     
-        NAR “It’s something we want to be wary of I figured, although it seemed like a great number of them weren’t too important.”
+        "What’s going on?”:
+
+File "game/chapter7.rpy", line 500: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "Why are you here?”:
+        hide jesse
     
-        hide cultish
-        call new_day("Saturday, 25th March 1923")
-        NAR “As a break from all of my now completely cultish work, and the task of memorizing and relaying all that information to my friends.”
-    
-        scene Museum
-    
-        NAR “I have another opportunity to meet with Luke, after he could make it last time. I met up with Luke at the Museum again.”
-    
-        NAR “We chatted for a bit, but it was clear something was on both our minds… I broke the silence.”
-    
-        JESSE “About what we talked about last time… I haven’t really had the chance to think about it because of everything that’s been going on. We’ve all been kind of stuck, but we’re figuring out things as we go.”
-    
-        show luke
-    
-        LUKE “It’s not something you need to do immediately, but it’s something that you would benefit from, part of getting past everything and moving on. However if there are more pressing matters at hand, you can’t divide yourself too much.”
-    
-        LUKE “I understand you’ve been going through a lot lately, your life has been changing quite a bit ever since we started meeting up again back in July, and you’ve grown quite a lot since then too.”
-    
-        LUKE “I feel like you’ve also gotten better at making decisions for yourself, rather than being as indecisive about what you wanted to be doing.”
-    
-        LUKE “I’d say… if you're still in a rough patch with your friends, don’t miss out on an opportunity to fix things.”
-    
-        LUKE “Even if you’re not entirely sure that it will be successful in helping things, you never know if you’re going to get any better opportunities.”
-    
-        LUKE “Should take the initiative, and do what you can to help things, rather than waiting for what others expect of you all of the time.”
-    
-        NAR I know it’s been a long series of events with everything happening around me… but, I do think after learning what my dad was trying to do…”
-    
-        NAR “I can’t be mad at him… He went out and did what he could to stop them, and ran into probably similar hardships to myself, he had to steal the tome back too right?”
-    
-        NAR “Luke is right though, I can’t just keep working for them and waiting… I think we already have enough information to start forming some kind of plan… Tomorrow is the last honest day I’ll work. I swear it.”
-    
-        NAR “LUKE RANK 8/10”
-    
-        hide museum
-    
-        NAR “The rest of the evening proceeded as usual.”
-        call new_day("Sunday, 26th March 1923")
-    
-        scene cultish
-    
-        NAR “After meeting with Luke, I knew I had to do something soon, it was already almost April. They had watched over my transcribing procedure for a while, but complications arose, that I was able to overhear outside.”
-    
-        NAR “They had taken the people watching me off to go complete other tasks, they apparently had other times to prepare… even if the spells were completed and ready, they still had to find a location and a time to set everything up…”
-    
-        NAR “They couldn’t trust many others with being involved with my tome and its power, so they had left me alone in this room filled with potential spells I could find and cast…”
-    
-        NAR “There’s got to be something about this resurrection thing right?”
-    
-        NAR “I checked out everything when I felt I had the spare time after quickly completing some work, I should be able to finish all they need from me the next day I work…”
-    
-        NAR “I find a lockbox, but quickly discover it’s not physically locked. I tried to use a unlock spell from the basic spellbook they had given me, but it didn’t work… something about it not working depending on the strength of the magic…”
-    
-        NAR “I copied that spell into the black tome, and casted it once again through that. It was a weaker spell, it shouldn’t cause me much trouble at all, I’ve felt what it was like without the tome.”
-    
-        NAR “I was very wrong… it immediately hit me just how much more it takes to use this rather than anything ‘normal’ but… it unlocked the box.”
-    
-        NAR “Inside was a much older looking spell, and much more complicated looking one at that… I copied it down onto a normal piece of paper, to hopefully show to everyone soon.”
-    
-        NAR “It was locked away, and honestly… it has some similarities to that dispel magic I used a while ago, but with much more…”
-    
-        NAR “This combined with me knowing where the tome was, and their trust in me to leave me alone with it? I think that’s all the pieces we would need to try and take it back from them.”
-    
-        NAR “I took a breath… then tried to copy the dozens of complex lines into the tome in a single go… and…”
-    
-        NAR “It looks like it should work? At least from what I can tell about it…”
-    
-        NAR “I don’t think I’ll get a chance to see it one for one any time besides now, and it should be easy enough to hide next time I do anything on thursday, besides it was locked up, I doubt anyone has actually seen it.”
-    
-        NAR “Hmm… but how do I re-lock it? If I had to dispel it with the tome, I doubt I could lock it with the basic book…”
-    
-        NAR “It wasn’t that bad using it… but I could already tell that the curse on my arm spread a smidge over my wrist…”
-    
-        NAR “I took the risk and locked it with the basic spellbook, I don’t think I could get away with being tired from using another spell like that, without being caught in some regard…”
-    
-        hide cultish
-    
-        NAR “When I got home I contacted everybody and told them about the spells I transcribed and also that I think we can actually formulate a plan at this point.”
-        call new_day("Monday, 27th March 1923")
-        NAR “The whole group met together at Wilkinson’s store. We hadn’t met up like this for quite some time, but now we finally had some ideas on how to go about stealing back the tome from them.”
+        "Did I forget something?”:
+                                  ^
+
+File "game/chapter7.rpy", line 508: expected statement.
+    SARA “Oh yeah, I forget to tell you! We were planning on going out shopping for some nicer clothes to wear for the theatre and the wedding!”
+                 ^
+
+File "game/chapter7.rpy", line 512: expected statement.
+    FINN “Yeah come on, we have the time, most of us are just waiting until next week to look into the specifics, since it’s closer to the final date, so we were thinking about actually having some fun for a change.”
+                      ^
+
+File "game/chapter7.rpy", line 516: expected statement.
+    EVELYN “Unless you’re not up for it today on such short notice, we’ll pick you out something.”
+                                                                  ^
+
+File "game/chapter7.rpy", line 520: expected statement.
+    NAR “This… was not what I had expected for today… and none of them realize the severity of what’s happening. Perhaps this will actually be fun, there’s not much else to do besides wait at this point either…”
+                                                                                                               ^
+
+File "game/chapter7.rpy", line 521: expected statement.
+    NAR “And besides I can’t let them pick out clothes for me.”
+                                                             ^
+
+File "game/chapter7.rpy", line 525: expected statement.
+    NAR “We got ready and headed down the stairs, and waiting for us parked, was Felix, who appeared to be in the same mindset as me it appears…”
+                                                ^
+
+File "game/chapter7.rpy", line 529: expected statement.
+    NAR “We went to the mall, and spent far too much money shopping… and far too much time throwing me between outfits to find something that worked… But, it was fun.”
+                            ^
+
+File "game/chapter7.rpy", line 531: expected statement.
+    NAR “I don’t think I’ve been this happy in quite some time, even knowing what awaited us in 6 days. It was fun, and after they talked about the theatre some more, it does seem like some much needed time to remove the more depressing thoughts from my head.”
+                                            ^
+
+File "game/chapter7.rpy", line 532: expected statement.
+    new_date("Saturday, 21st 1923")
+                                   ^
+
+File "game/chapter7.rpy", line 533: expected statement.
+    NAR “We all met up once again, and headed on our way to the Theatre, the Shakespearean play Cymbeline. Which was enjoyable enough, even with me projecting my own crazy life into the story.”
+                                 ^
+
+File "game/chapter7.rpy", line 535: expected statement.
+    NAR “A story sought with betrayal and trickery, but in the end… a great feast, a happy ending. That’d be nice wouldn’t it.”
+                        ^
+
+File "game/chapter7.rpy", line 537: expected statement.
+    NAR “The rest of the day proceeded as usual… I feel like tomorrow may be my last chance to do something of my own with my time… The day of the wedding approaches ever so slowly…”
+                                       ^
+
+File "game/chapter7.rpy", line 539: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    FREE - Sunday, 22nd April 1923")
+                 ^
+        Felix
+        Finn
+        Self Improvement
+        new_date("Monday, 23rd April 1923")
     
         scene bookstore
     
-        NAR “We met up in the evening and me and Sara arrived last as usual. I told them a bit of what I was thinking yesterday.
+        NAR “With only three days before the big event, and with Jesse being unavailable for a time on the 25th, the group arranged to meet up at the bookstore to confirm their plans for the 26th.”
     
-        show felix
+        NAR “I can barely keep focus, thinking about the flaws and the idea that all of this could be the wrong way to end all of this.”
     
-        FELIX “So, all the information that we have has pointed to them starting their endgame and beginning this plan to resurrect their god around the first week of April.”
+        show finn
     
-        FELIX “However, I think we’re forgetting some key details with that.”
-        hide felix
-        show sara
-    
-        SARA “Even with Jesse’s work scribing and speeding up the tome’s completion you would think that they could have sped things up outside of that but it still seems like things are going slowly.”
-    
-        SARA “Especially not if they’re going to go through with things in only a week or two.”
-        hide sara
+        FINN “I’ve confirmed where they’re gonna be, and how we can get there, we found a secondary entrance that’ll let us be above the ritual area under a secret crypt they’ve constructed underneath the Abbey.”
+        hide finn
         show evelyn
     
-        EVELYN “If everything they’ve been doing up until now has been with this end goal in place, they must have been wanting to divide the people of the country or just the idea that this kind of political change was necessary.”
+        EVELYN “And we’ve confirmed the people we can talk to that will let us in without any trouble, which means step one to our plan is complete.”
+    
+        NAR “Linden opens up and walks into the room, giving everyone a polite greeting.”
         hide evelyn
         show felix
     
-        FELIX “Let’s assume that we do have more time for this, they’re going to need bigger events in the future. We can think about that after we succeed in getting the tome back, we don’t have much hope of combating them outside of using that tome.”
+        FELIX “Good that you could make it too.”
         hide felix
+        show linden
+    
+        LINDEN “I will attempt to keep this brief, I have a train to catch soon. The operation to instill the resurrection glyph with alterations to let it empower our disruption spell is assured.”
+    
+        LINDEN “However, the resurrection, or rather the more correct term would be the summoning spell can still be cast through it.”
+    
+        LINDEN “While it’s more powerful if used through your tome, this spell is not exclusive to it, so time is still of the essence when you arrive.”
+        hide linden
+        show sara
+    
+        SARA “Thanks for your assistance sir, and… we can still confirm that they don’t realize the tome they have is a fake”
+        hide sara
         show carter
     
-        CARTER “And that spell you found seems like it was locked away, because it has the ability to counter what they're doing here, and if we were able to cast it with that power, it could have an after effect that would affect everyone attuned to the cult’s magic at the time. Again, we need the tome for that first.”
+        CARTER “Of course not! Just because my people aren’t as impressive as you all doesn’t mean we can’t pull the rug under you sometimes.”
         hide carter
         show linden
     
-        LINDEN “Then we need a plan to retake the book, shall we begin?”
+        LINDEN “As he says… I can confirm they have not looked into trying to identify if the tome is a forgery, but the preparations are set for it to be used, it took them some time to perfect that spell with the faulty pen. But I’m afraid this will be goodbye.”
+    
+        LINDEN “Once you succeed, the time before the group fully collapses will be enough for them to at least learn of my betrayal, So I plan to leave the country entirely. Good luck to you all.”
+        hide linden
+        show felix
+    
+        FELIX “Feel free to come back soon, I’ve basically set up all the arrangements to oust everybody from the cult the second we get through this.”
+        hide felix
+        show linden
+    
+        LINDEN “I appreciate the offer, but personally there’s a lot of bad blood here with everything going on, so I’m using this as an extra excuse to travel more.”
+    
+        JESSE “Linden. Thank you for the help. This wouldn’t have been possible without you.”
+    
+        LINDEN “Don’t worry. I know. Goodluck to you all, and goodbye.”
     
         hide Linden
     
-        NAR “It took us quite a bit, but we thought we had figured out an actually possible strategy to get it out of there from the information and accessibility I had, to Sara’s knowledge of the workers, and the extra information Felix and Finn got on the extraneous and underground workers for the cult.”
+        NAR “Linden exits the room, suitcase in hand.”
     
-        NAR “It would be happening Thursday, at night.”
+        show felix
     
-        NAR “First I would use my new relative freedom inside to plant ways for us to bypass any locks that would be present when we return in the night.”
+        FELIX “And yeah, as I mentioned there, I’m all prepared on my end, which means it all rests on you Jesse. Your meeting with Luke and then the disruption of the ritual is all on you.”
     
-        NAR “Evelyn also asked to tell her about all the other specifics of what I would do to the tome, such as the other spells I’d transcribe that day before we stole it back.”
+        NAR “His eyes are piercing.”
+        hide felix
+        show evelyn
     
-        NAR “Similarly Linden would allow us to get access to the lower levels from a separate entrance.”
+        EVELYN “Well… it seems like everything is set for the day, How about we meet up here in the morning, then head out together.”
+        hide Evelyn
     
-        NAR “Once all of that is set up, we come back at night and infiltrate the place using the things we already set up inside, avoiding everyone.”
+        NAR “Everyone gets up to leave, and Felix stops me for a second in this room.”
+        hide evelyn
+        show felix
     
-        NAR “The other idea is me being more of a decoy… Linden and Sara gave me a good idea of the upper floors, which I would be using to escape. I would take the book and drop out a window down to Evelyn, and then…”
+        FELIX “I understand we still don’t have anything extra that can work with this. Especially without the pen. But just this once, actually live up to being the son of the legendary detective.”
     
-        NAR “Sara would find a path up from a stairway that I would meet her at, and he would set a rope I could get down quickly from.”
+        JESSE “Now you’re worrying about this too much.”
     
-        NAR “Finn and Felix would use disguises they’ve procured from Linden and the other avenues they were looking into, mainly just to cause a distraction. It’s Finn though, so I’m sure they’ll be fine especially with Felix’s strategies.”
+        FELIX “The hell do you mean by that?”
     
-        NAR “Afterwards we meet with Evelyn and grab the book, all meet up in one location then split up and try to spend the night quietly. The next morning we’d meet back at the bookstore.”
+        JESSE “I’ve never really realized what I have here. I’m not going to lose that now.”
     
-        NAR “When we were essentially done with the planning process most of us left, but Evelyn, Finn, and Felix stayed for a bit at the bookstore, probably clarifying their part in this. Thursday is when we’re going to do this…”
+        FELIX “Heh, I’d say that blind faith is stupid, but it’s worked out for you so far huh. See you soon.”
+    
+        hide Felix
+    
+        NAR “We all said our goodbyes, and we left.”
     
         hide bookstore
     
-        NAR “The rest of the night proceeded as usual.”
+        NAR “Sara has been acting strangely distant…“
     
-        FREE - Tuesday, 28th March 1923")
+        NAR “The rest of the day proceeded as usual.”
+        new_date("Tuesday, 24th April 1923")
+    
+        scene room
+    
+        NAR “The day before my meeting with Luke… Who knows what he’s planning on giving me, and who knows if this is also a part of the grand plan they all have.”
+    
+        NAR “The day proceeded as usual. Until…”
+    
+        NAR “Sara confronted me. She was struggling to say everything clearly to me…”
+    
+        show sara
+    
+        SARA “How long are you going to play it off?! I was just waiting for you to say something about it, but do you really not realize what's going to happen if you go through with this?”
+        hide sara
+        show jesse
+    
+        menu:
+    
+        "I know…”:
 
-File "game/chapter6.rpy", line 1249: expected statement.
-    Linden
-          ^
+File "game/chapter7.rpy", line 658: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    SARA "Then why… are you being so calm about it."
+    ^
 
-File "game/chapter6.rpy", line 1250: expected statement.
-    Finn
+File "game/chapter7.rpy", line 660: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "Don’t worry.”:
+        hide jesse
+        show sara
+            SARA "What’s that supposed to mean?!"
+                                                 ^
+    
+        "What do you mean?”:
+
+File "game/chapter7.rpy", line 668: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    SARA "That you’ll die!"
+    ^
+
+File "game/chapter7.rpy", line 670: expected statement.
+    SARA “I know better than any of them how you actually are physically… you’re not ready to cast something this high level again, and after learning that it will actually kill you…”
+                                                                                                                                  ^
+
+File "game/chapter7.rpy", line 672: expected statement.
+    SARA “There’s no way you don’t realize what you’re getting into, and yet you’re still going to do it, I’m sure if you brought it up we’d be able to find a way around it right?”
+                                                                   ^
+
+File "game/chapter7.rpy", line 674: expected statement.
+    JESSE “I’m… sorry, but that’s exactly why I didn’t do it. Things are too important to value my one life over saving so many others…”
+                     ^
+
+File "game/chapter7.rpy", line 675: expected statement.
+    JESSE “I hadn’t mentioned but Luke was actually the one who brought that up, and when I realized that as much as I may have hated it, what my Dad did was right”
+                                                                               ^
+
+File "game/chapter7.rpy", line 677: expected statement.
+    SARA “That doesn’t matter right now! It doesn’t matter what Luke told you, maybe he wants you dead, so he isn’t ashamed he couldn’t do anything for his sister… or just…”
+                                       ^
+
+File "game/chapter7.rpy", line 679: expected statement.
+    SARA “If this is somehow a part of Luke’s plan, and not ours, I don’t want you to go through with it. Even if things turn out worse without our intervention, I’m sure we can all figure out a way around it if we’re all alive and safe.”
+                                                  ^
+
+File "game/chapter7.rpy", line 681: expected statement.
+    JESSE “I understand where you’re coming from… And of course, I don’t want to die, it’s never going to be a part of the plan. But we can’t stop doing this, it’s far too important to not take the chance we have here.”
+                                                               ^
+
+File "game/chapter7.rpy", line 683: expected statement.
+    SARA “If you’re confident in it… I’ll trust you… But i’ll never forgive you if you don’t do something incredible to get out of this… Not like I’ll be able to pay for this place if our job goes under right?”
+                              ^
+
+File "game/chapter7.rpy", line 685: expected statement.
+    SARA “Ever since all this started… I’m sorry that I lied to you for so long, but in the end, if this all works out, maybe it was better that it worked out this way?”
+                                                                               ^
+
+File "game/chapter7.rpy", line 687: expected statement.
+    SARA “Sure it could have been better if none of it ever happened, but the people we’ve met, the struggles we’ve gotten through.”
+                                         ^
+
+File "game/chapter7.rpy", line 689: expected statement.
+    SARA “That would have never happened if we didn’t all get caught up in this. I’ll be with you, until the end, and past that too if you need me.”
+                                         ^
+
+File "game/chapter7.rpy", line 691: expected statement.
+    NAR “I can sense a new confidence in her…”
+                                      ^
+
+File "game/chapter7.rpy", line 693: expected statement.
+    NAR “SARA RANK MAX”
+                       ^
+
+File "game/chapter7.rpy", line 697: expected statement.
+    NAR “The only hope I have, which may even be playing into their hands even more, is to see what Luke was promising to give me, but he’s intended to give those to me when I’ve accepted that I’m willing to die for this…”
+                             ^
+
+File "game/chapter7.rpy", line 699: expected statement.
+    NAR “Which, I was, until recently… I’ll figure something out, I have to, besides… there’s still one mystery that only I know about…”
+              ^
+
+File "game/chapter7.rpy", line 701: expected statement.
+    NAR “The rest of the day proceeded as usual.”
+                                       ^
+
+File "game/chapter7.rpy", line 702: expected statement.
+    new_date("Wednesday, 25th April 1923")
+                                          ^
+
+File "game/chapter7.rpy", line 703: expected statement.
+    NAR “The eve of the wedding. The end of the game that we’ve been pieces of for so long, I will find out the truth behind Luke’s goals.”
+                               ^
+
+File "game/chapter7.rpy", line 705: expected statement.
+    NAR “I will find the one subversion that we need, that third path that leads us all to a better time.”
+                                                    ^
+
+File "game/chapter7.rpy", line 707: expected statement.
+    NAR “The key things with all of this,”
+                        ^
+
+File "game/chapter7.rpy", line 709: expected statement.
+    NAR “My dad investigated this for the final years of his life, he was able to steal and keep the pen hidden, and was able to take the book directly from them, his goal to give it to me.”
+                                                                 ^
+
+File "game/chapter7.rpy", line 711: expected statement.
+    NAR “The cult knew of this to some unknown extent, and our actions did cause them some more hardships than they expected. They have yet to kill me outright however.”
+                                                     ^
+
+File "game/chapter7.rpy", line 712: expected statement.
+    NAR “When they stole the book from us, they were content with letting us all live in exchange, It would be easy to assume we’d still work against them, even without those items, when they could have easily dealt with us.”
+                                         ^
+
+File "game/chapter7.rpy", line 714: expected statement.
+    NAR “Similarly with when they stole the fake tome.”
+                   ^
+
+File "game/chapter7.rpy", line 716: expected statement.
+    NAR “Luke’s sister also used the tome, and was working directly with the cult, however she suffered similarly to me, and died from using the tome, meaning if the ultimate goal is to use the tome, Something has been preventing them for a long time.”
+                                         ^
+
+File "game/chapter7.rpy", line 718: expected statement.
+    NAR “They have worked to incite violence and divide the country and its people, to in theory open peoples minds to the idea of change, under the presumption that there is magic that can bend and subjugate the will of the people.”
+                                                                                  ^
+
+File "game/chapter7.rpy", line 720: expected statement.
+    NAR “After gathering relics from an archeological dig in Egypt, and using resources they’ve gathered over the years, they are planning to resurrect, or how Linden put it, summon their god to possibly enact that subjugation. They have only begun this now that they have my tome.”
+                                                          ^
+
+File "game/chapter7.rpy", line 722: expected statement.
+    NAR “Linden had said that the summoning ritual does not need my tome, but that it would be more powerful if summoned from it.”
+                                                                        ^
+
+File "game/chapter7.rpy", line 724: expected statement.
+    NAR “The people in the cult do not know that I still have the real tome, with the Disruption spell already copied and ready to be cast.”
+                    ^
+
+File "game/chapter7.rpy", line 726: expected statement.
+    NAR “They have copied the summoning spell onto the fake tome, and are planning to cast it, but will be unable with the fake tome at least due to its fraudulent nature.”
+                                                                ^
+
+File "game/chapter7.rpy", line 728: expected statement.
+    NAR “Luke has been helpful and supporting of me since all of this began, without him I don’t think I could have made it to where I am today… Sara and Linden have confirmed they haven’t seen him involved with their cult directly.”
+                                                                           ^
+
+File "game/chapter7.rpy", line 730: expected statement.
+    NAR “Linden has been on the outskirts of some major developments, and is shunned by some of his peers, but still has enough power to contribute and manipulate some parts of this summoning ritual.”
+                                                                    ^
+
+File "game/chapter7.rpy", line 732: expected statement.
+    NAR “Sara has been specifically assigned to follow and watch me to make sure that I wasn’t doing anything the cult deemed as wrong, but the actions accounted for by her updates are probably unknown to her.”
+                                                                                                                              ^
+
+File "game/chapter7.rpy", line 734: expected statement.
+    NAR “Felix and I have come to the conclusion that our intervention at the abbey in the future almost seems ‘too good’ for us considering what we’re up against.”
+                                                                       ^
+
+File "game/chapter7.rpy", line 736: expected statement.
+    NAR “The answer may lie in treating everything as if the cult had planned where I would be right now from the start.”
+                            ^
+
+File "game/chapter7.rpy", line 738: expected statement.
+    NAR “Whew…”
+               ^
+
+File "game/chapter7.rpy", line 742: expected statement.
+    NAR “For the final meeting with Luke, we met at Hyde park. The construction had made incredible progress, and I met him at the bench that I spoke with Finn on all those months ago.”
+                               ^
+
+File "game/chapter7.rpy", line 744: expected statement.
+    NAR “However the subtle chill of spring was nothing compared to how cold I was to myself that summer… A lot has happened, and part of that is thanks to Luke…”
+                                                                                                                            ^
+
+File "game/chapter7.rpy", line 748: expected statement.
+    LUKE “Have you made your decision?”
+                                     ^
+
+File "game/chapter7.rpy", line 750: expected statement.
+    JESSE “I have, I’m willing to find the way to save everyone I care about, no matter the cost.”
+                 ^
+
+File "game/chapter7.rpy", line 752: expected statement.
+    LUKE “I’ll say a little more about my sister first… She was a part of the cult, but near the end she started to realize what she was doing wasn’t right in her eyes.”
+                                                                                  ^
+
+File "game/chapter7.rpy", line 754: expected statement.
+    LUKE “That’s why she knew she was going to die… and why she gave me, what she said was the answer to the problems that would eventually surface from their evils.”
+                                                                       ^
+
+File "game/chapter7.rpy", line 756: expected statement.
+    NAR “He takes out a piece of paper, one I would recognize from anything, it was clearly a piece from my tome, one of the two pages that was torn from it.”
+                                      ^
+
+File "game/chapter7.rpy", line 758: expected statement.
+    NAR “Taking it from Luke, a very similar spell was scrawled out on it, it’s the exact spell for the disruption spell we plan on using, except it’s drawn much neater than anything with the current broken pen.”
+                            ^
+
+File "game/chapter7.rpy", line 760: expected statement.
+    LUKE “With that, you should be able to stop their final plan, at least that all I could gather, and judging from you, that’s awfully soon isn’t it”
+                   ^
+
+File "game/chapter7.rpy", line 764: menu statement expects a non-empty block.
+    menu:
         ^
 
-File "game/chapter6.rpy", line 1251: expected statement.
-    Study
-         ^
-
-File "game/chapter6.rpy", line 1253: expected statement.
+File "game/chapter7.rpy", line 766: expected statement.
 (Perhaps you left out a " at the end of the first line.)
-    FREE - Wednesday, 29th March 1923")
-                    ^
-        Linden
-        Felix
-        Gardening
-        call new_day("Thursday, 30th March 1923")
-        NAR “The workday went how I expected, they gave me a certain amount of freedom that I needed, I went and set ways to unlock a path from the entrance to the room they keep the tome over the night.”
+    "Awfully soon indeed.”:
+        hide jesse
+        show luke
+            LUKE "It’s a shame there isn’t more time."
     
-        scene city_night
+        "Tomorrow actually.”:
+     ^
+
+File "game/chapter7.rpy", line 774: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    LUKE "Oh… I’m sorry about having to wait then."
+    ^
+
+File "game/chapter7.rpy", line 776: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "...”:
+        hide jesse
+        show luke
+            LUKE "It’s okay, I understand it must be daunting."
+                              ^
     
-        NAR “I got back home and just had to wait until the night… We got a call that Sara picked up. She mentioned it was just something about work, that I didn’t need to worry about, everything was still going to work out as planned.”
-        NAR “Everyone got into their positions, and while it was a bit interesting, it did seem like most of our route was actually fairly silent… It felt easy, almost too easy.”
+        LUKE “As your… as your friend, I am truly sorry it has to come to this. When I realized what you had gotten into, I had tried to look for any number of ways for you to be able to survive, but now that it’s near the end…”
+    
+        LUKE “The best I can do is guarantee your victory over them. It’s what my sister wanted, and it’s what I want.”
+    
+        JESSE “I want to save everybody too.”
+    
+        LUKE “What you do will decide the future of everything, I know I asked for you to make up your mind by now, but I know that when you get to that deciding moment, you may falter, the choice becomes so much harder when you finally have to make it.”
+    
+        LUKE “I Know you’ll do what’s best Jesse”
+    
+        LUKE “Now… did you want to ask me anything?”
+    
+        JESSE “Nothing really… It’s funny, this is the place I first found the book, when Finn made the most obvious coded message I’ve ever heard to get me to check where he buried it.”
+    
+        JESSE “So no one would notice I had it. It’s just funny that it turns out you’ve had one of the two ripped pages this entire time…”
+    
+        LUKE “Yes, it’s interesting how fate works out doesn’t it, I would have never guessed this would happen between us.”
+    
+        JESSE “I was hoping that you’d have both of the torn pages honestly, but I guess maybe my dad tried to use it back then or something… there are like 7 years unnaccounted for…”
+        JESSE “I guess I’m just worried this page could cause more trouble… then again the cult does have the entire book, so what’s one more page to them.”
+    
+        LUKE “I wouldn’t worry about that too much, but I’m sorry that I can’t tell you where that second page is. Sadly, there’s not many other options at this point… But you now have the tool to finish this once and for all.”
+    
+        NAR “LUKE RANK MAX”
+    
+        JESSE “yeah, and now we don’t have to worry about trying to get the tome back from them in the middle of it, which means that there’s nearly no risk in this for any of my friends…”
+    
+        JESSE “Thank you Luke… for everything, your help means more to me than you could ever know… which I’m not sure what that’s like to hear from someone you know is going to die soon.”
+    
+        JESSE “I think… i’m going to stay here for a little while longer, truly make peace with it you know. Like you said, I need to make sure I’m ready when the decision is actually in my face.”
+    
+        LUKE “I’m sorry I couldn’t do more Jesse, but I’ve never been
+        more proud. I’m sure your friends won’t forget what you’ve done, I know I won’t. Be proud of yourself too, everyone’s story has an end.”
+    
+        LUKE “Goodbye Jesse.”
+    
+        hide Luke
+    
+        NAR “Sitting there, in silence, and after some time…”
+    
+        JESSE “I think I got rid of his fears for all of this more than my own… now he thinks that I don’t know when that second page was torn… the rat bastard… this entire time huh…”
+    
+        JESSE “The only way he would react like that, is if he was worried I might have a second option, and that he knew there were two tears, except there’s no way anyone would know about the second tear.”
+    
+        JESSE “Unless they were a part of the cult. Hahahahaha… hahaha…”
+    
+        NAR “This spell. This disruption spell… this isn’t the answer at all. I didn’t even need this, I already have it in the tome. Luke… it turns out they’ve needed me since the beginning. I have to be the one to cast this spell…”
+    
+        NAR “Suddenly, sitting down next to me, in the usual blue, Cathee.”
+    
+        show cathee
+    
+        CATHEE “Lookin a little down aren’t you now. But you’re right there, you just need one little thing to push you to victory! You’ve gotten so far, but there’s only one mystery left!”
+    
+        JESSE “Is there now. Do tell, did you already know all of this would happen!?”
+    
+        CATHEE “Hey now, no need to be rude. See they had hundreds of plans to get you to complete all this for them, meanwhile I’m just here happy this happened to work out in favor.”
+    
+        CATHEE “Good job out there kid. Your pops was right about you after all. Gonna be honest, I had my doubts here and there.”
+    
+        JESSE “Ha… their real goal this entire time, has just been to get me to cast their final super spell by any means necessary… well that is not it.”
+    
+        JESSE “they had plenty to keep themselves busy in between trying to manipulate me… my flatmate, my mentor, my work… the people at my dad’s job.”
+    
+        JESSE “Everyone who’s sole purpose was to trick me into doing something for them, while the rest of the organization did some set up around the country.”
+    
+        CATHEE “Bingo! And with that last little stunt, they’re probably more confident than they were thinking you had that other random page.”
+    
+    
+        CATHEE “They gotta restrict your options here, you really think with all the magical power in the world only one spell would do the trick?”
+    
+        JESSE “Well… kind of, but when Linden said he was able to alter the glyph to make it work.”
+    
+        JESSE “There’s no way the upper echelons of those people would overlook that if they didn’t plan for it, and I don’t give Linden enough credit to do it even under those circumstances.”
+        CATHEE “Let’s be real too, Sara? There’s no way they wouldn’t have realized she would start to develop a thing for you and have a heel turn.”
+    
+        JESSE “I’m sorry wh-”
+    
+        CATHEE “Soooo, did you figure out how you’re gonna stop them.”
+    
+        JESSE “I… nevermind, I do have one idea.”
+    
+        JESSE “I know I can’t cast this spell, and if this entire thing has really just been a ploy to get me to cast this magic, then it’s doubtful they really intended to summon their god in the first place…”
+    
+        JESSE “Although if I don’t show up, they’ll be uncontested, could actually just summon it anyway without the tome and wreak havoc, which could be a smaller win for them.”
+    
+        JESSE “Then afterwards they finally just come and kill me and take the book back when they realize it’s a fake. I think the most amusing thing about this is that in the end, the tome is useless to both sides.”
+    
+        CATHEE “Oh that’s not entirely true, are you saying the legendary magical tome couldn’t possibly hold value just because you’re not gonna use it directly to cast your spell?”
+    
+        CATHEE “It’s a grand ancient relic planned to be passed down to the son of a great detective… by said great detective, but the point is you having it right now, is incredibly important to our win condition anyway.”
+    
+        JESSE “So. When are you going to give it to me?”
+    
+        CATHEE “What could you be talking about?”
+    
+        JESSE “The page you tore out back in July. What’d you do with it”
+    
+        CATHEE “Well, I’m offended you think I would plan to endanger your life AND steal from you on the same day… But I do like playing to win, So I figured I would do it at the same time.”
+    
+        JESSE “And why didn’t you just tell me all this from the start? We could have avoided a lot of this… assuming that the spell you’re giving me is actually going to help.”
+    
+        CATHEE “If it was that easy, I would have. But this stuff is complicated, and I don’t think you fully comprehend what you’ve had to learn to get here.”
+    
+        CATHEE “Let me ask you this. Are you angry that your life for quite some time has all been dragged along and manipulated by those people, and it turns so many of your trusted friends would betray you?”
+    
+        JESSE “Of course… all of this started because of what they did to me and my dad… Almost everything bad… if I could take revenge on them and actually win, that’d be incredible…”
+    
+        CATHEE “But…”
+    
+        JESSE “...without any of what’s happened, I wouldn’t have met these people, and grown to care for so many things because of them…”
+    
+        JESSE “I can’t forgive the cult for everything they’ve done, no one could, But I can move on from it, once they pay. I don’t wish anything would change about the past anymore, I just want to keep on going into whatever the future holds.”
+    
+        CATHEE “Fantastic, that kind of resolve may be enough honestly, and you wouldn’t have any of that if you hadn’t done this on your own, well without my help at least.”
+    
+        JESSE “I don’t see how that matters when it comes to this though, as if my own willpower would be needed to cast a spell… Oh do you know why they need me specifically?”
+    
+        CATHEE “Oh, just some ancient ritual that me and my sisters thought up a long long time ago, it’s really completely by random chance that you can do anything of this!”
+    
+        CATHEE “But to answer your previous question, more than you could ever know. Becauseee…”
+    
+        NAR “She reaches into her coat and pulls out a piece of paper, specifically the 2nd torn page.”
+    
+        CATHEE “Now wait, Guess what spell this is.”
+        hide cathee
+        show jesse
+    
+        menu:
+    
+        "Time Manipulation.”:
+
+File "game/chapter7.rpy", line 914: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    CATHEE "No you can’t control the world with this, but it’s pretty good."
+    ^
+
+File "game/chapter7.rpy", line 916: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "The power of Friendship.”:
+        hide jesse
+        show cathee
+            CATHEE "Ooh, that’s another amazing one, but sadly no"
+                          ^
+    
+        "The Summoning spell.”:
+
+File "game/chapter7.rpy", line 924: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    CATHEE "Bingo"
+    ^
+
+File "game/chapter7.rpy", line 926: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    CATHEE “i---t's the summoning spell! Here you go! I got to tell you dude, drawing that with the broken pen was actually the scariest part of my life.”
+    
+        CATHEE “Oh, and don’t worry this one is special, you won’t instantly die if you do right of course. Anyway, I’ll be cheering you on, have fun and good luck out there.”
+    
+        hide Cathee
+    
+        NAR “Well, it appears option four does exist.”
+    
+        hide park
+    
+        NAR “The rest of the day proceeded as usual.”
+    
+        NAR “I’m ready.”
+    
+        new_date("Thursday, 26th April 1923")
+        NAR “The fateful day. Of course I’m afraid that none of this may work, that I may have given away too much with the second ripped page, with the insanity that the plan has become.”
+    
+        NAR “It was so simple, just disrupt the spell so they couldn’t subjugate the world, when in reality, me casting the spell most likely would have done that…”
+    
+        NAR “Me and Sara got dressed up in our nice outfits that we purchased last week, and headed over to the Carter’s bookstore for one final meeting before all this was over.”
+    
+        scene bookstore
+    
+        NAR “We were the last to arrive, Everyone else already inside, Finn, Evelyn, Felix, and Carter too.”
+        NAR “While in the end, everything we accomplished may have been for naught if today proceeded as they had intended, if I’m to believe what Cathee was saying, that was all incredibly important to the challenges ahead.”
+    
+        show finn
+    
+        FINN “Everything is set for us to proceed, anything to say.”
+        hide finn
+        show evelyn
+    
+        EVELYN “We’ve always been lagging behind what they’ve truly been after, but today we’ll show them what we can do, and that they shouldn’t underestimate us”
+        hide evelyn
+        show sara
+    
+        SARA “From everything they’ve done, to the hardships we’ve been through, it ends today.”
+        hide sara
+        show carter
+    
+        CARTER “I finally don’t need to keep letting you guys into the shop… what a wonderful day…”
+        hide carter
+        show felix
+    
+        FELIX “And perhaps it’s the day you actually are able to earn my respect Jesse.”
+        hide felix
+        show jesse
+    
+        menu:
+    
+        "This case will finally close!”:
+        hide jesse
+    
+        "I won’t let it end here.”:
+        hide jesse
+    
+        "They’ll never see it coming.”:
+        hide jesse
+    
+        NAR “Everyone began to start getting ready and being on their way.”
+    
+        JESSE “You guys go on without me, I’ll catch up in a second, I want to talk to carter about something real quick”
+    
+        NAR “They all left the building, leaving me and Carter alone.”
+    
+        show carter
+    
+        CARTER “No, even after you’ve dealt with them, I’m not recruiting for mine any time soon, especially if we’re gonna have to deal with the fallout.”
+    
+        JESSE “That’s not it at all-”
+    
+        CARTER “And. No, I will not be stopping any of my cult’s activities, we’ve got families to kill, I mean feed. Look I’m not going to have them do anything too much, you know that.”
+    
+        JESSE “I do… but also not something I really care about right now. What I wanted to ask, do you know any specifics to casting the summon spell.”
+    
+        NAR “He’s silent for a moment. He clears his throat, he pauses once more, and looks me dead in the eyes.”
+    
+        hide Carter
+    
+        hide bookstore
+    
+        CARTER “EXCUSE ME. WHAT THE HELL ARE YOU PLAN-”
+    
+        scene chapel
+    
+        NAR “In front of Westminster Abbey, we all arrive, ready for what’s to come. The wedding set up is extravagant, and despite our age, we don’t stand out too much.”
+    
+        NAR “We are able to get in easily by following Evelyn’s lead, apparently one of the guards was bribed or convinced somehow by her and Carter… It worked amazingly.”
+    
+        NAR “From there, Sara was on the lookout for any spies from the cult, while we took the time to blend and mingle before it was time to head down.”
     
         scene cultish
     
-        NAR “I was able to get down to where they kept the tome fairly easily, and pick it up once again. Now to leave with it. There was activity in the building, we knew they wouldn’t just be empty waiting for us to take it…”
+        NAR “Finn led us directly to the hidden tunnel down into the crypts, which did dirty out nice suits, but that’s not even close to a priority at this point in time.”
     
-        NAR “Part of the plan for them to notice me though, they’re going to attack us regardless once they know that the tome is stolen from them, so that’s part of the idea of trying to split up immediately afterwards.”
+        NAR “We were able to get down to the entrance to the raised area, what Finn described as a ‘Crypt Catwalk.’”
     
-        NAR “But… realistically, if I could do this without getting caught at all… then we could actually just be stealthy and quietly stay hidden from them in the slightest.”
+        NAR “We all understood that we were all together just so they could carry me out after casting the spell, But it feels right for all of us to do this together…”
     
-        NAR “I thought to myself, as I exited the room with the tome.”
-    
-        NAR “Directly in sight of someone.”
-    
-        NAR “Less thinking, more stealthing, or in this case, running.”
-    
-        NAR “Two people had seen me, and immediately started being aggressive, one of them began to cast that similar form of flame magic that I had seen before but his partner seemed a bit slower on the draw.”
-    
-        NAR “I definitely felt too slow to dodge around the corner to avoid anything they were doing, but their attack did miss me entirely.”
-    
-        NAR “Part of the plan was to completely avoid the main entrance we came from, because that’d be the only real exit for me, and now that they knew about it, they’d put people there.”
-    
-        NAR “While presumably leaving the already empty upper floors safer. A big part of this was me taking quicker and smaller pathways up… and while the stairs were incredibly tiring, especially since I still hadn’t fully recovered in general.”
-    
-        NAR “It wasn’t that impactful of an issue. When I had gotten away to the fourth floor, I found the side of the building overlooking the street, where I dropped the book out the window. It was sturdy, apparently can’t even be torn, it’s sure to survive a drop without much damage.”
-    
-        NAR “Could tell that whatever distraction Finn and Felix were doing was working, and took the opportunity to move towards the stairway that Sara was supposed to meet me at, Which took a fair amount of time after I dropped the tome.”
-    
-        NAR “She met up with me, and we escaped down out of the building entirely. From there took our time to get to our meeting place outside, to make sure none of us were seen or followed out of the building…”
-    
-        hide cultish
-        Friday, March 31st, 1923")
+        NAR “Besides, it's an extra reason for me to do this right, because otherwise I’ll get them all killed too, and I will not let that happen.”
+                                                                                                                            ^
 
-File "game/chapter6.rpy", line 1298: expected statement.
-    NAR “We were able to meet up at around an area that was still populated for the time. A random bar that had already been confirmed to not be directly related to anything occult at the moment…”
-                                 ^
-
-File "game/chapter6.rpy", line 1300: expected statement.
-    NAR “Evelyn handed me back the tome, which looked no worse for wear. Then she told me she made sure that the cult seemingly saw that I didn’t have it.”
-                                       ^
-
-File "game/chapter6.rpy", line 1302: expected statement.
-    NAR “They may know that we’re all against them, but we can use that to spread them thin if they don’t know too much. Of course they’re going to be interested in me to begin with…”
-                                                  ^
-
-File "game/chapter6.rpy", line 1304: expected statement.
-    NAR “Which is why everyone was adamant that I still keep the tome, for protection, and it’s not like anyone else to use it in any way.”
-                                                                     ^
-
-File "game/chapter6.rpy", line 1306: expected statement.
-    NAR “We all split up from there, me and Sara were going to stay at a hotel for the night, because the first place they’d check would be my home if they wanted to try and get it back…”
-                                   ^
-
-File "game/chapter6.rpy", line 1308: expected statement.
-    NAR “Realistically as long as we have it the cult isn’t going to let us go back to normal lives.”
+File "game/chapter7.rpy", line 1027: expected statement.
+    NAR “Standing there, the doors to the ritual chamber ahead of us, everyone is ready. And I go to thrust open the doors. Felix grabs my hand.”
                        ^
 
-File "game/chapter6.rpy", line 1310: expected statement.
-    NAR “It seemed safe enough when we got there, and then got a room, Sara got us food and we ate, it was late but we had done a lot and certainly weren’t tired enough to sleep… well I was always tired, but that’s only physically.”
-                                                ^
+File "game/chapter7.rpy", line 1031: expected statement.
+    FELIX “You seem awfully confident for a man without a plan.”
+                                                              ^
 
-File "game/chapter6.rpy", line 1312: expected statement.
-    NAR “There was something about all this, it worked out really well. Sure it seemed like we actually had the upper hand but…”
+File "game/chapter7.rpy", line 1033: expected statement.
+    JESSE “...”
+           ^
+
+File "game/chapter7.rpy", line 1035: expected statement.
+    JESSE “Just watch me.”
+                        ^
+
+File "game/chapter7.rpy", line 1037: expected statement.
+    NAR “I  can sense their trust in me. It’s time to end this, end all of this.”
+                                  ^
+
+File "game/chapter7.rpy", line 1039: expected statement.
+    NAR “Throwing open the doors, we’re greeted by the ritual area. Finn’s description was not entirely inaccurate, this was the top floor of a much larger chamber, the large sigil for the spell on the bottom of the floor beneath the raised area we’ve stepped onto.”
+                                ^
+
+File "game/chapter7.rpy", line 1041: expected statement.
+    NAR “The alterations to make it capable of also casting Disruption were blatant now that I know what I’m looking for…”
+                                                                                                                          ^
+
+File "game/chapter7.rpy", line 1043: expected statement.
+    NAR “Small bridges on the side of the room, and one in the center, all overlooking the ritual ground below, with a dozen or so cult members around chanting.”
+                                              ^
+
+File "game/chapter7.rpy", line 1045: expected statement.
+    NAR “A hooded man stood across from all of us, in much more interesting attire than the normal members, In his hand, he held our replica tome. It’s almost like a play, all the pieces and stage set for this grand display.”
+                                                 ^
+
+File "game/chapter7.rpy", line 1047: expected statement.
+    NAR “Fine then… let’s give them a show, my life has been some screenplay they’ve been writing, now it’s time to make their big moment my stage.”
+                                      ^
+
+File "game/chapter7.rpy", line 1049: expected statement.
+    ACOLYTE “It far too late for you to stop us now, we’d discovered your escape, but you do not worry us at all, nothing you can do could stop us, especially when you do not have the tome, that you’ve inconvenienced us with for so long.”
+                                                   ^
+
+File "game/chapter7.rpy", line 1051: expected statement.
+    NAR “Oh it’s so blatant. Walking forward, away from the group and out onto the bridge above the giant sigil.”
+                           ^
+
+File "game/chapter7.rpy", line 1053: expected statement.
+    JESSE “You may be right, but luckily I know some people who have been planning this a lot longer than I have!”
+                           ^
+
+File "game/chapter7.rpy", line 1055: expected statement.
+    NAR “I pull out the spell scroll that Luke gave me.”
+                                                      ^
+
+File "game/chapter7.rpy", line 1059: expected statement.
+    JESSE “Even without the book, a page from it holds the same power, and I can cast from that just fine. You know this spell don’t you, with this I can end this all right here. Do you have any final things to say”
+                                ^
+
+File "game/chapter7.rpy", line 1061: expected statement.
+    NAR “As I say this, I accidentally drop the piece of paper. After audibly expressing my failure, I drop down to grab it before it flies down to the bottom of the room, far… far from reach.”
+                      ^
+
+File "game/chapter7.rpy", line 1063: expected statement.
+    NAR “Finn, Evelyn, and Sara are shaken, and you can hear Felix stifling a laugh.”
+             ^
+
+File "game/chapter7.rpy", line 1065: expected statement.
+    NAR “The Hooded Acolyte, keeps his cool.”
+                           ^
+
+File "game/chapter7.rpy", line 1069: expected statement.
+    ACOLYTE “You fail yourself with your own hubris, do you not realize what you’re up against?”
+                               ^
+
+File "game/chapter7.rpy", line 1071: expected statement.
+    ACOLYTE “Or do you lack the resolve to break your legs to save what you apparently care for.”
+                                                                                               ^
+
+File "game/chapter7.rpy", line 1073: expected statement.
+    NAR “I stood back up”
+                         ^
+
+File "game/chapter7.rpy", line 1077: expected statement.
+    JESSE “Yeah, but why would I do that. When I have the real deal.”
+               ^
+
+File "game/chapter7.rpy", line 1079: expected statement.
+    NAR “Pulling out his tome from his coat, and showing it to him”
                                            ^
 
-File "game/chapter6.rpy", line 1314: expected statement.
-    NAR “If somethings wrong with all this I still need to just focus on what we have, I have the tome again, and if I can keep that than no matter what we have the upper hand don’t we?”
+File "game/chapter7.rpy", line 1081: expected statement.
+    JESSE “I’ve gotta commend you on your acting with that prop, thinking that was the real one for all this, I truly do, But I’ve had it this entire time, I’ve also already had this spell in there for weeks if you give me a second to flip through the pages…”
+                                                 ^
+
+File "game/chapter7.rpy", line 1083: expected statement.
+    JESSE “You never stood a chance from the start.”
+                                                  ^
+
+File "game/chapter7.rpy", line 1087: expected statement.
+    ACOLYTE “I-Impossible, how did you make this one…”
+                         ^
+
+File "game/chapter7.rpy", line 1089: expected statement.
+    ACOLYTE “this is a trick, the only way you stop us is casting that, and I’m calling your bluff right here, witness the power of our god!”
+                            ^
+
+File "game/chapter7.rpy", line 1091: expected statement.
+    NAR “I began to get into a pose to cast the spell, and the Hooded Acolyte pauses for a moment.”
+                                                     ^
+
+File "game/chapter7.rpy", line 1093: expected statement.
+    NAR “Suddenly, I slammed the book shut again in his hand. Everyone is shocked.”
+                 ^
+
+File "game/chapter7.rpy", line 1097: expected statement.
+    FELIX “*softly* Oh now this is starting to be fun”
+           ^
+
+File "game/chapter7.rpy", line 1103: expected statement.
+    NAR “I snatched out a separate piece of paper from my coat, the spell scroll given to me by Cathee.”
+                                                              ^
+
+File "game/chapter7.rpy", line 1105: expected statement.
+    JESSE “This book is all well and good, but that spell seems boring. Now then I’m calling your bluff on this charade!”
+                                         ^
+
+File "game/chapter7.rpy", line 1107: expected statement.
+    JESSE “Witness my resolve!”
                              ^
 
-File "game/chapter6.rpy", line 1316: expected statement.
-    NAR “All of the sudden though… I felt far too tired…”
-                                                         ^
+File "game/chapter7.rpy", line 1109: expected statement.
+    JESSE “I call upon you from the darkest of shadows, in the lies and minds, from the hearts of the wicked and the voice of the wind, Avatar of Nyarlathotep, the Black Demon, I summon you to my command!”
+             ^
 
-File "game/chapter6.rpy", line 1318: expected statement.
-    NAR “Was everything finally hitting me? No… no that’d be impossible it would have… I realized I could move my body very much at all…”
+File "game/chapter7.rpy", line 1111: expected statement.
+    NAR “A surge of energy explodes first from the scroll and  the black tome, that is then amplified by the great sigil below. The room fills with a dark smoke that swirls with the wind coalescing in the center.”
+                                                                             ^
+
+File "game/chapter7.rpy", line 1113: expected statement.
+    NAR “Everyone is blown back except me, The Hooded Acolyte’s hood is blown off and is revealed to be none other than Luke Macthorn himself.”
+                                         ^
+
+File "game/chapter7.rpy", line 1115: expected statement.
+    NAR “Everyone in the room is in Awe of what is happening, with some of the acolytes freaking out and trying to stop what’s happening on the lower floor.”
+                  ^
+
+File "game/chapter7.rpy", line 1117: expected statement.
+    NAR “The shadows finish and take a large humanoid form… A black beast, furry with a long snout, muscular but slim, with tentacle-like strands of fur and muscle coming from it’s joints.”
+                                                                         ^
+
+File "game/chapter7.rpy", line 1119: expected statement.
+    NAR “It’s eyes are blazing red. It stands imposingly in front of Jesse, the entire room becomes darker from its presence.”
+                                  ^
+
+File "game/chapter7.rpy", line 1123: expected statement.
+    FINN “What… the hell…”
+                          ^
+
+File "game/chapter7.rpy", line 1127: expected statement.
+    EVELYN “Wait, we’re doing it ourselves?!”
+                ^
+
+File "game/chapter7.rpy", line 1131: expected statement.
+    SARA “He’s actually insane… this is his way out isn’t it…”
+                                                              ^
+
+File "game/chapter7.rpy", line 1135: expected statement.
+    FELIX “tch, He actually had a plan.”
+              ^
+
+File "game/chapter7.rpy", line 1139: expected statement.
+    NAR “The room calms. But I fell to one knee… my entire left arm a pitch black from casting the spell, similar to the darkness that resides in the Black Demon.”
+                       ^
+
+File "game/chapter7.rpy", line 1143: expected statement.
+    JESSE “First… you will take this plague from me…”
+                                                     ^
+
+File "game/chapter7.rpy", line 1145: expected statement.
+    NAR “The great beast hews back, and screeches loudly, one arm fighting itself, and the other reaching out towards Jesse, and a vein of darkness travels from him to the beast.”
+                                  ^
+
+File "game/chapter7.rpy", line 1147: expected statement.
+    NAR “Jesse, cured of this all, clutching onto the book, stands back up, and walks in front of the Demon. Staring directly at Luke Macthorn.”
+              ^
+
+File "game/chapter7.rpy", line 1151: expected statement.
+    LUKE “What… have you done… who… are you…”
+                                             ^
+
+File "game/chapter7.rpy", line 1155: expected statement.
+    JESSE “You had everything calculated to manipulate and deal with any man or woman who stood in your way. But now you are faced with something far different”
+                                                                ^
+
+File "game/chapter7.rpy", line 1157: expected statement.
+    NAR “The Black Demon’s eyes focus intently on the book in Jesse’s hands… as if crying out to destroy it… to break it free.”
+                                                           ^
+
+File "game/chapter7.rpy", line 1161: expected statement.
+    LUKE “You don’t truly expect to be able to control that… banish it before it breaks free entirely! What you’re doing now could destroy everything this world has built!”
+                                                                                                     ^
+
+File "game/chapter7.rpy", line 1166: expected statement.
+    JESSE “Nyarlathotep, I command you to…”
+                       ^
+
+File "game/chapter7.rpy", line 1170: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/chapter7.rpy", line 1172: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "Kill them all.”:
+        show jesse
+    
+        "Kill them all.”:
+                         ^
+
+File "game/chapter7.rpy", line 1178: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "Kill them all.”:
+        show jesse
+    
+    
+        NAR “No… No you will follow… my orders…”
+        hide jesse
+        show luke
+    
+        LUKE “What we want is to free the people from the shackles of doubt and fear. The great war is proof of man’s inability to govern itself, only more harm will happen in this world if it’s allowed to run free!”
+    
+        LUKE “That’s our plan, that’s our goal in the end! That thing will destroy us all”
+        hide luke
+        show jesse
+    
+        JESSE “No… your manipulation is meant for your own abuse, the lives of hundreds… to die without knowing, to live without knowing, you want to control and rule, you can’t even pretend to be righteous in a time like this.”
+    
+        hide Jesse
+    
+        NAR “Luke pulls out a thin pistol, and takes aim at me. I attempt to get the Black Demon to protect me, but I can’t tell if I’m fast enough…”
+    
+        NAR “I hear a gunshot from behind me, and the gun flies out of his hand.”
+    
+        NAR “Finn was faster.”
+    
+        show jesse
+    
+        JESSE “In a moment before the god you praise. Nyarlathotep… your servants wish to do the unthinkable… to use your power for their own gain…”
+    
+        JESSE “They would have wished to control you with this tome… But the people of this world… would never accept that… I would never accept that… we would never accept that… Aren’t we all Hypocrites?”
+    
+        NAR “Nyarlathotep, I command you to…”
+    
+        hide Jesse
+    
+        menu:
+    
+        "MURDER  ALL”:
+
+File "game/chapter7.rpy", line 1217: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "PILLAGE ALL”:
+        show jesse
+    
+        "DESTROY ALL”:
+
+File "game/chapter7.rpy", line 1223: expected statement.
+    NAR “No… I won’t falter… when we’re so close… I will not… be constrained… to anyone’s choices… I will choose MY life… and for that…”
+                                                                                                                                        ^
+
+File "game/chapter7.rpy", line 1225: expected statement.
+    JESSE “Nyarlathotep… I command you…”
+                                        ^
+
+File "game/chapter7.rpy", line 1229: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/chapter7.rpy", line 1231: expected statement.
+    “{i}-End the Game-{/i}”:
+                      ^
+
+File "game/chapter7.rpy", line 1234: expected statement.
+    JESSE “The twisted sin of your followers… drain them… The corrupt minds of them, Dilute them… Their guilt, account them… Their crimes reveal them… Give them what they’ve run from, give them what they’ve feared for…”
+                                                                                   ^
+
+File "game/chapter7.rpy", line 1236: expected statement.
+    JESSE “Reave them, Nyarlathotep!”
+                     ^
+
+File "game/chapter7.rpy", line 1240: expected statement.
+    NAR “A horrifying cry arises from the Black Demon. As it’s body forcefully begins to carry out Jesse’s wishes.”
+                                                     ^
+
+File "game/chapter7.rpy", line 1242: expected statement.
+    NAR “Black tendrils sprout from the demon, and fly out in ethereal smoke outside of the room, and to all the acolytes in the room. From that day on, all true members of the Guiding Comet changed for the betterment of humanity.”
+                                             ^
+
+File "game/chapter7.rpy", line 1244: expected statement.
+    NAR “The rest of that day was a Blur for me, after that had finished, the black demon had disappeared, and I fell unconscious.”
+                                               ^
+
+File "game/chapter7.rpy", line 1248: expected statement.
+    NAR “Finn ran over and picked me up, and the rest began to flee the area, Felix was first to make the calls and contact the people to be on the watch for the great change that I had forced.”
+                                       ^
+
+File "game/chapter7.rpy", line 1250: expected statement.
+    NAR “In the coming days, peace would return, the hidden secrets of the occult would remain a mystery from all but a select few, but that is for the better… They had truly won.”
+                           ^
+
+File "game/chapter7.rpy", line 1251: expected statement.
+    new_date("Saturday, April 28th, 1923")
                                           ^
 
-File "game/chapter6.rpy", line 1320: expected statement.
-    NAR “Things started to get hazy… The last thing I saw before passing out was Sara opening the door to… acolytes of the cult…”
-                                                                                                                                 ^
+File "game/chapter7.rpy", line 1253: expected statement.
+    NAR ”Epilogue:”
+                 ^
 
-File "game/chapter6.rpy", line 1322: expected statement.
-    NAR “why?...”
-            ^
+File "game/chapter7.rpy", line 1255: expected statement.
+    NAR “Two days later…”
+                         ^
 
-File "game/chapter6.rpy", line 1324: expected statement.
-    CHAPTER 6 - END
+File "game/chapter7.rpy", line 1258: expected statement.
+    NAR “Me, Finn, Evelyn, and Sara all went to the empire Stadium in Wembley, which opened to the public that day. Finn had thought it would be fun to go and watch the game, and to celebrate everything with some bigger event.”
+           ^
+
+File "game/chapter7.rpy", line 1260: expected statement.
+    NAR “The crowds of people there were incredible, everyone excited for the final match of that season, the grounds had to be cleared by the police, one stood out amongst them riding a white horse…”
+                                                   ^
+
+File "game/chapter7.rpy", line 1262: expected statement.
+    NAR “The past year had been a journey for all of us, but we made it through the end. There wasn’t any normal to return to, but we could carry on together through whatever we would encounter from there.”
+                                                       ^
+
+File "game/chapter7.rpy", line 1264: expected statement.
+    NAR “And it wouldn’t be anywhere near as life threatening, hopefully. No one would ever know what we did, or what was going on beneath them all this time, but they don’t need to.”
+                                          ^
+
+File "game/chapter7.rpy", line 1266: expected statement.
+    NAR “Being able to enjoy the moment, and look forward to events like this, that’s what I’m looking forward to now. I know I haven’t really meant this in a long time… But thanks dad, even if it was hard, it was worth it.”
+                                       ^
+
+File "game/chapter7.rpy", line 1268: expected statement.
+    NAR “The next few weeks, Felix’s goals of revealing and accounting the higher ups in the cult worked out, and it seemed most of them have been purged from society.”
+                           ^
+
+File "game/chapter7.rpy", line 1270: expected statement.
+    NAR ”Many of which were willing to reveal themselves and step down, due to the manipulation by the Demon.”
+                                                                      ^
+
+File "game/chapter7.rpy", line 1272: expected statement.
+    NAR “Isaac worked towards that too, and was able to bring light back to old cases because of that, I was given extra support from all of it due to the truth about my dad’s death being revealed.”
+                                      ^
+
+File "game/chapter7.rpy", line 1274: expected statement.
+    NAR “Of course none of this ever revealed the cult, or it’s true nature, spun for the general public to accept.”
+                                                      ^
+
+File "game/chapter7.rpy", line 1276: expected statement.
+    NAR “Finn was able to actually be on leave for some time, but in the future he would commit himself to our country once again. Evelyn Graduated, and I was working my way back into university while finding other jobs with Felix’s… ‘support.’”
+                                                            ^
+
+File "game/chapter7.rpy", line 1277: expected statement.
+    NAR “Carter continued his own business… and would occasionally inform us of things to watch out for, but he never crossed the line with his activities, especially after all of this.”
+                                                                                                       ^
+
+File "game/chapter7.rpy", line 1279: expected statement.
+    NAR “We had received a letter from Linden much later, expressing his gratitude for the way we were able to end their plans, he had pictured things going much differently if the solution was a simple ‘disruption.’”
+                                                        ^
+
+File "game/chapter7.rpy", line 1281: expected statement.
+    NAR “Sara cut her ties to the members of her family that were more involved with the cult, and was also able to avoid any repercussions from their actions, and would try and use her abilities to get a job with the government as well.”
+                                                                                ^
+
+File "game/chapter7.rpy", line 1283: expected statement.
+    NAR “I would never get the chance to talk to Luke ever again. I had gone over many different ways and many different things I would want to say to him if I met him again…”
+                                                                ^
+
+File "game/chapter7.rpy", line 1285: expected statement.
+    NAR “In the end, I know I’ll never get that chance. What he did for me… in the end, I am thankful for it, he did help me figure everything out after all.”
                    ^
 
+File "game/chapter7.rpy", line 1287: expected statement.
+    NAR “I would finally clean up my dad’s study, and start to use it myself. The tome was our way into and out of everything that’s happened, his final gift to me.”
+                                                ^
+
+File "game/chapter7.rpy", line 1289: expected statement.
+    NAR “As much as I enjoyed this ancient and occult tome, it was time to close this chapter for one final time.”
+                 ^
+
+File "game/chapter7.rpy", line 1293: expected statement.
+    NAR “I met Cathee one final time, messing with the cat.”
+                                    ^
+
+File "game/chapter7.rpy", line 1297: expected statement.
+    CATHEE “I figured you’d want this in the end too”
+                                      ^
+
+File "game/chapter7.rpy", line 1299: expected statement.
+    NAR “She pulled out the pen, and gave it to me. Looking at it a little closer…”
+                               ^
+
+File "game/chapter7.rpy", line 1303: expected statement.
+    JESSE “Thanks…”
+                   ^
+
+File "game/chapter7.rpy", line 1305: expected statement.
+    JESSE “Although, I think it’s finally out of ink.”
+                   ^
+
+File "game/chapter7.rpy", line 1309: expected statement.
+    NAR “The rest of my life proceeded as ‘usual’.”
+                                       ^
+
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Jun 02 14:38:30 2020
+Tue Jun 02 15:33:28 2020
