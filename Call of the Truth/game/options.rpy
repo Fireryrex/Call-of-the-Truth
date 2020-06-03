@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Call of the Truth")
+define config.name = _("Shadow's Guise")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
