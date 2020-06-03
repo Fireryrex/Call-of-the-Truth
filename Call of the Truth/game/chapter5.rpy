@@ -325,8 +325,6 @@ label chapter5_start:
 
     hide ray_gun
 
-    hide cultish
-
     call new_day("Sunday, 1st May 1921")
 
     scene city_night

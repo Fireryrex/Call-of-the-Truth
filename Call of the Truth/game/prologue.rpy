@@ -1111,11 +1111,11 @@ label prologue_start:
             NAR "It bounces off the key, but does chip it"
             NAR "Not enough to really do something though..."
             #loop
-            call scribble_in_book
+            jump scribble_in_book
 
         "Place the scraps into the book itself":
             NAR "Nothing happens"
-            call scribble_in_book
+            jump scribble_in_book
             #[loop]
 
         "Scribble in the book with the pen":
@@ -1138,7 +1138,7 @@ label prologue_start:
 
     scene date_transition
 
-    NAR "After cleaning up the mess, and hiding things appropriately inside that box, Sare came home, and the evening proceeded as normal."
+    NAR "After cleaning up the mess, and hiding things appropriately inside that box, Sara came home, and the evening proceeded as normal."
 
 #    PROLOGUE - END
 

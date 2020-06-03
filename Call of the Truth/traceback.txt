@@ -1,28 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/prologue.rpy", line 6, in script
-    define CATHEE = Character("Cathee", color)
-  File "game/prologue.rpy", line 6, in <module>
-    define CATHEE = Character("Cathee", color)
-TypeError: type() takes 1 or 3 arguments
+  File "game/chapter7.rpy", line 1408, in script
+    return
+Exception: Could not find return label (u'game/prologue.rpy', 1590813225, 200).
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/prologue.rpy", line 6, in script
-    define CATHEE = Character("Cathee", color)
-  File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 2108, in execute
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/prologue.rpy", line 6, in <module>
-    define CATHEE = Character("Cathee", color)
-  File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\character.py", line 1445, in Character
-    return type(kind)(name, kind=kind, **properties)
-TypeError: type() takes 1 or 3 arguments
+  File "game/chapter7.rpy", line 1408, in script
+    return
+  File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 1507, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\Pheon\Desktop\renpy-7.3.5-sdk\renpy\execution.py", line 696, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'game/prologue.rpy', 1590813225, 200).
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Call of the Truth 1.0
-Tue Jun 02 16:53:38 2020
+Tue Jun 02 17:18:44 2020
