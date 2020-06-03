@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define RAY = Character("Ray")
-define ACOLYTE = Character("Acolyte")
+define RAY = Character("Ray", color="#CC0000", what_color="#660000")
+define ACOLYTE = Character("Acolyte", color="#990066", what_color="#660066")
 
 label chapter5_start:
     $ current_chapter = 5

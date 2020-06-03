@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define c7 = Character("Worker A")
-
 label chapter7_start:
     $ current_chapter = 7
 
@@ -1401,7 +1399,7 @@ label chapter7_start:
 
     scene date_transition
 
-    NAR "The rest of my life proceeded as ‘usual’."
+    NAR "The rest of my life proceeded as “usual”."
     hide jesse
     #FIN
 

@@ -3,9 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Main character")
-
-
 define NAR = Character(what_italic=True)
 
 # The game starts here.
@@ -71,6 +68,9 @@ label start:
 
         "Chapter 7":
             jump chapter7_start
+
+        "Just the side stories please":
+            jump side_story
 
 # This is essentially the function for a half free day. When you have a half free day in your chapter, just type:
 # call half_free_day

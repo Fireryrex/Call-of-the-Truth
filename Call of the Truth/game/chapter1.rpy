@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define NICK = Character("Nick")
+define NICK = Character("Nick", color="#990066", what_color="#660066")
 
 label chapter1_start:
     $ current_chapter = 1
@@ -378,6 +378,7 @@ label chapter1_start:
 
     EVELYN "Either way, now that he’s actually invested in trying to do something, I’ll keep an eye on him, and get back to you when he’s actually found something. But the goals of this group are still so strange to me."
 
+    hide evelyn
     show jesse
 
     menu:
@@ -397,8 +398,6 @@ label chapter1_start:
     EVELYN "I know he wouldn’t have been up to talk about something personal like usually. Who knows, maybe you are fit to be an investigator, you’ve got the rep already!"
 
     EVELYN "I’m just joking… I know it’s not what you want to do… Anyway, the next important meetup will be after we get something physical from him."
-
-    hide university
 
     scene room
 

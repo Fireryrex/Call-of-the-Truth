@@ -485,7 +485,7 @@ label carter_hangout:
 
         NAR "I’ve already spent way more time here that I was planning to, so I thanked him for the book and quickly left before he could bring up his plants again."
 
-        hide bookstore
+        scene date_transition
 
         $ stat_charm += 1
         NAR "CARTER RANK [carter_rank]/5
@@ -757,7 +757,7 @@ label carter_hangout:
                 show carter
                 CARTER "Well that’s about all I was gonna tell you."
 
-            "{I}Pour some on the floor{/i}":
+            "{i}Pour some on the floor{/i}":
                 hide jesse
                 show carter
                 CARTER "Hey hey hey! Don’t make me regret answering your question!"
@@ -908,5 +908,299 @@ label felix_hangout:
     return
 
 label linden_hangout:
-    NAR "WIP"
+    if(linden_rank == 0):
+        $ linden_rank = 1
+
+        scene city
+        NAR "I see Linden walking away from the office looking deep in thought. I feel like I don’t really want to talk with him… but I am interested in who he really is…"
+
+        show linden
+
+        LINDEN "Ah Jesse. What brings you to me on this fine afternoon. Could it be that you missed me?"
+        hide linden
+        show jesse
+
+        menu:
+            "{i}Respond sarcastically{/i}":
+                hide jesse
+                JESSE "Oh most definitely! What would I do without you."
+                NAR "He frowns at that last bit"
+                show linden
+
+            "{i}Respond truthfully{/i}":
+                hide jesse
+                JESSE "I came here to talk to you, if that is alright."
+                NAR "He smirks at that"
+                show linden
+
+            "{i}Stay silent{/i}":
+                hide Jesse
+                show linden
+                LINDEN "Ah the silent treatment. No matter."
+
+        NAR "Linden turns away for a second before looking back at me."
+
+        LINDEN "I know you’re still confused about certain things, but be patient. All will be clear soon."
+
+        JESSE "As cryptic as ever"
+
+        LINDEN "Ah, now it wouldn’t be fun if I wasn’t, now would it. Come talk to me on another day."
+
+        LINDEN "I’m sure we have a lot to discuss. Unfortunately I have matters to attend to at the moment. Until then"
+
+        NAR "I watch as he walks farther and farther away. Something is not right about that man."
+
+        NAR "Didn’t really get much out of that, but it seems like he’s still willing to actually try to talk… maybe make up for that meeting of ours."
+        hide city
+        $ stat_courage += 1
+        NAR "LINDEN RANK [linden_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    elif(linden_rank == 1):
+        $ linden_rank = 2
+
+        scene city
+
+        NAR "On my way to see if I can meet up with Linden"
+
+        NAR "I bump into a body as I walk down the path I am on. I hit the ground with a *thud*. Looking up, I see the familiar face of Linden, as mysterious as ever. Why can’t we have normal meetings."
+
+        show linden
+
+        LINDEN "My boy, do you not look where you are going?"
+
+        NAR "He offers me a hand."
+        hide linden
+        show jesse
+
+        menu:
+            "{i}Take it{/i}":
+                hide jesse
+                NAR "I grab it and pull myself up."
+
+            "{i}Ignore it and get up myself{/i}":
+                NAR "I push his hand to the side and get up myself."
+                NAR "He gives me a weird look"
+
+            "{i}Stay on the floor{/i}":
+                NAR "People are starting to stare at me as I just lay on the ground. Maybe I should get up…I think as I slowly start to stand."
+
+        NAR "As I dust myself off, I look cautiously at the man in front of me. He didn’t mean to meet me out here did he?"
+
+        LINDEN "There is no need for that look, my boy. Believe it or not, I am not your enemy."
+
+        JESSE "Hard to make friends with someone who could have been my dad’s killer"
+
+        LINDEN "But I’m not remember. I have no ill will against you or Ray"
+
+        NAR "That throws me off guard. It’s been so long since someone has said his name to me…"
+
+        JESSE "Ray…? How did yo-"
+
+        LINDEN "I really must be going now. You know me, always so busy. Until we meet again Jesse"
+
+        NAR "I tried to call up to him to get him to wait up. I thought it’d be a decent time to see him, but apparently not…"
+
+        NAR "He kept walking, just how much work needs to be done when you’re trying to subvert your own workplaces goals?"
+
+        NAR "If I could just actually get a conversation with him…"
+        scene date_transition
+
+        $ stat_courage += 1
+        NAR "LINDEN RANK [linden_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    elif(linden_rank == 2):
+        $linden_rank = 3
+
+        scene city
+
+        NAR "I went during his break, to see if I could actually get a conversation with him this time…"
+
+        NAR "I see him reading some kind of book. Now would be perfect to talk to him. The last time I bumped into him left me questioning a lot about him."
+
+        show jesse
+        menu:
+            "{i}Greet him{/i}":
+                hide jesse
+                show linden
+                LINDEN "Jesse, greetings. It’s always a pleasure."
+
+            "{i}shout to get his attention{/i}":
+                hide jesse
+                NAR "Linden winces at the sound."
+                show linden
+                LINDEN "Why so worked up boy?"
+
+            "{i}Walk up and wait until he notices you{/i}":
+                hide jesse
+                show linden
+                LINDEN "Ah, Jesse. To what do I owe the pleasure?"
+
+
+        NAR "I study him for a moment before deciding on what to say."
+
+        JESSE "How did you know him?"
+
+        NAR "He knows exactly what I am talking about, and based on the look on his face, he is hesitant to say anything."
+
+        LINDEN "Ray was an interesting man for sure. We worked together for a bit before...well before he was killed."
+
+        LINDEN "I felt I didn’t have any way to truly prove I was on his side."
+
+        LINDEN "He still seemed to believe in me anyway."
+
+        LINDEN "I only hope that belief didn’t sour when things took a turn… I really hadn’t thought something like that could happen…"
+
+        NAR "We fell silent for a moment. For once, the composed man before me looked almost distraught, before his facade quickly replaced it."
+
+        LINDEN "Well enough of that for today. It’s getting late, and I should go."
+
+        NAR "I wanted to talk to him more, and press him on more about that relationship, but he had to get going, plus this wasn’t exactly the environment for this…"
+
+        scene date_transition
+
+        $ stat_courage += 1
+        NAR "LINDEN RANK [linden_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+
+    elif (current_chapter >= 7 and linden_rank == 3):
+        $ linden_rank = 4
+
+        #Chapter 7 lock:
+
+        scene apartment
+
+        NAR "On my way out of the apartment, he actually ran into me this time."
+
+        show linden
+
+        LINDEN "I thought I might find you here"
+
+        JESSE "Linden, why are you here?"
+
+        LINDEN "I came to find you actually. I’ve felt there’s some things I need to say to you alone. Would you like to move the conversation to that Cafe?"
+
+        show cafe
+
+        NAR "We sat down and got something small to eat, as usual…"
+
+        show linden
+        LINDEN "You haven’t been well, have you?"
+
+        NAR "I can’t lie to him… he’d see through it pretty easily. He knows too much about the tome…"
+
+        JESSE "All this cult stuff is going to my head. What’s going to happen to all of us? I’m not sure if I’m even capable of doing this in the end…"
+
+        LINDEN "I know it’s tough, but it will get better. You have my word. They will be stopped one way or another, you’re our best option, but even if it’s hard it shouldn’t be impossible to stop them in the future."
+
+        JESSE "Linden… what exactly is your relationship to them?"
+
+        LINDEN "My involvement with the Guiding Comet is a very complicated one. I once found myself devoted to their teachings, believing that I could be more than I ever was."
+        LINDEN "...Time has not been kind to me. I know now that I am only human, nothing more. The cultists are delusional in their quest for power. That is why they must be taken down."
+
+        LINDEN "I know you’re unsure of yourself, but I have faith… Even if that’s mainly just because of the faith your father had in you."
+
+        NAR "Took a bit to solidify that faith though…"
+
+        JESSE "I was curious before about that… but who exactly was he to you."
+
+        LINDEN "Your father was an interesting man as I have said before. He was devoted to his investigations more so than his own family."
+
+        LINDEN "And while that isn’t the best of outcomes, it came from a good thought, of trying to protect you."
+
+        LINDEN "The passion he had for his work drew me to him, and I eventually found myself wanting to help him. You remind me a lot of him now."
+
+        LINDEN "Ray was a good man. His death… was something I knew could have happened… And I can’t forgive myself for not trying to make a better plan back then."
+
+        LINDEN "Every way I think about it. Looking back, there was no way for us to succeed without that outcome. However I still wish there was a better way than to entrust you with so much."
+
+        NAR "I had never realized what everything meant to him… I wanted to ask more about what him and my dad did… but I don’t think I need that…"
+
+        LINDEN "You are strong, Jesse. They will not win, I will not make any more mistakes."
+
+        NAR "I give him a nod as we part ways."
+
+        scene date_transition
+
+        NAR "LINDEN RANK [linden_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    elif(linden_rank == 4):
+        $ linden_rank = 5
+        scene cafe
+
+        NAR "Linden had called and asked to meet up at the cafe again, alone. He was running really late though, and I was getting a bit bored."
+
+        show linden
+
+        LINDEN "Jesse."
+
+        NAR "Surprised, I turn to find Linden walking over, and he sits down. He looks tired."
+
+        LINDEN "I wanted to check up on you once again. You look worse than before."
+
+        JESSE "You could say that…"
+
+        LINDEN "I’m sorry for contacting you then being late."
+
+        LINDEN "Would you be interested in hearing a story?"
+
+        JESSE "Sure?"
+
+        LINDEN "It’s a story of a young man who didn’t know what to do with his life. You see, he was in a rut very early on in life. He had no money, no family to go back to, and hardly a will to go on."
+
+        LINDEN "The stress became too much so he went to go take care of it in the only way he knew how: by jumping off a large bridge."
+
+        LINDEN "Drastic, I know, but when you are that deep in, your thoughts become clouded. At the last moment, right as he was going to jump, a beacon of hope came."
+
+        LINDEN "For me, that beacon was the guiding comet finding me and offering me a purpose in life."
+
+        JESSE "Why are you telling me this?"
+
+        LINDEN "I’m telling you this for two reasons. One: To show that I am human, and I make mistakes. But I am here to correct those mistakes by helping you do what’s right."
+        LINDEN "And Two: I want you to know that life gets hard, but it is worth living if you find your purpose, I know that you have."
+
+        NAR "I look at him in confusion."
+
+        JESSE "Have I?"
+
+        LINDEN "Yes, you have. You live for your friends, for your dad. Finish what he has started, no matter the cost."
+
+        LINDEN "The pain is hard, believe me, I know, but the outcome will be well worth it. I know what you’re being put up to is a lot to ask, but what you will be able to give everyone will be worth it."
+
+        LINDEN "Then… it will be over, and from there you shouldn’t have to worry about anything like this from then on."
+
+        NAR "Maybe he’s right… I really can do this, and I really can survive. However that’s just a bonus isn’t it? Even if I don’t… it’s not just about me."
+
+        JESSE "Thank… you for that Linden."
+
+        JESSE "I will do whatever it takes to stop them, I promise"
+
+        NAR "Linden smiles as he stands up. He looks to me with his hand extended"
+
+        LINDEN "I look forward to it Jesse"
+
+        NAR "I shake his hand."
+
+        scene date_transition
+
+        NAR "LINDEN RANK MAX
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    else:
+        NAR "It seems like he’s been a bit busy from work, I doubt I’ll be able to get time with him"
+        $ hangout_failed = True
+        return
     return

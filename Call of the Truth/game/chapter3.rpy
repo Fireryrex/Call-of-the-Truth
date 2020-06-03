@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define LINDEN = Character("Linden")
+define LINDEN = Character("Linden", color="#000000", what_color="#505050")
 
 label chapter3_start:
     $ current_chapter = 3

@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define BUTLER = Character("Butler")
+define BUTLER = Character("Butler", color="#990066", what_color="#660066")
 
 label chapter6_start:
     $ current_chapter = 6

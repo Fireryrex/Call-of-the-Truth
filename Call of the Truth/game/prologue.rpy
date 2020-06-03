@@ -3,14 +3,14 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define CATHEE = Character("Cathee")
-define JESSE = Character("Jesse Stout")
-define FINN = Character("Finn Marsh")
-define SARA = Character("Sara Harper")
-define EVELYN = Character("Evelyn Baker")
-define ISAAC = Character("Isaac Goodwin")
-define LUKE = Character("Luke Macthorn")
-define Mysterious = Character("???")
+define CATHEE = Character("Cathee", color="#0000CC", what_color="#000099")
+define JESSE = Character("Jesse Stout", color="#CC0000", what_color="#660000")
+define FINN = Character("Finn Marsh", color="#660000", what_color="#330000")
+define SARA = Character("Sara Harper", color="#FF9900", what_color="#996600")
+define EVELYN = Character("Evelyn Baker", color="#339900", what_color="#006600")
+define ISAAC = Character("Isaac Goodwin", color="#990066", what_color="#660066")
+define LUKE = Character("Luke Macthorn", color="#C06A45", what_color="#C06A45")
+define Mysterious = Character("???", color="#990066", what_color="#660066")
 
 label prologue_start:
 

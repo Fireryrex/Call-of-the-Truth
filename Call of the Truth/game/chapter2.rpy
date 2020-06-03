@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define NURSE = Character("Nurse")
-define FELIX = Character("Felix")
-define CARTER = Character("Carter")
+define NURSE = Character("Nurse", color="#990066", what_color="#660066")
+define FELIX = Character("Felix", color="#990099", what_color="#74138C")
+define CARTER = Character("Carter", color="#BABA21", what_color="#9D9D00")
 
 label chapter2_start:
     $ current_chapter = 2
