@@ -361,8 +361,350 @@ label finn_hangout:
     return
 
 label evelyn_hangout:
-    NAR "HAHA I still need to write this :P"
-    $ hangout_failed = True
+    if(evelyn_rank == 0):
+        $evelyn_rank = 1
+
+        scene room
+
+        NAR "I grabbed my phone and rang up Evelyn."
+
+        JESSE "Hey evelyn, its me, Jesse. Are you free today?"
+
+        EVELYN "For a bit at noon, what's up?"
+
+        JESSE "Nothing much, just wanted to hang out."
+
+        scene date_transition
+
+        NAR "Evelyn was was on lunch break when we met up, so we decided to head over to the cafe."
+
+        scene cafe
+
+        NAR "The two of us ordered lunch. Despite the fact that I gave the invitation, I didn't really know what to talk about and was glad when she took the initiative"
+
+        show evelyn
+
+        EVELYN "So, its been a while, huh? The last time that the two of us had a chance to just sit down and talk... Huh, it may have been when you were still in university."
+
+        JESSE "Oh, I think you're right... Wow, a year sure passed quickly. Sorry that I kinda stopped keeping in touch with you after I quit..."
+
+        JESSE "Things... well, things were busy I guess. I had a lot to do not a lot of free time. There was also... you know, that."
+
+        EVELYNN "Yea, about “that”. How are you feeling? It's been a year since your dad died, are you doing any better?"
+
+        hide evelyn
+        show jesse
+
+        menu:
+            "...":
+                hide jesse
+                show evelyn
+                EVELYN "It's fine. You don't have to think about it if bothers you too much. We can chan-"
+
+            "{i}sigh{/i} I suppose you could say that.":
+                JESSE "Lets be honest though, anything is better than the first few days."
+
+                NAR "I tried to crack a smile."
+
+                JESSE "I was a mess. Time has definitely given me a chance to come to terms with it."
+
+                hide jesse
+                show evelyn
+
+                EVELYN "I suppose so. It was hard seeing you so upset. Your personality changed so much that I could barely recognize you."
+
+                EVELYN "Oh hey, our food is here."
+
+            "Uh... Oh would you look at that! Our food's here":
+
+                NAR "Evelyn saw right through my feeble attempt at changing the subject."
+
+                hide jesse
+                show evelyn
+
+                EVELYN "If you don't want to talk about it that much, you could've just told me."
+
+        NAR "A waiter delivers our order, breaking our conversation."
+
+        NAR "Relieved, I turn my focus to my food and quickly finished"
+
+        NAR "By the time we were both done eating, Evelyn' break was just about finished, so I said my farewells and headed home"
+
+        NAR "EVELYN RANK [evelyn_rank]/5"
+
+    elif(evelyn_rank == 1):
+        $ evelyn_rank = 2
+
+        NAR "I called up Evelyn again to see if she wanted to hang out. Much like last time, we headed to the Cafe during her lunch break"
+
+        scene cafe
+
+        NAR "Not wanting things to be as awkward as last time, I attempt to start the conversation first"
+
+        show jesse
+
+        label look_brothers_food:
+        menu:
+            "So... how's university":
+
+                hide jesse
+                show evelyn
+
+                EVELYN "Eh, its not bad, I suppose. The workload is awful though. I swear the professors just want to see us suffer."
+
+                EVELYN "Although I have to admit, things have gotten easier after I got better at scheduling. Otherwise, we probably wouldn't be having this conversation."
+
+                hide evelyn
+                show jesse
+                jump look_brothers_food
+
+
+            "I see that you found a different part time job...":
+
+                hide jesse
+                show evelyn
+
+                EVELYN "Yea, I had to. My old one is just too far from university. I'd spend too much time travelling there to be able to get any study time for my classes."
+
+                EVELYN "As much as we need the money, my parents want me to prioritize my studeis, so... you know."
+
+                EVELYN "At least my current job has lenient time slots."
+
+                hide evelyn
+                show jesse
+                jump look_brothers_food
+
+            "... Oh look. Food!"
+
+                EVELYN "Just in time, I'm getting a bit hungry"
+
+        NAR "Not much else happened afterwards. We both finished our food and said our farewells"
+
+        NAR "ALthough, Evelyn was staring at me with a curious expression on her face. I suppose I'll have to get her to explain that to me at our next meeting"
+
+        $ stat_knowledge += 1
+        NAR "EVELYN RANK [evelyn_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    elif(evelyn_rank == 2):
+        $ evelyn_rank = 3
+
+        scene cafe
+        NAR "We met up at the same place as the last few times, although this time Evelyn brought her own lunch"
+
+        show jesse
+
+        JESSE "Not getting anything today?"
+
+        hide jesse
+        show evelyn
+
+        EVELYN "I've been spending too much eating out this month, so I just made myself some food. I'm still down to have a conversation though."
+
+        EVELYN "Speaking of, I've been meaning to ask. Why haven't you come back to univerity?"
+
+        NAR "So thats what she was thinking about last time."
+
+        JESSE "Uh well... I guess I just kind of forgot?"
+
+        JESSE "I don't know... I've been living by myself for the last year just fine. I guess I just don't really think I need college"
+
+        JESSE "Plus, I'm a year behind now and I feel like it'll be a bit weird going back and seeing everyone I know a year up on me."
+
+        EVELYN "Oh, don't give me those excuses. You know university is important for getting jobs that pay better? Sure you could probably continue living the way you are, but do you always want to be a customer service rep for the rest of your life?"
+
+        EVELYN "Plus, the knowledge you can learn from university can be useful."
+
+        JESSE "..."
+
+        EVELYN "Look, if its the being a year behind thing thats keeping you from coming back, I got something for you."
+
+        NAR "She pulled out a stack of papers from one of her bags and plopped it onto the table"
+
+        EVELYN "These are some practice placement tests for the lower division courses. They're pretty easy so you should be able score well on them."
+
+        EVELYN "If you manage to do well, you'll be able to skip a year and rejoin the rest of us as juniors. Boom, problem solved."
+
+        JESSE "Gee, thanks but I-"
+
+        EVELYN "Shh, shh. No butts. Just promise me you'll do them by the time we meet up again alright?"
+
+        JESSE "I mea-"
+
+        EVELYN "Well, I need to get back to work, see you later!"
+
+        NAR "She rushes off without another word, leaving me with a huge stack of papers."
+
+        NAR "I sigh, pay for my meal and awkwardly head back home, clutching the papers to my chest"
+
+        NAR "I suppose doing these wouldn't hurt... I mean, it would be nice seeing my friends from college again..."
+
+        NAR "Although these problems are actually pretty hard. I might need to study more for these..."
+
+        $ stat_knowledge += 1
+        NAR "EVELYN RANK [evelyn_rank]/5
+        \n {b}Courage{/b}: [stat_courage]
+        \n {b}Knowledge{/b}: [stat_knowledge]
+        \n {b}Charm{/b}: [stat_charm]"
+
+    elif(stat_knowledge >= 6 and evelyn_rank == 3):
+        $ evelyn_rank = 4
+
+        NAR "As I reached for the phone to call Evelyn, I suddenly realized that I haven't finished the practice tests yet."
+
+        NAR "I decided to put off calling her until after I finish, and instead grab out the last practice exam that I need to finish"
+
+        NAR "Taking one look at the paper fills me with dread. Ugh, why did it have to be linear algebra..."
+
+        NAR "I settle in my chair and read the first question."
+
+        show jesse
+
+        label lin_alg_1:
+        NAR "Determine if (1, 3) is a solution to the system: \n2x + y = 5 \nx - y = -5"
+
+        menu:
+            "It is a solution":
+                NAR "Wait... that doesn't seem right"
+                $ stat_knowledge -= 1
+                $ questions_correct -= 1
+                NAR "{b}Knowledge{/b}: [stat_knowledge]"
+                jump lin_alg_1
+
+            "It is not a solution":
+                NAR "Right because (1) - (3) doesn't equal -5"
+                NAR "Huh, I feel a bit smarter after that"
+                $ stat_knowledge += 1
+                $ questions_correct += 1
+                NAR "{b}Knowledge{/b}: [stat_knowledge]"
+
+            "Ugh... why am I doing math":
+                NAR "Whatever lets just get to it... seems like the answer is... no? Yea that seems right"
+
+        NAR "After around a while I came across a relatively difficult problem"
+
+        label lin_alg_2:
+        NAR "Identify the elementary row operation performed on the follwing matrix: \n1   2   -1          0  -1   -4 \n0  -1   -4    ->    1   2   -1 \n3   3   -11          3   3   -11"
+
+        menu:
+            "R1 <-> R2":
+                NAR "Seems right..."
+                NAR "Huh, I feel a bit smarter after that"
+                $ stat_knowledge += 1
+                $ questions_correct += 1
+                NAR "{b}Knowledge{/b}: [stat_knowledge]"
+
+            "R1 + R2 -> R2":
+                NAR "wait a minute,,,"
+                $ questions_correct -= 1
+                $ stat_knowledge -= 1
+                NAR "{b}Knowledge{/b}: [stat_knowledge]"
+                jump lin_alg_2:
+
+            "Uh... I'm just going to guess":
+                NAR "Hopefully this is right..."
+
+        NAR "With that, the rest of the test was relatively easy, although still very tedious. I managed to finish all the tests, but it was getting dark by the time I did."
+
+        NAR "I decided that I would call Evelyn at a later date to tell her."
+
+    elif(evelyn_rank == 4):
+        $ evelyn_rank = 5
+
+        NAR "I finally decided to call Evelyn to tell her about the quiz"
+
+        JESSE "So, I finally finished all of the exams."
+
+        EVELYN "Oh really? They weren't too bad I hope?"
+
+        if(questions_correct == 2):
+            JESSE "Easy as pie. The actual exams should be a breeze"
+
+            EVELYN "Yup! The actual exams are much easier. I made sure to make the questions extra difficult to prepare you better"
+
+            JESSE "Thanks for the help, I appreciate it."
+
+            EVELYN "I assume this means that you're coming back to school?"
+
+            JESSE "I'm not 100\% sure about it yet..."
+
+        elif (questions_correct == 1):
+            JESSE "Eh, it wasn't too bad. I didn't get every question right but I still did well"
+
+            EVELYN "That's great! I made those practice tests more difficult than the actual ones so you'd do great!"
+
+            EVELYN "So... have you decided to take the exam?"
+
+            JESSE "Eh, I've been going back and forth on it a lot..."
+
+        elif (questions_correct < 1):
+            JESSE "It was awful. Why are the questions so difficult?! How did you guys learn all of this?"
+
+            EVELYN "Err... uh... So I wrote those practice exams and made them a bit more difficult-"
+
+            JESSE "You what?."
+
+            EVELYN "Ehehem... well it was so you would be overprepared for the exam and easily pass it."
+
+            EVELYN "even if you didn't do so well, you should still be good for the exam!"
+
+            JESSE "I don't think so..."
+
+        EVELYN "Please consider it. You know, both of us have already spent so much time preparing you for those exams."
+
+        EVELYN "It would be a waste if you were to give up after coming this far."
+
+        EVELYN "So, what do you say?"
+
+        menu:
+            "Sure!" if questions_correct >= 1:
+                EVELYN "Yay! Can't wait to see you back at school"
+
+                JESSE "Hey, I haven't passed yet"
+
+                EVELYN "Oh don't worry, I have faith in you"
+
+                EVELYN "Anyways, got to go!"
+
+            "Ugh... fine":
+                EVELYN "Hey, why are you so hesitant"
+
+                JESSE "I'm not, I'm not..."
+
+                EVELYN "Suuure... Well, either way I'll be happy to see you back at school."
+
+                EVELYN "I'm busy now, so lets get you ready for it later."
+
+            "No."
+                EVELYN "Well thats a shame."
+
+                EVELYN "Guess I'll see you later then?"
+
+                JESSE "Yea, I'll call if I want to hang out in the future"
+
+        JESSE "See you."
+
+        NAR "I hung up and went to lie on my bed."
+
+        NAR "The rest of the night proceeded as usual"
+
+    elif(stat_knowledge < 6):
+        NAR "I'm not sure I'm smart enough to do the practice tests"
+        $ hangout_failed = True
+        return
+
+    elif(stat_knowledge < 16):
+        NAR "I'm not smart enough to deal with her right now... My mental facilities are exhausted."
+        $ hangout_failed = True
+        return
+
+    else:
+        NAR "Evelyn was busy with work today, so I decided to find something else to do"
+        $ hangout_failed = True
+        return
+
     return
 
 label carter_hangout:

@@ -23,6 +23,7 @@ label start:
     $ carter_rank = 0
     $ felix_rank = 0
     $ linden_rank = 0
+    $ questions_correct = 0
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
